@@ -1,0 +1,48 @@
+{% extends "FOSUserBundle::layout.html.twig" %}
+
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% block fos_user_content %}
+    
+    <!-- Formulario de inicio de sesión
+    ============================================= -->
+    <section id="content">
+       
+        <div class="content-wrap">            
+            <div class="container clearfix divcenter" style="max-width: 550px;">                
+                <div class="fancy-title title-bottom-border title-center">
+                    <h2><i class="icon-unlock"></i>  Inicia sesión en tu cuenta</h2>
+		</div>
+                {% if error %}
+                    <div class="style-msg errormsg">
+                        <div class="sb-msg"><i class="icon-remove"></i>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+                    </div>
+                {% endif %}
+
+                <form id="login-form" name="login-form" class="nobottommargin" action="{{ path("fos_user_security_check") }}" method="post">
+                    <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
+                    <div class="col_2"> <!-- Nombre de usuario -->                                                          
+                        <label for="username">{{ 'security.login.username'|trans }}</label>
+                        <input type="text" id="username" name="_username" value="{{ last_username }}" required="required" class="form-control" />
+                    </div>
+
+                    <div class="col_full"> <!-- Contraseña -->   
+                        <label for="password">{{ 'security.login.password'|trans }}</label>
+                        <input type="password" id="password" name="_password" required="required" class="form-control" />
+                    </div>
+                    <div class="col_full"> <!-- Casilla de 'Recuérdame' -->   
+                        <input type="checkbox" id="remember_me" name="_remember_me" value="on" />
+                        <label for="remember_me">{{ 'security.login.remember_me'|trans }}</label>
+                    </div>
+                    <div class="col_full nobottommargin"> <!-- Botón de envío -->   
+                        <input type="submit" id="_submit" name="_submit" value="{{ 'security.login.submit'|trans }}" class="button button-rounded button-large button-lime nomargin" />
+                        <a href="{{ path('fos_user_resetting_request') }}" class="fright">¿Olvidó su contraseña?</a>
+                    </div>
+                </form>                 						
+            </div>
+        </div>    
+    </section><!-- #content end -->
+    
+
+
+{% endblock fos_user_content %}

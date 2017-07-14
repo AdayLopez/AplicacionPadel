@@ -1,0 +1,202 @@
+{# empty Twig template #}<!DOCTYPE html>
+<html dir="ltr" lang="es">
+    <head>
+        {% block head %}
+            <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+            <meta name="author" content="SemiColonWeb" />
+
+            <!-- Stylesheets
+            ============================================= -->
+            <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+
+            
+            <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/bootstrap.css')}}"/>
+            <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/style.css')}}"/>
+            <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/dark.css')}}"/>
+            <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/font-icons.css')}}"/>
+            <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/components/radio-checkbox.css')}}"/>
+            <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/animate.css')}}"/>
+            <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/magnific-popup.css')}}"/>
+            <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/responsive.css')}}"/>
+            <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/calendar.css')}}"/>
+            <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/jquery-ui.css')}}"/>
+        {% block css %}{% endblock css %}
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lt IE 9]>
+                <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+
+        <!-- External JavaScripts
+        ============================================= -->
+
+        <script src="{{asset('bundles/padelschedulemain/js/jquery.js')}}"></script>
+        <script src="{{asset('bundles/padelschedulemain/js/jquery-ui.js')}}"></script>            
+        <script src="{{asset('bundles/padelschedulemain/js/events-data.js')}}"></script>
+        <script src="{{asset('bundles/padelschedulemain/js/jquery.calendario.js')}}"></script>
+        <script src="{{asset('bundles/padelschedulemain/js/plugins.js')}}"></script>
+        <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+        <script src="{{ path('fos_js_routing_js', {'callback': 'fos.Router.setData'}) }}"></script>
+
+    {% block scripts %}{% endblock scripts %}
+    {#modificar por página para evitar sobrecarga en todas#}
+
+
+    <!-- Document Title
+    ============================================= -->
+    <title>Padel Schedule - {% block title %} {% endblock %}</title>
+{% endblock %}
+
+<style>
+
+    .dark #header-wrap:not(.not-dark) #top-account a,
+    .dark #header-wrap:not(.not-dark) #top-account a:hover {
+        color: #EEE;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    }
+
+    {% block estilo %}
+    {% endblock estilo %}
+</style>
+
+</head>
+
+<body class="stretched no-transition">    
+
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+        {% block header %}
+            <!-- Header
+    ============================================= -->
+            <header id="header" class="full-header dark">
+
+                <div id="header-wrap">
+
+                    <div class="container clearfix">
+
+                        <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                        <!-- Logo
+                                                          ============================================= -->
+                        <div id="logo">
+                            <a href="{{ path('home') }}" class="standard-logo" data-dark-logo="{{asset('bundles/padelschedulemain/images/LogoLetras.png')}}" data-sticky-logo="{{asset('bundles/padelschedulemain/images/Logo.png')}}" data-mobile-logo="{{asset('bundles/padelschedulemain/images/Logo.png')}}"><img src="{{asset('bundles/padelschedulemain/images/Logo.png')}}" alt="Canvas Logo"></a>
+                                {#                                <a href="{{ path('home') }}" class="retina-logo" data-dark-logo="images/logo-dark@2x.png" data-sticky-logo="demos/media-agency/images/logo-media@2x.png" data-mobile-logo="demos/media-agency/images/logo-media@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>#}
+                        </div><!-- #logo end --> 
+
+
+                        {% if (is_granted('IS_AUTHENTICATED_FULLY') or is_granted('IS_AUTHENTICATED_REMEMBERED') ) %}
+                            <div id="top-account" class="dropdown">
+                                <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="icon-user"></i>
+                                    {% set mensajesNoLeidos = app.user.getMensajesNoLeidos() %}
+                                    {% set notificacionesNoVistas = app.user.getNotificacionesNoVistas() %}
+                                    {% if mensajesNoLeidos or notificacionesNoVistas %}
+                                        <span class="label label-success">!{{mensajesNoLeidos + notificacionesNoVistas}}</span>
+                                    {% endif %}
+                                    <i class="icon-angle-down"></i></a>
+                                <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                                    <li><a href="{{ path('fos_user_profile_show') }}">
+                                            <img class="img-circle img-thumbnail img-responsive" height="25px" width="25px" src="{{ asset(app.user.getWebFotoPerfilRuta()) }}" alt="Foto de perfil">
+                                            <span>Perfil</span>
+                                        </a>
+                                    </li>                                            
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="{{ path('buzon') }}"><i class="icon-mail"></i><span>  Buzón</span>
+                                                {% if mensajesNoLeidos %}
+                                                <span class="label label-success">!{{mensajesNoLeidos}}</span>
+                                            {% endif %}                                            
+                                        </a></li>
+                                    <li><a href="{{ path('listadoNotificaciones') }}"><i class="icon-exclamation-sign"></i><span>  Notificaciones</span>
+                                            {% if notificacionesNoVistas %}
+                                                <span class="label label-success">!{{notificacionesNoVistas}}</span>
+                                            {% endif %}
+                                        </a></li>              
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="{{ path('fos_user_security_logout') }}"><i class="icon-signout"></i><span>  Cerrar sesión</span> </a></li>
+                                </ul>
+                            </div>                          
+                        {% else %}
+                            <div id="top-account" class="dropdown">
+                                <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="icon-line2-login"></i></a>
+                                <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                                    <li><a href="{{ path('fos_user_security_login') }}"> Ingresar </a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="{{ path('fos_user_registration_register') }}">¿Aún no tiene cuenta?</a></li>
+                                </ul>                                    
+                            </div>
+                        {% endif %}
+
+
+
+
+                        <!-- Primary Navigation
+                        ============================================= -->
+                        <nav id="primary-menu">
+
+                            <ul>
+                                <li><a href="{{ path('home') }}"><div>Inicio</div></a> </li>
+                                    {% if (is_granted('IS_AUTHENTICATED_FULLY') or is_granted('IS_AUTHENTICATED_REMEMBERED') ) %}
+                                    <li><a href="{{ path('crearCompeticion') }}"><div>Crear competición</div></a> </li>
+                                    {% endif %}
+                                <li><a href="{{ path('listadoCompeticiones') }}"><div>Competiciones</div></a> </li>
+                                <li><a href="{{ path('listadoUsuarios') }}"><div>Usuarios</div></a></li>                                                                          
+                            </ul>
+
+                        </nav>
+
+                    </div>
+
+                </div>
+
+            </header><!-- #header end -->
+
+
+
+
+        {% endblock header %}                                 
+
+    {% block content %}{% endblock content %}
+
+    <!-- Footer
+    ============================================= -->
+    {% block footer %}
+        <footer id="footer" class="dark notopmargin">
+
+
+            <!-- Copyrights
+            ============================================= -->
+            <div id="copyrights">
+
+                <div class="container clearfix">
+
+                    <div class="col_half">
+                        Proyecto de fin de carrera. Escuela de Ingeniería informática.<br>
+                        Universidad de Las Palmas de Gran Canaria.<br>                        
+                        Alumno: Aday López Ramírez
+                    </div>
+
+                    <div class="col_half col_last tright">
+                         <img src="{{asset('bundles/padelschedulemain/images/LogoULPGC.png')}}" alt="Canvas Logo" alt="Logo de la universidad" height="70px">
+                        
+                    </div>
+
+                </div>
+
+            </div><!-- #copyrights end -->
+
+        </footer><!-- #footer end -->
+
+    </div><!-- #wrapper end -->
+
+    <!-- Go To Top
+    ============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script src="{{asset('bundles/padelschedulemain/js/functions.js')}}"></script>
+{% endblock %}
+
+</body>
+</html>

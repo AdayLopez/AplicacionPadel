@@ -1,0 +1,28 @@
+{% extends "FOSUserBundle::layout.html.twig" %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/components/datepicker.css')}}"/>    
+    <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/components/bs-filestyle.css')}}"/>        
+    <style>
+
+        input::-webkit-inner-spin-button,
+        input::-webkit-calendar-picker-indicator {
+            display: none;
+            -webkit-appearance: none;
+        }
+    </style>
+{% endblock css %}
+
+{% block scripts %} 
+     
+     <!-- Include Date Range Picker -->
+     <script src="{{asset('bundles/padelschedulemain/js/components/moment.js')}}"></script>
+     <script src="{{asset('bundles/padelschedulemain/js/components/datepicker.js')}}"></script>
+     
+     <!-- Upload js -->
+     <script src="{{asset('bundles/padelschedulemain/js/components/bs-filestyle.js')}}"></script>
+{% endblock %}
+
+{% block fos_user_content %}
+{% include "FOSUserBundle:Profile:edit_content.html.twig" %}
+{% endblock fos_user_content %}

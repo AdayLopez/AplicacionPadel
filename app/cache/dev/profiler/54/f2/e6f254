@@ -1,0 +1,966 @@
+a:8:{s:5:"token";s:6:"e6f254";s:6:"parent";N;s:8:"children";a:1:{i:0;s:6:"31e60b";}s:4:"data";a:15:{s:6:"config";C:62:"Symfony\Component\HttpKernel\DataCollector\ConfigDataCollector":2221:{a:17:{s:8:"app_name";N;s:11:"app_version";N;s:5:"token";s:6:"e6f254";s:15:"symfony_version";s:5:"2.7.9";s:13:"symfony_state";s:6:"stable";s:4:"name";s:3:"app";s:3:"env";s:3:"dev";s:5:"debug";b:1;s:11:"php_version";s:6:"5.6.12";s:14:"xdebug_enabled";b:0;s:14:"eaccel_enabled";b:0;s:11:"apc_enabled";b:1;s:14:"xcache_enabled";b:0;s:16:"wincache_enabled";b:0;s:20:"zend_opcache_enabled";b:0;s:7:"bundles";a:17:{s:15:"FrameworkBundle";s:86:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle";s:14:"SecurityBundle";s:85:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle";s:10:"TwigBundle";s:81:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle";s:13:"MonologBundle";s:58:"C:\xampp\htdocs\PadelProject\vendor\symfony\monolog-bundle";s:17:"SwiftmailerBundle";s:62:"C:\xampp\htdocs\PadelProject\vendor\symfony\swiftmailer-bundle";s:13:"AsseticBundle";s:58:"C:\xampp\htdocs\PadelProject\vendor\symfony\assetic-bundle";s:14:"DoctrineBundle";s:60:"C:\xampp\htdocs\PadelProject\vendor\doctrine\doctrine-bundle";s:26:"SensioFrameworkExtraBundle";s:65:"C:\xampp\htdocs\PadelProject\vendor\sensio\framework-extra-bundle";s:23:"PadelScheduleMainBundle";s:57:"C:\xampp\htdocs\PadelProject\src\PadelSchedule\MainBundle";s:13:"FOSUserBundle";s:64:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle";s:18:"FOSJsRoutingBundle";s:69:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\jsrouting-bundle";s:23:"PadelScheduleUserBundle";s:57:"C:\xampp\htdocs\PadelProject\src\PadelSchedule\UserBundle";s:21:"StingerMomentJsBundle";s:83:"C:\xampp\htdocs\PadelProject\vendor\stinger\moment-js-bundle\Stinger\MomentJsBundle";s:14:"AcmeDemoBundle";s:48:"C:\xampp\htdocs\PadelProject\src\Acme\DemoBundle";s:17:"WebProfilerBundle";s:88:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle";s:24:"SensioDistributionBundle";s:95:"C:\xampp\htdocs\PadelProject\vendor\sensio\distribution-bundle\Sensio\Bundle\DistributionBundle";s:21:"SensioGeneratorBundle";s:89:"C:\xampp\htdocs\PadelProject\vendor\sensio\generator-bundle\Sensio\Bundle\GeneratorBundle";}s:9:"sapi_name";s:14:"apache2handler";}}s:7:"request";C:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector":6520:{a:18:{s:6:"format";s:4:"html";s:7:"content";s:0:"";s:12:"content_type";s:24:"text/html; charset=UTF-8";s:11:"status_text";s:21:"Internal Server Error";s:11:"status_code";i:500;s:13:"request_query";a:0:{}s:15:"request_request";a:0:{}s:15:"request_headers";a:11:{s:4:"host";a:1:{i:0;s:14:"localhost:1337";}s:10:"connection";a:1:{i:0;s:10:"keep-alive";}s:13:"cache-control";a:1:{i:0;s:9:"max-age=0";}s:25:"upgrade-insecure-requests";a:1:{i:0;s:1:"1";}s:10:"user-agent";a:1:{i:0;s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36";}s:6:"accept";a:1:{i:0;s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8";}s:7:"referer";a:1:{i:0;s:68:"http://localhost:1337/PadelProject/web/app_dev.php/verCompeticion/10";}s:15:"accept-encoding";a:1:{i:0;s:17:"gzip, deflate, br";}s:15:"accept-language";a:1:{i:0;s:23:"es-ES,es;q=0.8,en;q=0.6";}s:6:"cookie";a:1:{i:0;s:36:"PHPSESSID=0137jbue2d307k2su5eubo1ak3";}s:14:"x-php-ob-level";a:1:{i:0;i:1;}}s:14:"request_server";a:46:{s:4:"BASE";s:17:"/PadelProject/web";s:7:"MIBDIRS";s:24:"C:/xampp/php/extras/mibs";s:10:"MYSQL_HOME";s:16:"\xampp\mysql\bin";s:12:"OPENSSL_CONF";s:31:"C:/xampp/apache/bin/openssl.cnf";s:20:"PHP_PEAR_SYSCONF_DIR";s:10:"\xampp\php";s:5:"PHPRC";s:10:"\xampp\php";s:3:"TMP";s:10:"\xampp\tmp";s:9:"HTTP_HOST";s:14:"localhost:1337";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36";s:11:"HTTP_ACCEPT";s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8";s:12:"HTTP_REFERER";s:68:"http://localhost:1337/PadelProject/web/app_dev.php/verCompeticion/10";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip, deflate, br";s:20:"HTTP_ACCEPT_LANGUAGE";s:23:"es-ES,es;q=0.8,en;q=0.6";s:11:"HTTP_COOKIE";s:36:"PHPSESSID=0137jbue2d307k2su5eubo1ak3";s:4:"PATH";s:507:"C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\xampp\php;C:\xampp\mysql;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\Aday\AppData\Local\Microsoft\WindowsApps;";s:10:"SystemRoot";s:10:"C:\WINDOWS";s:7:"COMSPEC";s:27:"C:\WINDOWS\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\WINDOWS";s:16:"SERVER_SIGNATURE";s:97:"<address>Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12 Server at localhost Port 1337</address>
+";s:15:"SERVER_SOFTWARE";s:47:"Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.6.12";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:3:"::1";s:11:"SERVER_PORT";s:4:"1337";s:11:"REMOTE_ADDR";s:3:"::1";s:13:"DOCUMENT_ROOT";s:15:"C:/xampp/htdocs";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:15:"C:/xampp/htdocs";s:12:"SERVER_ADMIN";s:20:"postmaster@localhost";s:15:"SCRIPT_FILENAME";s:44:"C:/xampp/htdocs/PadelProject/web/app_dev.php";s:11:"REMOTE_PORT";s:5:"56913";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:74:"/PadelProject/web/app_dev.php/generacionHorario/10/1/14-07-2017/21-07-2017";s:11:"SCRIPT_NAME";s:29:"/PadelProject/web/app_dev.php";s:9:"PATH_INFO";s:45:"/generacionHorario/10/1/14-07-2017/21-07-2017";s:15:"PATH_TRANSLATED";s:60:"C:\xampp\htdocs\generacionHorario\10\1\14-07-2017\21-07-2017";s:8:"PHP_SELF";s:74:"/PadelProject/web/app_dev.php/generacionHorario/10/1/14-07-2017/21-07-2017";s:18:"REQUEST_TIME_FLOAT";d:1499980879.190000057220458984375;s:12:"REQUEST_TIME";i:1499980879;}s:15:"request_cookies";a:1:{s:9:"PHPSESSID";s:26:"0137jbue2d307k2su5eubo1ak3";}s:18:"request_attributes";a:7:{s:11:"_controller";s:73:"PadelSchedule\MainBundle\Controller\MainController::generarHorarioJornada";s:13:"idCompeticion";s:2:"10";s:7:"jornada";s:1:"1";s:11:"fechaInicio";s:10:"14-07-2017";s:8:"fechaFin";s:10:"21-07-2017";s:6:"_route";s:14:"generarHorario";s:13:"_route_params";a:4:{s:13:"idCompeticion";s:2:"10";s:7:"jornada";s:1:"1";s:11:"fechaInicio";s:10:"14-07-2017";s:8:"fechaFin";s:10:"21-07-2017";}}s:16:"response_headers";a:5:{s:13:"cache-control";a:1:{i:0;s:8:"no-cache";}s:4:"date";a:1:{i:0;s:29:"Thu, 13 Jul 2017 21:21:22 GMT";}s:13:"x-debug-token";a:1:{i:0;s:6:"e6f254";}s:18:"x-debug-token-link";a:1:{i:0;s:46:"/PadelProject/web/app_dev.php/_profiler/31e60b";}s:12:"content-type";a:1:{i:0;s:24:"text/html; charset=UTF-8";}}s:16:"session_metadata";a:3:{s:7:"Created";s:29:"Thu, 13 Jul 17 18:36:19 +0200";s:9:"Last used";s:29:"Thu, 13 Jul 17 23:18:02 +0200";s:8:"Lifetime";s:1:"0";}s:18:"session_attributes";a:6:{s:18:"_csrf/authenticate";s:43:"VqKnxmIzciRjfmRwRe6mR9MuwpwtC0rVDWM3kfW-zRU";s:14:"_security_main";s:653:"C:74:"Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken":565:{a:3:{i:0;N;i:1;s:4:"main";i:2;s:525:"a:4:{i:0;C:36:"PadelSchedule\UserBundle\Entity\User":309:{a:13:{i:0;s:88:"9MnOrK1ueshtQansM8U+Y6imYJvxI0RtPJ3W1Uo1eaR6UJraw9pzYL9haI6wJiJuMp7wyAoFRuo+7ldiiVekXQ==";i:1;s:31:"chha74en4dcgo4ow8gsss8swcc0cg04";i:2;s:4:"aday";i:3;s:4:"aday";i:4;b:0;i:5;b:0;i:6;b:0;i:7;b:1;i:8;i:1;i:9;N;i:10;N;i:11;s:25:"pollo.frangollo@gmail.com";i:12;s:25:"pollo.frangollo@gmail.com";}}i:1;b:1;i:2;a:1:{i:0;O:41:"Symfony\Component\Security\Core\Role\Role":1:{s:47:" Symfony\Component\Security\Core\Role\Role role";s:9:"ROLE_USER";}}i:3;a:0:{}}";}}";s:13:"_csrf/recurso";s:43:"F5fzW5OhBDU6BYcRysbswRdpO9KKuuQjifsmFYucJ0o";s:17:"_csrf/inscripcion";s:43:"CIAzFUOymFQJaFoeE4QBVWLZHQsfNZogXiRPC_ntfgw";s:17:"_csrf/competicion";s:43:"a6Adf_bzmN5JWdR9kecWAhtV6NAC-AczsViYDJQNQIQ";s:10:"_csrf/form";s:43:"mfP4ke2fYtvMOfBgFUVyxWwo5ET0KJAQ24GQ4rxEup8";}s:7:"flashes";a:0:{}s:9:"path_info";s:45:"/generacionHorario/10/1/14-07-2017/21-07-2017";s:10:"controller";a:4:{s:5:"class";s:50:"PadelSchedule\MainBundle\Controller\MainController";s:6:"method";s:21:"generarHorarioJornada";s:4:"file";s:87:"C:\xampp\htdocs\PadelProject\src\PadelSchedule\MainBundle\Controller\MainController.php";s:4:"line";i:410;}s:6:"locale";s:2:"es";}}s:4:"ajax";C:62:"Symfony\Bundle\FrameworkBundle\DataCollector\AjaxDataCollector":6:{a:0:{}}s:9:"exception";C:65:"Symfony\Component\HttpKernel\DataCollector\ExceptionDataCollector":63010:{a:1:{s:9:"exception";O:50:"Symfony\Component\Debug\Exception\FlattenException":10:{s:59:" Symfony\Component\Debug\Exception\FlattenException message";s:171:"Unexpected "endfor" tag (expecting closing tag for the "block" tag defined near line 99) in "PadelScheduleMainBundle:Competitions:generacionHorario.html.twig" at line 218.";s:56:" Symfony\Component\Debug\Exception\FlattenException code";i:0;s:60:" Symfony\Component\Debug\Exception\FlattenException previous";N;s:57:" Symfony\Component\Debug\Exception\FlattenException trace";a:19:{i:0;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:0:"";s:4:"file";s:65:"C:\xampp\htdocs\PadelProject\vendor\twig\twig\lib\Twig\Parser.php";s:4:"line";i:172;s:4:"args";a:0:{}}i:1;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:11:"Twig_Parser";s:5:"class";s:11:"Twig_Parser";s:4:"type";s:2:"->";s:8:"function";s:8:"subparse";s:4:"file";s:76:"C:\xampp\htdocs\PadelProject\vendor\twig\twig\lib\Twig\TokenParser\Block.php";s:4:"line";i:38;s:4:"args";a:2:{i:0;a:2:{i:0;s:5:"array";i:1;a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:22:"Twig_TokenParser_Block";}i:1;a:2:{i:0;s:6:"string";i:1;s:14:"decideBlockEnd";}}}i:1;a:2:{i:0;s:7:"boolean";i:1;b:1;}}}i:2;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:22:"Twig_TokenParser_Block";s:5:"class";s:22:"Twig_TokenParser_Block";s:4:"type";s:2:"->";s:8:"function";s:5:"parse";s:4:"file";s:65:"C:\xampp\htdocs\PadelProject\vendor\twig\twig\lib\Twig\Parser.php";s:4:"line";i:187;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:10:"Twig_Token";}}}i:3;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:11:"Twig_Parser";s:5:"class";s:11:"Twig_Parser";s:4:"type";s:2:"->";s:8:"function";s:8:"subparse";s:4:"file";s:65:"C:\xampp\htdocs\PadelProject\vendor\twig\twig\lib\Twig\Parser.php";s:4:"line";i:100;s:4:"args";a:2:{i:0;a:2:{i:0;s:4:"null";i:1;N;}i:1;a:2:{i:0;s:7:"boolean";i:1;b:0;}}}i:4;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:11:"Twig_Parser";s:5:"class";s:11:"Twig_Parser";s:4:"type";s:2:"->";s:8:"function";s:5:"parse";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:3315;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:16:"Twig_TokenStream";}}}i:5;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:16:"Twig_Environment";s:5:"class";s:16:"Twig_Environment";s:4:"type";s:2:"->";s:8:"function";s:5:"parse";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:3335;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:16:"Twig_TokenStream";}}}i:6;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:16:"Twig_Environment";s:5:"class";s:16:"Twig_Environment";s:4:"type";s:2:"->";s:8:"function";s:13:"compileSource";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:3209;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:51459:"{% extends "::base.html.twig" %}
+
+
+{% block title %}Competicion{% endblock %}
+
+{% block estilo %}
+    <style>
+        .calendario {
+            border: 1px solid black;
+            text-align: center;
+            table-layout: fixed;
+        }
+    
+        .wc-time-column-header {
+            border: 1px solid black;
+            width: 45px;
+        }
+       
+        .wc-day-column-header {
+            border: 1px solid black;
+            width: 120px;
+        }
+       
+        .wc-scrollbar-shim {
+            border: 1px solid black;
+            width: 20px;
+        }
+        
+        .ui-droppable {
+            background-color: #AEE239;
+        }
+        
+        .preferenciaPareja {
+            background-color: #fcf8e3;
+        }
+        
+        .ui-droppable.preferenciaPareja { background-color: #46a310; }
+        
+        .celda_horario {
+            height: 20px;            
+        }
+        
+        .vistaDetalladaTabla {
+            border: 1px solid black;
+            text-align: center;
+            table-layout: fixed;
+        }
+        
+        .celda_vistaDetallada {
+            width: 20px;
+            height: 20px;
+            font-size: xx-small;
+        }
+        
+        .partido {
+            margin-bottom: 0px;
+            background-color: #fcf8e3;
+        }
+        
+        .hover {
+            background-color: #CC0000;
+        }
+        
+        .celdaOcupada {
+            background-color: #E38686;
+        }
+        
+        .celdaLibre {
+            background-color: #AEE239;
+        }
+        
+        .celdaConPartidos {
+            background-color:  #ffeb72;
+        }
+        
+        .ui-droppable.preferenciaPareja.hover { background-color: #CC0000; }
+        
+        .cal-header {            
+            background: rgba(235,233,249,1);
+            background: -moz-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 0%, rgba(156,156,156,1) 0%, rgba(193,191,234,1) 100%);
+            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,233,249,1)), color-stop(0%, rgba(216,208,239,1)), color-stop(0%, rgba(156,156,156,1)), color-stop(100%, rgba(193,191,234,1)));
+            background: -webkit-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 0%, rgba(156,156,156,1) 0%, rgba(193,191,234,1) 100%);
+            background: -o-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 0%, rgba(156,156,156,1) 0%, rgba(193,191,234,1) 100%);
+            background: -ms-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 0%, rgba(156,156,156,1) 0%, rgba(193,191,234,1) 100%);
+            background: linear-gradient(to bottom, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 0%, rgba(156,156,156,1) 0%, rgba(193,191,234,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=0 );
+            padding-top: 20px;
+        }
+        
+        
+    </style>
+{% endblock %}
+
+{% block scripts %} 
+    <script src="{{asset('bundles/stingermomentjs/js/moment-with-locales.min.js')}}"></script>    
+    <script src="{{asset('bundles/padelschedulemain/js/moment-range.min.js')}}"></script>    
+{% endblock %}
+
+{% block content %} 
+    
+
+<div class="clearfix calendario ">
+    <div class="cal-header text-center">
+        
+        <div class="btn-group inline-block">
+            <button type="button" class="btn btn-primary cal-semanaAnterior"><i class="icon-line-rewind"></i></button>
+            <button type="button" class="btn btn-primary cal-hoy"><i class="icon-home2"></i></button>
+            <button type="button" class="btn btn-primary cal-proximaSemana"><i class="icon-line-fast-forward"></i></button>
+        </div>
+        <h2 class="inline-block nobottommargin">Calendario semanal - </h2>
+        <h2 class="inline-block nobottommargin" id="calendario-head-fecha"></h2>
+        
+        
+
+    {{ form_start(form, {'attr': {'class': 'inline-block formCalendario'}}) }}
+    {{ form_widget(form.send,  {'attr': {'class': 'button button-3d button-small button-rounded button-lime'}, 'label': 'Guardar calendario'}) }}    
+    {{ form_end(form) }}
+
+    </div>
+    
+    
+    
+    <div class="calcontent-header col_three_fifth">
+        <table border="1" class="calendario">
+            <tbody>
+                <tr>
+                    <th class="calendario-header wc-time-column-header"></th>
+                    <th class="text-center calendario-header columna-dia-cabecera dia-0">Lunes<br><p id="L" class="nobottommargin cabecera-dia-fecha">Feb 21, 2016</p><input type='radio' name='diaVistaDetallada' value='0' class="Lunes"></th>
+                    <th class="text-center calendario-header columna-dia-cabecera dia-1">Martes<br><p id="M" class="nobottommargin cabecera-dia-fecha">Feb 22, 2016</p><input type='radio' name='diaVistaDetallada' value='1' class="Martes"></th>
+                    <th class="text-center calendario-header columna-dia-cabecera dia-2">Miércoles<br><p id="X" class="nobottommargin cabecera-dia-fecha">Feb 23, 2016</p><input type='radio' name='diaVistaDetallada' value='2' class="Miércoles"></th>
+                    <th class="text-center calendario-header columna-dia-cabecera dia-3">Jueves<br><p id="J" class="nobottommargin cabecera-dia-fecha">Feb 24, 2016</p><input type='radio' name='diaVistaDetallada' value='3' class="Jueves"></th>
+                    <th class="text-center calendario-header columna-dia-cabecera dia-4">Viernes<br><p id="V" class="nobottommargin cabecera-dia-fecha">Feb 25, 2016</p><input type='radio' name='diaVistaDetallada' value='4' class="Viernes"></th>
+                    <th class="text-center calendario-header columna-dia-cabecera dia-5">Sabado<br><p id="S" class="nobottommargin cabecera-dia-fecha">Feb 26, 2016</p><input type='radio' name='diaVistaDetallada' value='5' class="Sábado"></th>
+                    <th class="text-center calendario-header columna-dia-cabecera dia-6">Domingo<br><p id="D" class="nobottommargin cabecera-dia-fecha">Feb 27, 2016</p><input type='radio' name='diaVistaDetallada' value='6' class="Domingo"></th>
+                    
+                </tr>
+                {% for i in 8..23 %}
+                <tr class="{{i}}:00"> {#//Comprobar si se puede añadir el rowspan solo si es par, se evita  doble fila#}
+                    <td rowspan="2">{{i}}:00</td>
+                    <td class="celda_horario celda0 Lunes">a</td>
+                    <td class="celda_horario celda1 Martes"></td>
+                    <td class="celda_horario celda2 Miércoles"></td>
+                    <td class="celda_horario celda3 Jueves"></td>
+                    <td class="celda_horario celda4 Viernes"></td>
+                    <td class="celda_horario celda5 Sábado"></td>
+                    <td class="celda_horario celda6 Domingo"></td>
+                    
+                </tr>
+                <tr class="{{i}}:30">
+                    <td class="celda_horario celda0 Lunes">a</td>
+                    <td class="celda_horario celda1 Martes"></td>
+                    <td class="celda_horario celda2 Miércoles"></td>
+                    <td class="celda_horario celda3 Jueves"></td>
+                    <td class="celda_horario celda4 Viernes"></td>
+                    <td class="celda_horario celda5 Sábado"></td>
+                    <td class="celda_horario celda6 Dómingo"></td>                 
+                </tr>            
+                {% endfor %}
+            </tbody>
+        </table>
+            <div class="{#col_one_fifth#} vistaDetallada">
+    
+                <p> Vista detallada </p>
+                <p class = "diaVistaDetallada"> </p>
+                <table border="1" class="vistaDetalladaTabla">
+                    <tr>
+                        <th class="calendario-header wc-time-column-header"></th>
+                        
+                        {% for recurso in recursos %}
+                            <th class="{{recurso.id}}"> {{loop.index}} </th>
+                        {% endfor %}                        
+                    </tr>
+                    <tbody>
+                        {% for i in 8..23 %}
+                        <tr class="{{i}}:00"> {#//Comprobar si se puede añadir el rowspan solo si es par, se evita  doble fila#}
+                            <td rowspan="2">{{i}}:00</td>
+                            {% for recurso in recursos %}
+                                <td class="celda_vistaDetallada {{loop.index}}"></td>
+                            {% endfor %}  
+                        </tr>
+                        <tr class="{{i}}:30">
+                            {% for recurso in recursos %}
+                                <td class="celda_vistaDetallada {{loop.index}}"></td>
+                            {% endfor %}  
+                        </tr>            
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+            </div>
+    </div>
+         {#   
+            <div class="col_one_fifth vistaDetallada">
+    
+                <p> Vista detallada </p>
+                <p class = "diaVistaDetallada"> </p>
+                <table border="1" class="vistaDetalladaTabla">
+                    <tr>
+                        <th class="calendario-header wc-time-column-header"></th>
+                        
+                        {% for recurso in recursos %}
+                            <th class="{{recurso.id}}"> {{loop.index}} </th>
+                        {% endfor %}                        
+                    </tr>
+                    <tbody>
+                        {% for i in 8..23 %}
+                        <tr class="{{i}}:00"> {#//Comprobar si se puede añadir el rowspan solo si es par, se evita  doble fila#}
+                            <td rowspan="2">{{i}}:00</td>
+                            {% for recurso in recursos %}
+                                <td class="celda_vistaDetallada {{loop.index}}"></td>
+                            {% endfor %}  
+                        </tr>
+                        <tr class="{{i}}:30">
+                            {% for recurso in recursos %}
+                                <td class="celda_vistaDetallada {{loop.index}}"></td>
+                            {% endfor %}  
+                        </tr>            
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+            </div>#}
+            <div class="col_two_fifth col_last">
+            
+                <p>Recursos</p>
+                <ol class="recursos">
+                {% for recurso in recursos %}
+                    <li class="{{recurso.id}}"> {{recurso.club}} - {{recurso.cancha}}</li>
+                {% endfor %}
+                </ol>
+
+                {% for recurso in recursos %}
+                    <div id="recurso{{recurso.id}}" style="display: none;">
+                        <p class="horarioLunes"> {{recurso.horarioLunes}} </p>
+                        <p class="horarioMartes"> {{recurso.horarioMartes}} </p>
+                        <p class="horarioMiércoles"> {{recurso.horarioMiercoles}} </p>
+                        <p class="horarioJueves"> {{recurso.horarioJueves}} </p>
+                        <p class="horarioViernes"> {{recurso.horarioViernes}} </p>
+                        <p class="horarioSábado"> {{recurso.horarioSabado}} </p>
+                        <p class="horarioDomingo"> {{recurso.horarioDomingo}} </p>
+                    </div>
+                {% endfor %}
+                
+                <p>Partidos</p>
+                <table id="listaPartidos" class="table">
+                    <tbody>
+                        <tr>
+                            <th></th>
+                            <th>Pareja 1</th>
+                            <th>Pareja 2</th>
+                            <th>Fecha</th>
+                            <th>Hora</th>
+                            <th>Recurso</th>
+                        </tr>
+ 
+                    {% for partido in partidos %}
+                        <tr class="partido{{partido.id}} partido">  
+                            <td class="indicePartido"> {{loop.index}} </td>
+                            <td class="nombrePareja1"> {{partido.inscripcion1.jugador.username}} </td>
+                            <td class="nombrePareja2"> {{partido.inscripcion2.jugador.username}} </td>
+                            <td class="fechaPartido"></td>
+                            <td class="horaPartido"></td>
+                            <td class="recursoPartido"></td>
+                            
+                            <td class="preferenciaParejas" style="display: none;"> 
+                                <p class="preferenciaJugador1Lunes"> {{partido.inscripcion1.horarioLunes}} </p>
+                                <p class="preferenciaJugador1Martes"> {{partido.inscripcion1.horarioMartes}} </p>
+                                <p class="preferenciaJugador1Miércoles"> {{partido.inscripcion1.horarioMiercoles}} </p>
+                                <p class="preferenciaJugador1Jueves"> {{partido.inscripcion1.horarioJueves}} </p>
+                                <p class="preferenciaJugador1Viernes"> {{partido.inscripcion1.horarioViernes}} </p>
+                                <p class="preferenciaJugador1Sábado"> {{partido.inscripcion1.horarioSabado}} </p>
+                                <p class="preferenciaJugador1Domingo"> {{partido.inscripcion1.horarioDomingo}} </p>
+                                
+                                <p class="preferenciaJugador2Lunes"> {{partido.inscripcion2.horarioLunes}} </p>
+                                <p class="preferenciaJugador2Martes"> {{partido.inscripcion2.horarioMartes}} </p>
+                                <p class="preferenciaJugador2Miércoles"> {{partido.inscripcion2.horarioMiercoles}} </p>
+                                <p class="preferenciaJugador2Jueves"> {{partido.inscripcion2.horarioJueves}} </p>
+                                <p class="preferenciaJugador2Viernes"> {{partido.inscripcion2.horarioViernes}} </p>
+                                <p class="preferenciaJugador2Sábado"> {{partido.inscripcion2.horarioSabado}} </p>
+                                <p class="preferenciaJugador2Domingo"> {{partido.inscripcion2.horarioDomingo}} </p>
+                            </td>
+                        </tr>
+                    {% endfor %}
+
+                    </tbody>
+                </table>
+            </div>
+    
+</div>
+    
+    <script>
+        var inicioSemana;
+        var diaVistaDetallada;
+        
+        (function ( $ ) {            
+            $.fn.siguienteCelda = function( )
+            {
+                indexCelda = $(this).attr("class").split(' ')[1];
+                return $(this).closest('tr').next().children("."+indexCelda);
+            };        
+            $.fn.hacerDraggable = function(idPartido) {
+                this.draggable({
+                    appendTo: "body",
+                    helper: function(event, ui) {
+                        var foo = $('<div style="height:60px;width:20px;background-color:#ffeb72;"></div>'); 
+                        return foo;
+                    },
+                    cursorAt: { top: 0, left: 0},
+                    delay: 200,
+                    start: function(event, ui) {
+                            
+
+                        var pref1 = $("#listaPartidos").find("."+idPartido).find(".preferenciaJugador1"+diaVistaDetallada.format("dddd")).text();  
+                        var pref2 = $("#listaPartidos").find("."+idPartido).find(".preferenciaJugador2"+diaVistaDetallada.format("dddd")).text();  
+        
+                        {#var pref1 = $(this).find(".preferenciaJugador1"+diaVistaDetallada.format("dddd")).text();  
+                        var pref2 = $(this).find(".preferenciaJugador2"+diaVistaDetallada.format("dddd")).text();  #}
+
+                        interseccion = buscarInterseccion(pref1, pref2);
+
+                        var i;
+                        //Para cada rango horario
+                        for(i = 0; i < interseccion.length; i++) {
+
+                            //Obtenemos el limite inferior y superior
+                            var rangoInf = interseccion[i].start; 
+                            var rangoSup = interseccion[i].end; 
+
+                            while(rangoInf.isBefore(rangoSup)){
+                                rangoString = rangoInf.format("H:mm");        
+                            //Buscamos la fila en la que la pareja ha elegido jugar
+
+                                //       clase tabla    > tbody >          clase TR (hora)                 >  celda de recurso
+                                filaHora = $(".vistaDetalladaTabla > tbody > ." + rangoString.replace(":", "\\:") + " > .celda_vistaDetallada" ).addClass("preferenciaPareja");
+                                //Seguimos recorriendo las celdas del rango
+                                rangoInf.add(30, 'm');
+                            }
+                        }
+
+                    },
+                    stop: function(event, ui) {                    
+                        $(".vistaDetalladaTabla > tbody > tr > td").removeClass("preferenciaPareja");
+                    }
+                }); 
+            };
+            $.fn.hacerDroppableVD = function( ) {
+                this.droppable({
+                    accept: ".partido",
+                    activeClass: "ui-state-highlight",
+                    hoverClass: "hover",
+                    tolerance: "pointer",
+                    drop: function( event, ui ){ 
+                        
+                          //Comprobar las dos casillas inferiores antes de soltar el evento   
+                        if($(this).siguienteCelda().hasClass("ui-droppable") && $(this).siguienteCelda().siguienteCelda().hasClass("ui-droppable")){
+                            idPartido = ui.draggable.attr("class").split(' ')[0];
+                            var fechaPartidoAnterior = moment($("#listaPartidos").find("."+idPartido).find(".fechaPartido").text(), "D/M/YYYY");                            
+                            var horaPartidoAnterior = moment($("#listaPartidos").find("."+idPartido).find(".horaPartido").text(), "H:mm");
+                            if( fechaPartidoAnterior.isValid() && moment(inicioSemana).isSame(moment(fechaPartidoAnterior).weekday(0), 'day')){                                                                
+                                eliminarPartidoCalendario(fechaPartidoAnterior.format('dddd'), horaPartidoAnterior);
+                            }
+                            //Comprobar si el partido ya existía en el mismo día para eliminarlo de la vista detallada
+                            
+                            var casillaAnterior = $(".vistaDetalladaTabla").find("."+idPartido).closest('td');
+                            if(casillaAnterior.length){
+                                //Si ya existía lo eliminamos de la tabla
+                                casillaAnterior.siguienteCelda().siguienteCelda().hacerDroppableVD();                
+                                casillaAnterior.siguienteCelda().hacerDroppableVD();
+                                casillaAnterior.hacerDroppableVD(); 
+                                casillaAnterior.empty();    
+                            }
+                            //Hay hueco en la celda para meter el partido
+                            var filaPartido = $("#listaPartidos").find("."+ui.draggable.attr("class").split(' ')[0]);
+                            var $divPartido = $("<div>");
+                            var cellPos = $(this).position();
+                            $divPartido.addClass(ui.draggable.attr("class").split(' ')[0]+' partido');
+                                                        
+                            $divPartido.css({
+                               position:'absolute',
+                               top: cellPos.top+1,
+                               left: cellPos.left+1,
+                               backgroundColor: '#ffeb72',
+                               width: $(this).width()+1,
+                               height: $(this).height()*3+5
+                            });
+                            
+                            $divPartido.append('<p>'+filaPartido.find(".indicePartido").text()+' <i class="icon-line-cross eliminarPartido"></i></p>');
+                            
+                            $(this).append($divPartido);
+                            $(this).droppable('destroy');
+                            $(this).find('div').hacerDraggable(idPartido);
+                             $(this).siguienteCelda().droppable('destroy');
+                            $(this).siguienteCelda().siguienteCelda().droppable('destroy');
+                            
+                            $(this).find('.eliminarPartido').click(function() {
+                                
+                                $(this).closest('td').siguienteCelda().siguienteCelda().hacerDroppableVD();
+                                $(this).closest('td').siguienteCelda().hacerDroppableVD();
+                                $(this).closest('td').hacerDroppableVD(); 
+                                var hora = moment($(this).closest('tr').attr("class"), "H:mm");
+                                $(this).closest('td').empty();
+                                filaPartido.find(".fechaPartido").empty();                                             
+                                filaPartido.find(".horaPartido").empty();
+                                filaPartido.find(".recursoPartido").empty();
+                                filaPartido.removeClass("success");
+                                //Eliminamos la info del partido del calendario general
+                                eliminarPartidoCalendario(diaVistaDetallada.format("dddd"), hora);
+                                
+                            });
+                            //Actualizamos la información en la tabla para dejar asociada la hora,recurso y fecha al partido
+                            filaPartido.find(".fechaPartido").text(diaVistaDetallada.format("D/M/YYYY"));
+                            filaPartido.find(".horaPartido").text($(this).closest('tr').attr("class"));
+                            filaPartido.find(".recursoPartido").text($(this).attr("class").split(' ')[1]);
+                            filaPartido.addClass("success");
+                            añadirPartidoCalendario(diaVistaDetallada.format("dddd"), moment($(this).closest('tr').attr("class"), "H:mm"))
+                            
+                        }                                         
+                    }                   
+                });
+            };
+            
+            
+        }( jQuery ));
+        
+        function añadirPartidoCalendario(diaPartido, horaPartido){
+            //Recorremos las tres celdas que ocupa el partido
+            var i;
+            for(i = 0; i < 3; i++){
+                //Obtenemos la celda en el calendario general
+                celda = $(".calendario").find("." + horaPartido.format('H:mm').replace(":", "\\:")).find("." + diaPartido);
+                celda.removeClass("celdaLibre");
+                celda.removeClass("celdaConPartidos");
+                partidos = celda.data("partidos");
+                //Actualizamos la clase de la celda dependiendo de la información actualizada
+                if(typeof partidos === "undefined"){
+                    celda.data("partidos", 1);
+                    partidos = 1;
+                } else {                    
+                    celda.data("partidos", ++partidos);
+                }
+                
+                var recursosLibres = celda.data("recursosLibres");
+
+                if(recursosLibres > partidos) {                    
+                    celda.addClass("celdaConPartidos");
+                }else{
+                    celda.addClass("celdaOcupada");
+                }
+                horaPartido.add(30, 'm');
+            }
+        }
+        
+        function eliminarPartidoCalendario(diaPartido, horaPartido){
+            //Recorremos las tres celdas que ocupa el partido
+            for(i = 0; i < 3; i++){
+                //Obtenemos la celda en el calendario general
+                celda = $(".calendario").find("." + horaPartido.format('H:mm').replace(":", "\\:")).find("." + diaPartido);
+                celda.removeClass("celdaOcupada");
+                celda.removeClass("celdaConPartidos");
+                partidos = celda.data("partidos")-1;                
+                //Actualizamos la clase de la celda dependiendo de la información actualizada
+                if(partidos === 0){                    
+                    celda.removeData("partidos");
+                    celda.addClass("celdaLibre");
+                } else {
+                    celda.data("partidos", partidos);
+                    celda.addClass("celdaConPartidos");
+                }
+                horaPartido.add(30, 'm');
+            }
+        }
+        
+        /**
+         * Actualiza el calendario cuando se cambie de semana o para mostrarlo inicialmente
+         * 
+         * @returns {undefined}
+         */
+        function actualizarCalendario() {
+            finSemana = moment(inicioSemana).endOf('week');
+            $("#calendario-head-fecha").text(inicioSemana.format("ll") + "/" + finSemana.format("ll"));
+
+            var dia = moment(inicioSemana);
+{#            actualizarDisponibilidad();#}
+            //Actualizamos la cabecera del calendario para que coincida con los días de la semana que estamos viendo
+            $(".cabecera-dia-fecha").each(function() {
+                $(this).text(dia.format("l"));
+                if(dia.startOf('day').isSame(moment().startOf('day'))) { {#Es hoy#}
+                    $(this).parent().addClass("hoy");
+                } else {
+                    $(this).parent().removeClass("hoy");
+                }
+
+                dia = dia.add(1, "days");
+            });
+            
+            $('.calendario .celda_horario:not(:empty)').empty();   
+            actualizarDisponibilidad();
+        }
+        
+        /**
+        * A cada uno de las celdas sobre las que se puede soltar un recurso se le añade dicha funcionalidad
+
+         * @param int index: Nos dirá sobre que día de la semana nos encontramos
+         * @param string horario: El horario del recurso que estamos actualizando
+         * @returns {undefined}         */
+        function asignarDisponibilidadRecurso( index, horario ){
+            //Dividimos la ristra para tener cada uno de los rangos por separado
+            var horas = horario.substring(1).split(", "); 
+            
+            var i;
+            for(i = 0; i < horas.length; i++) {
+                rango = horas[i].split("-");
+                //Obtenemos el limite inferior y superior del rango
+                var rangoInf = moment(rango[0], "H:mm");
+                var rangoSup = moment(rango[1], "H:mm");
+
+                while(rangoInf.isBefore(rangoSup)){
+                    rangoString = rangoInf.format("H:mm");
+                    //Buscamos la celda dentro del rango y le añadimos la funcionalidad de poder mover eventos a esta casilla
+                     $(".calendario > tbody > ." + rangoString.replace(":", "\\:") + " > .celda" + index).hacerDroppable(index);
+                    rangoInf.add(30, 'm'); //Seguimos recorriendo las celdas del rango
+                }
+            }
+        }
+        
+        /**
+        * Al cambiar de recurso, se actualiza sobre que celdas se puede soltar un evento recorriendo el rango de horas
+
+         * @returns {undefined}         */
+        function actualizarDisponibilidad() {
+            
+            $(".calendario").find(".celda_horario").removeData();
+            $(".calendario").find(".celdaLibre").removeClass("celdaLibre");
+            $(".calendario").find(".celdaOcupada").removeClass("celdaOcupada");
+            $(".calendario").find(".celdaConPartidos").removeClass("celdaConPartidos");
+            
+            //Recorremos cada uno de los recursos disponibles para asignar disponibilidad
+            $(".recursos").find('li').each(function(){
+               var recursoId = $(this).attr('class');
+               //Recorremos el horario de cada día de cada recurso
+               $("#recurso"+recursoId+" > p").each(function( index ) {
+                   var horario = $(this).text();
+                   var horas = horario.substring(1).split(", "); 
+                   
+                   var i;
+                   for(i = 0; i < horas.length; i++) {
+                        rango = horas[i].split("-");
+                        //Obtenemos el limite inferior y superior del rango
+                        var rangoInf = moment(rango[0], "H:mm");
+                        var rangoSup = moment(rango[1], "H:mm");
+                        while(rangoInf.isBefore(rangoSup)){
+                            rangoString = rangoInf.format("H:mm");
+                            //Buscamos la celda dentro del rango y le añadimos la funcionalidad de poder mover eventos a esta casilla
+                            var celda = $(".calendario > tbody > ." + rangoString.replace(":", "\\:") + " > .celda" + index);
+                            recursosLibres = celda.data("recursosLibres");
+                            if(typeof recursosLibres === "undefined"){
+                                celda.data("recursosLibres", 1);
+                            } else {
+                                celda.data("recursosLibres", recursosLibres+1);
+                            }
+                            rangoInf.add(30, 'm'); //Seguimos recorriendo las celdas del rango
+                        }                        
+                   }
+               });
+            });
+            
+            //Recorremos los partidos asignados para comprobar los recursos ocupados
+            $("#listaPartidos").find(".partido").each(function() {
+                var fechaPartido = $(this).find(".fechaPartido").text();
+                //Comprobamos si el partido se encuentra en la semana actual                 
+                if( moment(inicioSemana).isSame(moment(fechaPartido, "D/M/YYYY").weekday(0), 'day')){
+                    var horaPartido = moment($(this).find(".horaPartido").text(), 'H:mm');
+                    var dia = moment(fechaPartido, "D-M-YYYY").format("dddd");
+                    var i;
+                    for(i = 0; i < 3; i++){
+                        var celda = $(".calendario > tbody > ." + horaPartido.format('H:mm').replace(":", "\\:") + " > ." + dia);
+                        partidos = celda.data("partidos");
+                        if(typeof partidos === "undefined"){
+                            celda.data("partidos", 1);
+                        } else {
+                            celda.data("partidos", partidos+1);
+                        }
+                        horaPartido.add(30, 'm');
+                    }
+                }
+                
+            });
+            //Añadimos las clases necesarias para la visualización CSS
+            $(".calendario").find(".celda_horario").each(function() {
+                var recursosLibres = $(this).data("recursosLibres");
+                if(typeof recursosLibres !== "undefined"){
+                    var numPartidos = $(this).data("partidos");
+                    if(typeof numPartidos !== "undefined"){
+                        if (numPartidos === recursosLibres) {
+                            $(this).addClass("celdaOcupada");
+                        } else {
+                            $(this).addClass("celdaConPartidos");
+                        }
+                    } else {
+                        $(this).addClass("celdaLibre");
+                    }
+                }
+            });
+           
+            
+            
+
+        }
+        
+        function actualizarDisponibilidadDetallada() {
+            //Actualizamos la cabecera para mostrar la fecha correcta
+            $(".vistaDetallada > .diaVistaDetallada").html(diaVistaDetallada.format("dddd<br>D/M/YYYY"));
+            //Destruimos la disponibilidad mostrada anteriormente en caso de que exista
+            $(".vistaDetalladaTabla .ui-droppable").droppable('destroy');
+            //Borramos los partidos que se puedan encontrar en la vista detallada
+            $('.vistaDetalladaTabla .celda_vistaDetallada:not(:empty)').empty();
+            {# Para cada recurso disponible obtenemos el horario en el día señalado #}   
+            $(".recursos > li").each(function(index) {  
+                //Obtenemos el horario del recurso y del día que se encuentra señalado
+                var horarioRecurso = $("#recurso"+$(this).attr("class")+" > .horario"+ diaVistaDetallada.format("dddd") ).text();
+                //Dividimos los distintos rangos horarios dentro del día
+                var rangosHorarios = horarioRecurso.substring(1).split(", "); 
+                var i;
+                //Para cada rango horario
+                for(i = 0; i < rangosHorarios.length; i++) {
+                    rango = rangosHorarios[i].split("-");
+                    //Obtenemos el limite inferior y superior
+                    var rangoInf = moment(rango[0], "H:mm");
+                    var rangoSup = moment(rango[1], "H:mm");
+                    while(rangoInf.isBefore(rangoSup)){
+                        rangoString = rangoInf.format("H:mm");                        
+                        //Buscamos la celda dentro del rango y le añadimos la funcionalidad de poder mover eventos a esta casilla
+                         
+                        //       clase tabla    > tbody >          clase TR (hora)                 >  celda de recurso
+                        $(".vistaDetalladaTabla > tbody > ." + rangoString.replace(":", "\\:") + " > ." + (index+1)).hacerDroppableVD();
+                        //Seguimos recorriendo las celdas del rango
+                        rangoInf.add(30, 'm');
+                    }
+                }
+                index++;
+            });
+            
+            //Buscamos si hay algún partido asignado al día detallado
+            $("#listaPartidos .partido").each(function(index) {
+                
+                if($(this).find(".fechaPartido").text() === diaVistaDetallada.format("D/M/YYYY")) {
+
+                    var horaPartido = $(this).find(".horaPartido").text().replace(":", "\\:");
+                    var recursoPartido = $(this).find(".recursoPartido").text();
+                    var celdaPartido = $(".vistaDetalladaTabla > tbody > ." + horaPartido + " > ." + recursoPartido);
+                    var indicePartido = $(this).find(".indicePartido").text();
+                           
+            //////////////////////////
+            
+                    var $divPartido = $("<div>");
+                    var cellPos = celdaPartido.position();
+                    $divPartido.addClass($(this).attr("class").split(' ')[0]+' partido');
+                                                       
+                    $divPartido.css({
+                       position:'absolute',
+                       top: cellPos.top+1,
+                       left: cellPos.left+1,
+                       backgroundColor: '#ffeb72',
+                       width: celdaPartido.width()+1,
+                       height: celdaPartido.height()*3+5
+                    });
+                            
+                    $divPartido.append('<p>'+indicePartido+' <i class="icon-line-cross eliminarPartido"></i></p>');
+                            
+                    celdaPartido.append($divPartido);
+
+                    celdaPartido.droppable('destroy');
+                    
+                    celdaPartido.find('div').hacerDraggable($(this).attr("class").split(' ')[0]);
+                            
+                    celdaPartido.siguienteCelda().droppable('destroy');
+                    celdaPartido.siguienteCelda().siguienteCelda().droppable('destroy');
+                            
+                    celdaPartido.find('.eliminarPartido').click(function() {
+                        var filaPartido = $("#listaPartidos ." + $(this).closest('div').attr("class").split(' ')[0]); 
+                        $(this).closest('td').siguienteCelda().siguienteCelda().hacerDroppableVD();
+                        $(this).closest('td').siguienteCelda().hacerDroppableVD();
+                        $(this).closest('td').hacerDroppableVD(); 
+
+                        $(this).closest('td').empty();
+                        filaPartido.find(".fechaPartido").empty();                                             
+                        filaPartido.find(".horaPartido").empty();
+                        filaPartido.find(".recursoPartido").empty();
+                    });
+            
+            ////////////////////////////
+            
+               
+                }
+               
+            });
+            
+        }
+        
+        function buscarInterseccion ( pref1, pref2){
+             //Dividimos los distintos rangos horarios dentro del día
+            var rangos1 = pref1.substring(1).split(", "); 
+            var rangos2 = pref2.substring(1).split(", "); 
+            var rangosMoment1  = [];
+            var rangosMoment2  = [];
+            
+            var i, j;            
+            for(i = 0; i < rangos1.length; i++) {
+                rango = rangos1[i].split("-");
+                //Obtenemos el limite inferior y superior
+                var inicio = moment(rango[0], "H:mm");
+                var fin = moment(rango[1], "H:mm");
+                rangosMoment1[i] = moment.range(inicio, fin)
+            }
+            for(i = 0; i < rangos2.length; i++) {
+                rango = rangos2[i].split("-");
+                //Obtenemos el limite inferior y superior
+                var inicio = moment(rango[0], "H:mm");
+                var fin = moment(rango[1], "H:mm");
+                rangosMoment2[i] = moment.range(inicio, fin)
+            }
+            var aux = 0;
+            var rangosFinales = [];
+            for(i = 0; i < rangosMoment1.length; i++){
+                
+                for(j = 0; j < rangosMoment2.length; j++){
+                    nuevoRango = rangosMoment1[i].intersect(rangosMoment2[j]);
+                    if(nuevoRango != null){
+                        rangosFinales[aux] = nuevoRango;
+                        aux++;
+                    }
+                }
+            }
+            
+            return rangosFinales;            
+        }
+        
+        function autoGenerarHorario(){
+            //Dia a partir del cual empezamos a autocolocar partidos (¿¿MAÑANA??))
+            
+            var dia = moment("{{fechaInicio}}", "DD-MM-YYYY");
+            var diaFin = moment("{{fechaFin}}", "DD-MM-YYYY");
+            var diasJornada = diaFin.diff(dia, 'days');
+            var partidos = [];
+            $("#listaPartidos").find(".partido").each( function( index ) {
+                partidos.push($(this).attr("class").split(' ')[0]);
+            });                        
+            var partidosOrdenados = [];            
+            //Recorremos todos los partidos que se van a jugar en dicha jornada para ordenarlos de menor a mayor disponibilidad
+            for(j = 0; j < partidos.length; j++){
+                partidosOrdenados[j] = [];
+                partidosOrdenados[j][0] = partidos[j];
+                partidosOrdenados[j][1] = 0;                
+                
+                var diaSemana = moment().day("Lunes");
+                //Para cada partido, obtenemos en total como de disponible se encuentra la pareja
+                //Almacenamos la disponibilidad de cada día de la pareja
+                do {
+                    diaRistra = diaSemana.format("dddd");
+                    var p1 = $("#listaPartidos").find("."+partidos[j]).find(".preferenciaJugador1"+diaRistra).text();  
+                    var p2 = $("#listaPartidos").find("."+partidos[j]).find(".preferenciaJugador2"+diaRistra).text();  
+                    //Cruzamos la preferencia de las parejas involucradas en el partido
+                    prefPareja = buscarInterseccion(p1, p2);                    
+                    var minutosDisponibles = 0;
+                    for(i = 0; i < prefPareja.length; i++){
+                        minutosDisponibles = minutosDisponibles + prefPareja[i].diff('minutes');
+                    }
+                    partidosOrdenados[j][1] += minutosDisponibles/30;                                        
+                    diaSemana.add(1, "days");                    
+                } while(diaRistra !== "Domingo");
+                
+            }
+            //Ordenamos los partidos de disponibilidad más restrictiva a menos restrictiva
+            partidosOrdenados.sort(function(a,b){
+                if (a[0] === b[0]) {
+                    return 0;
+                }
+                else {
+                    return (a[0] > b[0]) ? -1 : 1;
+                }
+            }); 
+            
+            //Almacenamos los rangos disponibles en cada recurso y cada día disponible
+            var rangosRecursos = [];
+            auxDia = dia;
+            for(var i = 0; i < diasJornada; i++){
+                rangosRecursos[i] = [];
+                diaRistra = auxDia.format("dddd");
+                $(".recursos").find("li").each( function( index ) {      
+                    rangosRecursos[i][index] = stringToRango($("#recurso" + $(this).attr("class") + " > .horario" + diaRistra).text());
+                });
+            } 
+                        
+            //Tomando los partidos por orden de restricción, se van colocando
+            
+            
+            {#while((partidoActual < partidosOrdenados.length) && control){#}
+            for(partidoActual = 0; partidoActual < partidosOrdenados.length; partidoActual++){
+                //Recorremos día a día intentando colocar el partido
+                var diaActual = 0;
+                var dia = moment("{{fechaInicio}}", "DD-MM-YYYY");
+                var control = true;
+                while((diaActual < diasJornada) && control){
+                    diaRistra = dia.format("dddd");                    
+                    //Recorremos recurso a recurso de ese día intentando colocar el partido
+                    var recursoActual = 0;
+                    while((recursoActual < rangosRecursos[diaActual].length) && control ){
+                    
+                        var p1 = $("#listaPartidos").find("."+partidosOrdenados[partidoActual][0]).find(".preferenciaJugador1"+diaRistra).text();  
+                        var p2 = $("#listaPartidos").find("."+partidosOrdenados[partidoActual][0]).find(".preferenciaJugador2"+diaRistra).text();  
+                        var prefPareja = buscarInterseccion(p1, p2);                        
+                        var disponibilidad = buscarInterseccion(rangoToString(rangosRecursos[diaActual][recursoActual]), rangoToString(prefPareja), true);
+                        var i = 0;
+                        while((i < disponibilidad.length) && control){
+                        {#for(i = 0; i < disponibilidad.length; i++){#}                            
+                            if(disponibilidad[i].valueOf() >= 5400000) {                                                                    
+                                    //Colocamos partido al inicio del rango
+                                    var filaPartido = $("#listaPartidos").find("."+partidosOrdenados[partidoActual][0]);
+                                    filaPartido.find(".fechaPartido").text(dia.format("D/M/YYYY"));
+                                    filaPartido.find(".horaPartido").text(disponibilidad[i].start.format("H:mm"));
+                                    filaPartido.find(".recursoPartido").text(recursoActual+1);
+                                    filaPartido.addClass("success");
+                                    
+                                    //Modificamos la disponibilidad en el recurso en el que hemos colocado el partido
+                                    var rangoInicio = moment(disponibilidad[i].start);
+                                    var rangoFin = moment(disponibilidad[i].start).add(90, 'm');
+                                    var rangoPartido = moment.range(moment(rangoInicio), moment(rangoFin));
+                                    
+                                    for(j = 0; j < rangosRecursos[diaActual][recursoActual].length; j++){
+                                        //Eliminamos de la disponibilidad del recurso el tiempo cogido para el partido colocado
+                                        if(rangoPartido.overlaps(rangosRecursos[diaActual][recursoActual][j])){                                            
+                                            rangosRecursos[diaActual][recursoActual][j] = rangosRecursos[diaActual][recursoActual][j].subtract(rangoPartido);
+                                            var nuevosRangos = rangosRecursos[diaActual][recursoActual][j].toString().split(",");                                            
+                                            rangosRecursos[diaActual][recursoActual].splice(j, 1);
+                                            if(nuevosRangos[0].length !== 0){
+                                                for(k = 0; k < nuevosRangos.length; k++){
+                                                    rangosRecursos[diaActual][recursoActual].splice(j + k, 0, moment.range(nuevosRangos[k]));
+                                                }                                            
+                                            }    
+                                        }
+                                    }                                                     
+                                    
+                                    control = false;                                    
+                            }
+                            i++;
+                        
+                        }
+                        recursoActual++;
+                    }
+                    diaRistra = dia.add(1, "days").format("dddd");
+                    diaActual++;
+                }
+                
+            }             
+        
+        }
+        
+        function stringToRango(string) {
+            if(string.charAt(0) === " "){
+                var rangos = string.substring(1);
+            }
+            rangos = rangos.split(", ");
+            rangosMoment = [];
+            for(var i = 0; i < rangos.length; i++){
+                aux = rangos[i].split("-");
+                rangosMoment[i] = moment.range(moment(aux[0], "H:mm"), moment(aux[1], "H:mm"));
+            }
+            return rangosMoment;
+            
+
+        }
+        
+        function rangoToString(rangos) {
+            var rango = " ";
+            for(var i = 0; i < rangos.length; i++) {
+                rango = rango.concat(rangos[i].start.format("H:mm")+"-"+rangos[i].end.format("H:mm")+", ");                
+            }
+            rango = rango.substring(0, rango.length-2);
+            return rango;
+        }
+        
+        $(function() {
+            moment.locale('es');
+            //Preguntar si se pueden empezar a poner partidos hoy o a partir de X día
+            diaVistaDetallada = moment().add(1, "days");            
+            inicioSemana = moment(diaVistaDetallada).startOf('week'); 
+            autoGenerarHorario();
+            $(".cal-semanaAnterior").attr("disabled", true);
+            actualizarCalendario();
+        
+            $( "input[name=diaVistaDetallada]:radio." + diaVistaDetallada.format("dddd") ).prop("checked", true);
+            actualizarDisponibilidadDetallada();
+          
+
+
+            $('input[name=diaVistaDetallada]:radio').change(function() {
+                diaVistaDetallada = moment(inicioSemana).weekday($("input[name=diaVistaDetallada]:checked").val());                
+                actualizarDisponibilidadDetallada();
+            });           
+            $(".cal-semanaAnterior").click(function() {
+                inicioSemana = inicioSemana.weekday(-7);
+                diaVistaDetallada = moment(inicioSemana).weekday($("input[name=diaVistaDetallada]:checked").val());                
+                if( moment(inicioSemana).isSame(moment().weekday(0), 'day')){
+                    $(".cal-semanaAnterior").attr("disabled", true);
+                }
+                actualizarDisponibilidadDetallada();
+                actualizarCalendario();
+            });
+            $(".cal-hoy").click(function() {
+                inicioSemana = moment(){#.add(1, "days")#}.startOf('week');
+                diaVistaDetallada = moment(){#.add(1, "days")#};
+                $(".cal-semanaAnterior").attr("disabled", true);
+                $( "input[name=diaVistaDetallada]:radio." + diaVistaDetallada.format("dddd") ).prop("checked", true);
+                actualizarDisponibilidadDetallada();
+                actualizarCalendario();
+            });
+            $(".cal-proximaSemana").click(function() {
+                inicioSemana.weekday(7);
+                diaVistaDetallada = moment(inicioSemana).weekday($("input[name=diaVistaDetallada]:checked").val());                
+                $(".cal-semanaAnterior").attr("disabled", false);
+                actualizarDisponibilidadDetallada();
+                actualizarCalendario();
+            });
+            
+            {# Interfaz de movimiento de los partidos sobre el horario #}
+            $("#listaPartidos .partido").each(function() {
+                idPartido = $(this).attr("class").split(' ')[0];
+                $(this).hacerDraggable( idPartido );
+            });                    
+            
+            //Hacer el chequeo de que todos los partidos están colocados correctamente
+{#            USAR ESTE CODIGO PARA QUE SE MAND EO NO DEPENDIENDO DE SI ESTÄ CORRECTO#}
+            {#$( "form" ).submit(function( event ) {
+            if ( $( "input:first" ).val() === "correct" ) {
+              $( "span" ).text( "Validated..." ).show();
+              return;
+            }
+
+            $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
+            event.preventDefault();
+          });#}
+            
+            $(".formCalendario").submit( function(event) {
+{#                event.preventDefault();#}
+                var partidos = '{ "partidos" : [';
+                 $("#listaPartidos .partido").each(function() {
+                    var idPartido = $(this).attr("class").split(' ')[0];
+                    idPartido = idPartido.replace('partido', '');
+                    var fechaPartido = $(this).find(".fechaPartido").text();
+                    var horaPartido = $(this).find(".horaPartido").text();
+                    var recursoPartido = $(this).find(".recursoPartido").text();
+                    partidos = partidos + '{ "id": "' + idPartido + '" , "recurso":"' + recursoPartido + '" , "fecha":"' + fechaPartido + '" , "hora":"' + horaPartido + '" },';
+                     
+                });
+                partidos = partidos.slice(0, -1);
+                partidos = partidos + " ]}"; //Objeto JSON creado para pasarlo a PHP
+                $(this).children('#form_asignacion').val(partidos);
+                alert(partidos);
+            });
+            
+           
+            
+        });
+    </script>
+{% endblock %}";}i:1;a:2:{i:0;s:6:"string";i:1;s:64:"PadelScheduleMainBundle:Competitions:generacionHorario.html.twig";}}}i:7;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:16:"Twig_Environment";s:5:"class";s:16:"Twig_Environment";s:4:"type";s:2:"->";s:8:"function";s:12:"loadTemplate";s:4:"file";s:90:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Bridge\Twig\TwigEngine.php";s:4:"line";i:126;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:64:"PadelScheduleMainBundle:Competitions:generacionHorario.html.twig";}}}i:8;a:8:{s:9:"namespace";s:19:"Symfony\Bridge\Twig";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:30:"Symfony\Bridge\Twig\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:4:"load";s:4:"file";s:90:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Bridge\Twig\TwigEngine.php";s:4:"line";i:50;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:64:"PadelScheduleMainBundle:Competitions:generacionHorario.html.twig";}}}i:9;a:8:{s:9:"namespace";s:19:"Symfony\Bridge\Twig";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:30:"Symfony\Bridge\Twig\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:6:"render";s:4:"file";s:96:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle\TwigEngine.php";s:4:"line";i:72;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:64:"PadelScheduleMainBundle:Competitions:generacionHorario.html.twig";}i:1;a:2:{i:0;s:5:"array";i:1;a:5:{s:8:"recursos";a:2:{i:0;s:5:"array";i:1;a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:39:"PadelSchedule\MainBundle\Entity\Recurso";}i:1;a:2:{i:0;s:6:"object";i:1;s:39:"PadelSchedule\MainBundle\Entity\Recurso";}}}s:8:"partidos";a:2:{i:0;s:5:"array";i:1;a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:39:"PadelSchedule\MainBundle\Entity\Partido";}}}s:11:"fechaInicio";a:2:{i:0;s:6:"string";i:1;s:10:"14-07-2017";}s:8:"fechaFin";a:2:{i:0;s:6:"string";i:1;s:10:"21-07-2017";}s:4:"form";a:2:{i:0;s:6:"object";i:1;s:31:"Symfony\Component\Form\FormView";}}}}}i:10;a:8:{s:9:"namespace";s:25:"Symfony\Bundle\TwigBundle";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:36:"Symfony\Bundle\TwigBundle\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:6:"render";s:4:"file";s:96:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle\TwigEngine.php";s:4:"line";i:97;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:64:"PadelScheduleMainBundle:Competitions:generacionHorario.html.twig";}i:1;a:2:{i:0;s:5:"array";i:1;a:5:{s:8:"recursos";a:2:{i:0;s:5:"array";i:1;a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:39:"PadelSchedule\MainBundle\Entity\Recurso";}i:1;a:2:{i:0;s:6:"object";i:1;s:39:"PadelSchedule\MainBundle\Entity\Recurso";}}}s:8:"partidos";a:2:{i:0;s:5:"array";i:1;a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:39:"PadelSchedule\MainBundle\Entity\Partido";}}}s:11:"fechaInicio";a:2:{i:0;s:6:"string";i:1;s:10:"14-07-2017";}s:8:"fechaFin";a:2:{i:0;s:6:"string";i:1;s:10:"21-07-2017";}s:4:"form";a:2:{i:0;s:6:"object";i:1;s:31:"Symfony\Component\Form\FormView";}}}}}i:11;a:8:{s:9:"namespace";s:25:"Symfony\Bundle\TwigBundle";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:36:"Symfony\Bundle\TwigBundle\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:14:"renderResponse";s:4:"file";s:112:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle\Controller\Controller.php";s:4:"line";i:176;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"string";i:1;s:64:"PadelScheduleMainBundle:Competitions:generacionHorario.html.twig";}i:1;a:2:{i:0;s:5:"array";i:1;a:5:{s:8:"recursos";a:2:{i:0;s:5:"array";i:1;a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:39:"PadelSchedule\MainBundle\Entity\Recurso";}i:1;a:2:{i:0;s:6:"object";i:1;s:39:"PadelSchedule\MainBundle\Entity\Recurso";}}}s:8:"partidos";a:2:{i:0;s:5:"array";i:1;a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:39:"PadelSchedule\MainBundle\Entity\Partido";}}}s:11:"fechaInicio";a:2:{i:0;s:6:"string";i:1;s:10:"14-07-2017";}s:8:"fechaFin";a:2:{i:0;s:6:"string";i:1;s:10:"21-07-2017";}s:4:"form";a:2:{i:0;s:6:"object";i:1;s:31:"Symfony\Component\Form\FormView";}}}i:2;a:2:{i:0;s:4:"null";i:1;N;}}}i:12;a:8:{s:9:"namespace";s:41:"Symfony\Bundle\FrameworkBundle\Controller";s:11:"short_class";s:10:"Controller";s:5:"class";s:52:"Symfony\Bundle\FrameworkBundle\Controller\Controller";s:4:"type";s:2:"->";s:8:"function";s:6:"render";s:4:"file";s:87:"C:\xampp\htdocs\PadelProject\src\PadelSchedule\MainBundle\Controller\MainController.php";s:4:"line";i:460;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:64:"PadelScheduleMainBundle:Competitions:generacionHorario.html.twig";}i:1;a:2:{i:0;s:5:"array";i:1;a:5:{s:8:"recursos";a:2:{i:0;s:5:"array";i:1;a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:39:"PadelSchedule\MainBundle\Entity\Recurso";}i:1;a:2:{i:0;s:6:"object";i:1;s:39:"PadelSchedule\MainBundle\Entity\Recurso";}}}s:8:"partidos";a:2:{i:0;s:5:"array";i:1;a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:39:"PadelSchedule\MainBundle\Entity\Partido";}}}s:11:"fechaInicio";a:2:{i:0;s:6:"string";i:1;s:10:"14-07-2017";}s:8:"fechaFin";a:2:{i:0;s:6:"string";i:1;s:10:"21-07-2017";}s:4:"form";a:2:{i:0;s:6:"object";i:1;s:31:"Symfony\Component\Form\FormView";}}}}}i:13;a:8:{s:9:"namespace";s:35:"PadelSchedule\MainBundle\Controller";s:11:"short_class";s:14:"MainController";s:5:"class";s:50:"PadelSchedule\MainBundle\Controller\MainController";s:4:"type";s:2:"->";s:8:"function";s:21:"generarHorarioJornada";s:4:"file";N;s:4:"line";N;s:4:"args";a:5:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:2:"10";}i:2;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:3;a:2:{i:0;s:6:"string";i:1;s:10:"14-07-2017";}i:4;a:2:{i:0;s:6:"string";i:1;s:10:"21-07-2017";}}}i:14;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:20:"call_user_func_array";s:4:"file";s:52:"C:\xampp\htdocs\PadelProject\app\bootstrap.php.cache";s:4:"line";i:3110;s:4:"args";a:2:{i:0;a:2:{i:0;s:5:"array";i:1;a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:50:"PadelSchedule\MainBundle\Controller\MainController";}i:1;a:2:{i:0;s:6:"string";i:1;s:21:"generarHorarioJornada";}}}i:1;a:2:{i:0;s:5:"array";i:1;a:5:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:2:"10";}i:2;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:3;a:2:{i:0;s:6:"string";i:1;s:10:"14-07-2017";}i:4;a:2:{i:0;s:6:"string";i:1;s:10:"21-07-2017";}}}}}i:15;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:10:"HttpKernel";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";s:8:"function";s:9:"handleRaw";s:4:"file";s:52:"C:\xampp\htdocs\PadelProject\app\bootstrap.php.cache";s:4:"line";i:3072;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}}}i:16;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:10:"HttpKernel";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:52:"C:\xampp\htdocs\PadelProject\app\bootstrap.php.cache";s:4:"line";i:3223;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:2;a:2:{i:0;s:7:"boolean";i:1;b:1;}}}i:17;a:8:{s:9:"namespace";s:48:"Symfony\Component\HttpKernel\DependencyInjection";s:11:"short_class";s:24:"ContainerAwareHttpKernel";s:5:"class";s:73:"Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:52:"C:\xampp\htdocs\PadelProject\app\bootstrap.php.cache";s:4:"line";i:2442;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:2;a:2:{i:0;s:7:"boolean";i:1;b:1;}}}i:18;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:6:"Kernel";s:5:"class";s:35:"Symfony\Component\HttpKernel\Kernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:44:"C:\xampp\htdocs\PadelProject\web\app_dev.php";s:4:"line";i:28;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}}}}s:57:" Symfony\Component\Debug\Exception\FlattenException class";s:17:"Twig_Error_Syntax";s:62:" Symfony\Component\Debug\Exception\FlattenException statusCode";i:500;s:59:" Symfony\Component\Debug\Exception\FlattenException headers";a:0:{}s:56:" Symfony\Component\Debug\Exception\FlattenException file";s:65:"C:\xampp\htdocs\PadelProject\vendor\twig\twig\lib\Twig\Parser.php";s:56:" Symfony\Component\Debug\Exception\FlattenException line";i:172;s:64:" Symfony\Component\HttpKernel\Exception\FlattenException handler";N;}}}s:6:"events";C:61:"Symfony\Component\HttpKernel\DataCollector\EventDataCollector":26691:{a:2:{s:16:"called_listeners";a:32:{s:90:"kernel.request.Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener";s:6:"method";s:9:"configure";s:4:"file";s:124:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\DebugHandlersListener.php";s:4:"line";i:63;s:6:"pretty";s:75:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";}s:91:"kernel.request.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:119:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ProfilerListener.php";s:4:"line";i:85;s:6:"pretty";s:76:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest";}s:92:"kernel.request.Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:60:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:16;s:6:"pretty";s:77:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest";}s:91:"kernel.request.Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\FragmentListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:119:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\FragmentListener.php";s:4:"line";i:56;s:6:"pretty";s:76:"Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest";}s:89:"kernel.request.Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:2035;s:6:"pretty";s:74:"Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest";}s:89:"kernel.request.Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:117:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\LocaleListener.php";s:4:"line";i:71;s:6:"pretty";s:74:"Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest";}s:93:"kernel.request.Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:61:"Symfony\Component\HttpKernel\EventListener\TranslatorListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:121:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\TranslatorListener.php";s:4:"line";i:38;s:6:"pretty";s:78:"Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest";}s:72:"kernel.request.Symfony\Component\Security\Http\Firewall::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:40:"Symfony\Component\Security\Http\Firewall";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:2563;s:6:"pretty";s:57:"Symfony\Component\Security\Http\Firewall::onKernelRequest";}s:90:"kernel.request.Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:58:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:92:"C:\xampp\htdocs\PadelProject\vendor\symfony\assetic-bundle\EventListener\RequestListener.php";s:4:"line";i:23;s:6:"pretty";s:75:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest";}s:102:"kernel.controller.Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector";s:6:"method";s:18:"onKernelController";s:4:"file";s:122:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\DataCollector\RouterDataCollector.php";s:4:"line";i:66;s:6:"pretty";s:84:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController";}s:86:"kernel.controller.Acme\DemoBundle\EventListener\ControllerListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:48:"Acme\DemoBundle\EventListener\ControllerListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:85:"C:\xampp\htdocs\PadelProject\src\Acme\DemoBundle\EventListener\ControllerListener.php";s:4:"line";i:18;s:6:"pretty";s:68:"Acme\DemoBundle\EventListener\ControllerListener::onKernelController";}s:101:"kernel.controller.Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector";s:6:"method";s:18:"onKernelController";s:4:"file";s:123:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\DataCollector\RequestDataCollector.php";s:4:"line";i:288;s:6:"pretty";s:83:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController";}s:105:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:67:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:7112;s:6:"pretty";s:87:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController";}s:109:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:71:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:7185;s:6:"pretty";s:91:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController";}s:104:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:66:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:7628;s:6:"pretty";s:86:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController";}s:103:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:7752;s:6:"pretty";s:85:"Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController";}s:103:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:7544;s:6:"pretty";s:85:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController";}s:90:"kernel.response.Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:56:"Symfony\Component\Security\Http\Firewall\ContextListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:116:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\Security\Http\Firewall\ContextListener.php";s:4:"line";i:108;s:6:"pretty";s:74:"Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse";}s:93:"kernel.response.Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:1958;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse";}s:93:"kernel.response.Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\Security\Http\RememberMe\ResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:119:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\Security\Http\RememberMe\ResponseListener.php";s:4:"line";i:28;s:6:"pretty";s:77:"Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse";}s:100:"kernel.response.Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:66:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:7658;s:6:"pretty";s:84:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse";}s:93:"kernel.response.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:119:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ProfilerListener.php";s:4:"line";i:97;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse";}s:104:"kernel.response.Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:70:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:130:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener.php";s:4:"line";i:59;s:6:"pretty";s:88:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse";}s:96:"kernel.response.Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:62:"Symfony\Component\HttpKernel\EventListener\SaveSessionListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:122:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\SaveSessionListener.php";s:4:"line";i:47;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse";}s:101:"kernel.response.Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:67:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:127:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\StreamedResponseListener.php";s:4:"line";i:32;s:6:"pretty";s:85:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse";}s:102:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:117:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\LocaleListener.php";s:4:"line";i:80;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest";}s:106:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:61:"Symfony\Component\HttpKernel\EventListener\TranslatorListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:121:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\TranslatorListener.php";s:4:"line";i:43;s:6:"pretty";s:84:"Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest";}s:102:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:2029;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest";}s:85:"kernel.finish_request.Symfony\Component\Security\Http\Firewall::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:40:"Symfony\Component\Security\Http\Firewall";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:2580;s:6:"pretty";s:63:"Symfony\Component\Security\Http\Firewall::onKernelFinishRequest";}s:94:"kernel.exception.Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:58:"Symfony\Component\Security\Http\Firewall\ExceptionListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:118:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\Security\Http\Firewall\ExceptionListener.php";s:4:"line";i:90;s:6:"pretty";s:77:"Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException";}s:95:"kernel.exception.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:119:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ProfilerListener.php";s:4:"line";i:73;s:6:"pretty";s:78:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException";}s:96:"kernel.exception.Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:60:"Symfony\Component\HttpKernel\EventListener\ExceptionListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:120:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ExceptionListener.php";s:4:"line";i:40;s:6:"pretty";s:79:"Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException";}}s:20:"not_called_listeners";a:20:{s:82:"kernel.terminate.Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke";a:7:{s:5:"event";s:16:"kernel.terminate";s:4:"type";s:6:"Method";s:5:"class";s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";s:6:"method";s:8:"__invoke";s:4:"file";s:115:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\EventDispatcher\Debug\WrappedListener.php";s:4:"line";i:55;s:6:"pretty";s:65:"Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke";}s:91:"console.command.Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";a:7:{s:5:"event";s:15:"console.command";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener";s:6:"method";s:9:"configure";s:4:"file";s:124:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\DebugHandlersListener.php";s:4:"line";i:63;s:6:"pretty";s:75:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";}s:72:"console.command.Symfony\Bridge\Monolog\Handler\ConsoleHandler::onCommand";a:7:{s:5:"event";s:15:"console.command";s:4:"type";s:6:"Method";s:5:"class";s:45:"Symfony\Bridge\Monolog\Handler\ConsoleHandler";s:6:"method";s:9:"onCommand";s:4:"file";s:105:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Bridge\Monolog\Handler\ConsoleHandler.php";s:4:"line";i:121;s:6:"pretty";s:56:"Symfony\Bridge\Monolog\Handler\ConsoleHandler::onCommand";}s:97:"console.terminate.Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onTerminate";a:7:{s:5:"event";s:17:"console.terminate";s:4:"type";s:6:"Method";s:5:"class";s:66:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener";s:6:"method";s:11:"onTerminate";s:4:"file";s:100:"C:\xampp\htdocs\PadelProject\vendor\symfony\swiftmailer-bundle\EventListener\EmailSenderListener.php";s:4:"line";i:46;s:6:"pretty";s:79:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onTerminate";}s:76:"console.terminate.Symfony\Bridge\Monolog\Handler\ConsoleHandler::onTerminate";a:7:{s:5:"event";s:17:"console.terminate";s:4:"type";s:6:"Method";s:5:"class";s:45:"Symfony\Bridge\Monolog\Handler\ConsoleHandler";s:6:"method";s:11:"onTerminate";s:4:"file";s:105:"C:\xampp\htdocs\PadelProject\vendor\symfony\symfony\src\Symfony\Bridge\Monolog\Handler\ConsoleHandler.php";s:4:"line";i:136;s:6:"pretty";s:58:"Symfony\Bridge\Monolog\Handler\ConsoleHandler::onTerminate";}s:91:"kernel.view.Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelView";a:7:{s:5:"event";s:11:"kernel.view";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";s:6:"method";s:12:"onKernelView";s:4:"file";s:54:"C:\xampp\htdocs\PadelProject\app\cache\dev\classes.php";s:4:"line";i:7556;s:6:"pretty";s:79:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelView";}s:96:"fos_user.security.implicit_login.FOS\UserBundle\EventListener\LastLoginListener::onImplicitLogin";a:7:{s:5:"event";s:32:"fos_user.security.implicit_login";s:4:"type";s:6:"Method";s:5:"class";s:46:"FOS\UserBundle\EventListener\LastLoginListener";s:6:"method";s:15:"onImplicitLogin";s:4:"file";s:100:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\LastLoginListener.php";s:4:"line";i:39;s:6:"pretty";s:63:"FOS\UserBundle\EventListener\LastLoginListener::onImplicitLogin";}s:101:"security.interactive_login.FOS\UserBundle\EventListener\LastLoginListener::onSecurityInteractiveLogin";a:7:{s:5:"event";s:26:"security.interactive_login";s:4:"type";s:6:"Method";s:5:"class";s:46:"FOS\UserBundle\EventListener\LastLoginListener";s:6:"method";s:26:"onSecurityInteractiveLogin";s:4:"file";s:100:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\LastLoginListener.php";s:4:"line";i:47;s:6:"pretty";s:74:"FOS\UserBundle\EventListener\LastLoginListener::onSecurityInteractiveLogin";}s:97:"fos_user.registration.completed.FOS\UserBundle\EventListener\AuthenticationListener::authenticate";a:7:{s:5:"event";s:31:"fos_user.registration.completed";s:4:"type";s:6:"Method";s:5:"class";s:51:"FOS\UserBundle\EventListener\AuthenticationListener";s:6:"method";s:12:"authenticate";s:4:"file";s:105:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\AuthenticationListener.php";s:4:"line";i:42;s:6:"pretty";s:65:"FOS\UserBundle\EventListener\AuthenticationListener::authenticate";}s:91:"fos_user.registration.completed.FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";a:7:{s:5:"event";s:31:"fos_user.registration.completed";s:4:"type";s:6:"Method";s:5:"class";s:42:"FOS\UserBundle\EventListener\FlashListener";s:6:"method";s:15:"addSuccessFlash";s:4:"file";s:96:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\FlashListener.php";s:4:"line";i:54;s:6:"pretty";s:59:"FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";}s:97:"fos_user.registration.confirmed.FOS\UserBundle\EventListener\AuthenticationListener::authenticate";a:7:{s:5:"event";s:31:"fos_user.registration.confirmed";s:4:"type";s:6:"Method";s:5:"class";s:51:"FOS\UserBundle\EventListener\AuthenticationListener";s:6:"method";s:12:"authenticate";s:4:"file";s:105:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\AuthenticationListener.php";s:4:"line";i:42;s:6:"pretty";s:65:"FOS\UserBundle\EventListener\AuthenticationListener::authenticate";}s:100:"fos_user.resetting.reset.completed.FOS\UserBundle\EventListener\AuthenticationListener::authenticate";a:7:{s:5:"event";s:34:"fos_user.resetting.reset.completed";s:4:"type";s:6:"Method";s:5:"class";s:51:"FOS\UserBundle\EventListener\AuthenticationListener";s:6:"method";s:12:"authenticate";s:4:"file";s:105:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\AuthenticationListener.php";s:4:"line";i:42;s:6:"pretty";s:65:"FOS\UserBundle\EventListener\AuthenticationListener::authenticate";}s:94:"fos_user.resetting.reset.completed.FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";a:7:{s:5:"event";s:34:"fos_user.resetting.reset.completed";s:4:"type";s:6:"Method";s:5:"class";s:42:"FOS\UserBundle\EventListener\FlashListener";s:6:"method";s:15:"addSuccessFlash";s:4:"file";s:96:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\FlashListener.php";s:4:"line";i:54;s:6:"pretty";s:59:"FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";}s:99:"fos_user.change_password.edit.completed.FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";a:7:{s:5:"event";s:39:"fos_user.change_password.edit.completed";s:4:"type";s:6:"Method";s:5:"class";s:42:"FOS\UserBundle\EventListener\FlashListener";s:6:"method";s:15:"addSuccessFlash";s:4:"file";s:96:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\FlashListener.php";s:4:"line";i:54;s:6:"pretty";s:59:"FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";}s:91:"fos_user.group.create.completed.FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";a:7:{s:5:"event";s:31:"fos_user.group.create.completed";s:4:"type";s:6:"Method";s:5:"class";s:42:"FOS\UserBundle\EventListener\FlashListener";s:6:"method";s:15:"addSuccessFlash";s:4:"file";s:96:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\FlashListener.php";s:4:"line";i:54;s:6:"pretty";s:59:"FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";}s:91:"fos_user.group.delete.completed.FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";a:7:{s:5:"event";s:31:"fos_user.group.delete.completed";s:4:"type";s:6:"Method";s:5:"class";s:42:"FOS\UserBundle\EventListener\FlashListener";s:6:"method";s:15:"addSuccessFlash";s:4:"file";s:96:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\FlashListener.php";s:4:"line";i:54;s:6:"pretty";s:59:"FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";}s:89:"fos_user.group.edit.completed.FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";a:7:{s:5:"event";s:29:"fos_user.group.edit.completed";s:4:"type";s:6:"Method";s:5:"class";s:42:"FOS\UserBundle\EventListener\FlashListener";s:6:"method";s:15:"addSuccessFlash";s:4:"file";s:96:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\FlashListener.php";s:4:"line";i:54;s:6:"pretty";s:59:"FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";}s:91:"fos_user.profile.edit.completed.FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";a:7:{s:5:"event";s:31:"fos_user.profile.edit.completed";s:4:"type";s:6:"Method";s:5:"class";s:42:"FOS\UserBundle\EventListener\FlashListener";s:6:"method";s:15:"addSuccessFlash";s:4:"file";s:96:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\FlashListener.php";s:4:"line";i:54;s:6:"pretty";s:59:"FOS\UserBundle\EventListener\FlashListener::addSuccessFlash";}s:110:"fos_user.resetting.reset.initialize.FOS\UserBundle\EventListener\ResettingListener::onResettingResetInitialize";a:7:{s:5:"event";s:35:"fos_user.resetting.reset.initialize";s:4:"type";s:6:"Method";s:5:"class";s:46:"FOS\UserBundle\EventListener\ResettingListener";s:6:"method";s:26:"onResettingResetInitialize";s:4:"file";s:100:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\ResettingListener.php";s:4:"line";i:40;s:6:"pretty";s:74:"FOS\UserBundle\EventListener\ResettingListener::onResettingResetInitialize";}s:104:"fos_user.resetting.reset.success.FOS\UserBundle\EventListener\ResettingListener::onResettingResetSuccess";a:7:{s:5:"event";s:32:"fos_user.resetting.reset.success";s:4:"type";s:6:"Method";s:5:"class";s:46:"FOS\UserBundle\EventListener\ResettingListener";s:6:"method";s:23:"onResettingResetSuccess";s:4:"file";s:100:"C:\xampp\htdocs\PadelProject\vendor\friendsofsymfony\user-bundle\EventListener\ResettingListener.php";s:4:"line";i:47;s:6:"pretty";s:71:"FOS\UserBundle\EventListener\ResettingListener::onResettingResetSuccess";}}}}s:6:"logger";C:62:"Symfony\Component\HttpKernel\DataCollector\LoggerDataCollector":20260:{a:5:{s:11:"error_count";i:1;s:17:"deprecation_count";i:0;s:12:"scream_count";i:0;s:10:"priorities";a:3:{i:100;a:2:{s:5:"count";i:67;s:4:"name";s:5:"DEBUG";}i:200;a:2:{s:5:"count";i:1;s:4:"name";s:4:"INFO";}i:500;a:2:{s:5:"count";i:1;s:4:"name";s:8:"CRITICAL";}}s:4:"logs";a:69:{i:0;a:5:{s:9:"timestamp";i:1499980879;s:7:"message";s:31:"Matched route "generarHorario".";s:8:"priority";i:200;s:12:"priorityName";s:4:"INFO";s:7:"context";a:2:{s:16:"route_parameters";a:6:{s:11:"_controller";s:73:"PadelSchedule\MainBundle\Controller\MainController::generarHorarioJornada";s:13:"idCompeticion";s:2:"10";s:7:"jornada";s:1:"1";s:11:"fechaInicio";s:10:"14-07-2017";s:8:"fechaFin";s:10:"21-07-2017";s:6:"_route";s:14:"generarHorario";}s:11:"request_uri";s:95:"http://localhost:1337/PadelProject/web/app_dev.php/generacionHorario/10/1/14-07-2017/21-07-2017";}}i:1;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:46:"Read existing security token from the session.";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:1:{s:3:"key";s:14:"_security_main";}}i:2;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:769:"SELECT t0.username AS username_1, t0.username_canonical AS username_canonical_2, t0.email AS email_3, t0.email_canonical AS email_canonical_4, t0.enabled AS enabled_5, t0.salt AS salt_6, t0.password AS password_7, t0.last_login AS last_login_8, t0.locked AS locked_9, t0.expired AS expired_10, t0.expires_at AS expires_at_11, t0.confirmation_token AS confirmation_token_12, t0.password_requested_at AS password_requested_at_13, t0.roles AS roles_14, t0.credentials_expired AS credentials_expired_15, t0.credentials_expire_at AS credentials_expire_at_16, t0.id AS id_17, t0.nombre AS nombre_18, t0.apellidos AS apellidos_19, t0.telefono AS telefono_20, t0.fechaNacimiento AS fechaNacimiento_21, t0.fotoPerfilRuta AS fotoPerfilRuta_22 FROM user t0 WHERE t0.id = ? LIMIT 1";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:1:{i:0;i:1;}}i:3;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:39:"User was reloaded from a user provider.";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:2:{s:8:"username";s:4:"aday";s:8:"provider";s:36:"FOS\UserBundle\Security\UserProvider";}}i:4;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:5;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:6;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:7;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:8;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:9;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:10;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:125:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:11;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:104:"Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:12;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:13;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:134:"Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:14;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:118:"Notified event "kernel.controller" to listener "Acme\DemoBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:15;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:133:"Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:16;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:137:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:17;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:141:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:18;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:136:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:19;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:20;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:21;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:441:"SELECT t0.id AS id_1, t0.club AS club_2, t0.cancha AS cancha_3, t0.horarioLunes AS horarioLunes_4, t0.horarioMartes AS horarioMartes_5, t0.horarioMiercoles AS horarioMiercoles_6, t0.horarioJueves AS horarioJueves_7, t0.horarioViernes AS horarioViernes_8, t0.horarioSabado AS horarioSabado_9, t0.horarioDomingo AS horarioDomingo_10, t0.direccion AS direccion_11, t0.idCompeticion AS idCompeticion_12 FROM Recurso t0 WHERE t0.idCompeticion = ?";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:1:{i:0;s:2:"10";}}i:22;a:5:{s:9:"timestamp";i:1499980880;s:7:"message";s:487:"SELECT t0.id AS id_1, t0.jornada AS jornada_2, t0.fechaHora AS fechaHora_3, t0.recursoAsignado AS recursoAsignado_4, t0.resultadoPropuesto1 AS resultadoPropuesto1_5, t0.resultadoPropuesto2 AS resultadoPropuesto2_6, t0.resultadoFinal AS resultadoFinal_7, t0.resultadoConfirmado AS resultadoConfirmado_8, t0.inscripcion1_id AS inscripcion1_id_9, t0.inscripcion2_id AS inscripcion2_id_10, t0.competicion_id AS competicion_id_11 FROM Partido t0 WHERE t0.jornada = ? AND t0.competicion_id = ?";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:2:{i:0;s:1:"1";i:1;s:2:"10";}}i:23;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:293:"Uncaught PHP Exception Twig_Error_Syntax: "Unexpected "endfor" tag (expecting closing tag for the "block" tag defined near line 99) in "PadelScheduleMainBundle:Competitions:generacionHorario.html.twig" at line 218." at C:\xampp\htdocs\PadelProject\vendor\twig\twig\lib\Twig\Parser.php line 172";s:8:"priority";i:500;s:12:"priorityName";s:8:"CRITICAL";s:7:"context";a:1:{s:9:"exception";s:25:"Object(Twig_Error_Syntax)";}}i:24;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:25;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:26;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:27;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:28;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:29;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:30;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:125:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:31;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:104:"Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:32;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:33;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:134:"Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:34;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:118:"Notified event "kernel.controller" to listener "Acme\DemoBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:35;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:133:"Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:36;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:137:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:37;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:141:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:38;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:136:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:39;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:40;a:5:{s:9:"timestamp";i:1499980881;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:41;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:122:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:42;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:43;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:44;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:132:"Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:45;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:46;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:136:"Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:47;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:128:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:48;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:133:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:49;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:50;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:138:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:51;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:52;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:117:"Notified event "kernel.finish_request" to listener "Symfony\Component\Security\Http\Firewall::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:53;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:126:"Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:54;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:127:"Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:55;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:128:"Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:56;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:143:"Listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException" stopped propagation of the event "kernel.exception".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:57;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:41:"Stored the security token in the session.";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:1:{s:3:"key";s:14:"_security_main";}}i:58;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:59;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:60;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:132:"Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:61;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:62;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:136:"Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:63;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:128:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:64;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:133:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:65;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:66;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:138:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:67;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:68;a:5:{s:9:"timestamp";i:1499980882;s:7:"message";s:117:"Notified event "kernel.finish_request" to listener "Symfony\Component\Security\Http\Firewall::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}}}}s:4:"time";C:60:"Symfony\Component\HttpKernel\DataCollector\TimeDataCollector":29285:{a:2:{s:10:"start_time";d:1499980879246.864013671875;s:6:"events";a:40:{s:11:"__section__";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2520;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2534;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2610;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:14:"kernel.request";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:763;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11534336;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:64:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5767168;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:4:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5767168;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1559;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1559;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:16515072;}i:2;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2494;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2495;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}i:3;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2534;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2610;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:60:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:14;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5767168;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\FragmentListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:14;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:14;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:5767168;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:14;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:50;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:6029312;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2485;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2485;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:50;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:50;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:6029312;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2485;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2485;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:61:"Symfony\Component\HttpKernel\EventListener\TranslatorListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:50;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:50;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:6029312;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2485;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2485;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:40:"Symfony\Component\Security\Http\Firewall";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:50;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:763;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11534336;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2485;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2485;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:8:"doctrine";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:3:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:617;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:622;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:10747904;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:990;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:992;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:13631488;}i:2;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1092;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1093;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:13893632;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:8:"doctrine";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:58:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:763;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:763;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11534336;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:23:"controller.get_callable";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:766;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:772;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11796480;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:17:"kernel.controller";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:788;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:795;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11796480;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:788;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:788;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11796480;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:48:"Acme\DemoBundle\EventListener\ControllerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:788;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:788;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11796480;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:788;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:788;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11796480;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:67:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:788;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:795;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11796480;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:71:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:795;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:795;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11796480;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:66:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:795;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:795;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11796480;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2494;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2494;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:795;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:795;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11796480;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:795;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:795;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11796480;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:10:"controller";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:795;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2493;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:24:"controller.get_arguments";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:797;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:797;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:11796480;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:16:"kernel.exception";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1558;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2491;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:58:"Symfony\Component\Security\Http\Firewall\ExceptionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1558;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1558;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:16515072;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:60:"Symfony\Component\HttpKernel\EventListener\ExceptionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1559;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2491;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:17:"__section__.child";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1615;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2478;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:21:"kernel.finish_request";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2485;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2485;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:15:"kernel.response";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2493;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2519;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:56:"Symfony\Component\Security\Http\Firewall\ContextListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2493;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2494;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\ResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2494;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2494;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\Security\Http\RememberMe\ResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2494;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2494;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:70:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2495;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2513;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:42:"@WebProfiler/Profiler/toolbar_js.html.twig";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2508;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2513;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:8:"template";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:39:"@WebProfiler/Profiler/base_js.html.twig";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2512;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2513;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18087936;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:8:"template";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:62:"Symfony\Component\HttpKernel\EventListener\SaveSessionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2513;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2519;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:67:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2519;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2519;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:16:"kernel.terminate";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2534;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2610;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:66:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2534;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2534;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1499980879861.199951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}}}}s:6:"memory";C:62:"Symfony\Component\HttpKernel\DataCollector\MemoryDataCollector":62:{a:2:{s:6:"memory";i:23855104;s:12:"memory_limit";i:134217728;}}s:6:"router";C:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector":51:{a:3:{s:8:"redirect";b:0;s:3:"url";N;s:5:"route";N;}}s:4:"form";C:64:"Symfony\Component\Form\Extension\DataCollector\FormDataCollector":9984:{a:3:{s:5:"forms";a:1:{s:4:"form";a:11:{s:2:"id";s:4:"form";s:4:"name";s:4:"form";s:9:"view_vars";a:27:{s:6:"action";s:0:"";s:4:"attr";s:2:"[]";s:14:"block_prefixes";s:23:"[0 => form, 1 => _form]";s:9:"cache_key";s:10:"_form_form";s:8:"compound";s:4:"true";s:4:"data";s:2:"[]";s:8:"disabled";s:5:"false";s:6:"errors";s:48:"Object(Symfony\Component\Form\FormErrorIterator)";s:4:"form";s:39:"Object(Symfony\Component\Form\FormView)";s:9:"full_name";s:4:"form";s:2:"id";s:4:"form";s:5:"label";s:4:"null";s:10:"label_attr";s:2:"[]";s:12:"label_format";s:4:"null";s:10:"max_length";s:4:"null";s:6:"method";s:4:"POST";s:9:"multipart";s:5:"false";s:4:"name";s:4:"form";s:7:"pattern";s:4:"null";s:9:"read_only";s:5:"false";s:8:"required";s:4:"true";s:4:"size";s:4:"null";s:9:"submitted";s:5:"false";s:18:"translation_domain";s:4:"null";s:19:"unique_block_prefix";s:5:"_form";s:5:"valid";s:4:"true";s:5:"value";s:2:"[]";}s:4:"type";s:4:"form";s:10:"type_class";s:51:"Symfony\Component\Form\Extension\Core\Type\FormType";s:12:"synchronized";s:4:"true";s:14:"passed_options";a:1:{s:4:"data";s:2:"[]";}s:16:"resolved_options";a:41:{s:6:"action";s:0:"";s:18:"allow_extra_fields";s:5:"false";s:4:"attr";s:2:"[]";s:15:"auto_initialize";s:4:"true";s:10:"block_name";s:4:"null";s:12:"by_reference";s:4:"true";s:18:"cascade_validation";s:5:"false";s:8:"compound";s:4:"true";s:11:"constraints";s:2:"[]";s:15:"csrf_field_name";s:6:"_token";s:12:"csrf_message";s:59:"The CSRF token is invalid. Please try to resubmit the form.";s:15:"csrf_protection";s:4:"true";s:13:"csrf_provider";s:56:"Object(Symfony\Component\Security\Csrf\CsrfTokenManager)";s:13:"csrf_token_id";s:4:"null";s:18:"csrf_token_manager";s:56:"Object(Symfony\Component\Security\Csrf\CsrfTokenManager)";s:4:"data";s:2:"[]";s:10:"data_class";s:4:"null";s:8:"disabled";s:5:"false";s:10:"empty_data";s:15:"Object(Closure)";s:14:"error_bubbling";s:4:"true";s:13:"error_mapping";s:2:"[]";s:20:"extra_fields_message";s:42:"This form should not contain extra fields.";s:12:"inherit_data";s:5:"false";s:9:"intention";s:4:"null";s:15:"invalid_message";s:24:"This value is not valid.";s:26:"invalid_message_parameters";s:2:"[]";s:5:"label";s:4:"null";s:10:"label_attr";s:2:"[]";s:12:"label_format";s:4:"null";s:6:"mapped";s:4:"true";s:10:"max_length";s:4:"null";s:6:"method";s:4:"POST";s:7:"pattern";s:4:"null";s:21:"post_max_size_message";s:69:"The uploaded file was too large. Please try to upload a smaller file.";s:13:"property_path";s:4:"null";s:9:"read_only";s:5:"false";s:8:"required";s:4:"true";s:18:"translation_domain";s:4:"null";s:4:"trim";s:4:"true";s:17:"validation_groups";s:4:"null";s:7:"virtual";s:4:"null";}s:12:"default_data";a:1:{s:4:"norm";s:2:"[]";}s:14:"submitted_data";a:0:{}s:8:"children";a:3:{s:10:"asignacion";a:11:{s:2:"id";s:15:"form_asignacion";s:4:"name";s:10:"asignacion";s:9:"view_vars";a:27:{s:6:"action";s:0:"";s:4:"attr";s:2:"[]";s:14:"block_prefixes";s:47:"[0 => form, 1 => hidden, 2 => _form_asignacion]";s:9:"cache_key";s:23:"_form_asignacion_hidden";s:8:"compound";s:5:"false";s:4:"data";s:4:"null";s:8:"disabled";s:5:"false";s:6:"errors";s:48:"Object(Symfony\Component\Form\FormErrorIterator)";s:4:"form";s:39:"Object(Symfony\Component\Form\FormView)";s:9:"full_name";s:16:"form[asignacion]";s:2:"id";s:15:"form_asignacion";s:5:"label";s:4:"null";s:10:"label_attr";s:2:"[]";s:12:"label_format";s:4:"null";s:10:"max_length";s:4:"null";s:6:"method";s:4:"POST";s:9:"multipart";s:5:"false";s:4:"name";s:10:"asignacion";s:7:"pattern";s:4:"null";s:9:"read_only";s:5:"false";s:8:"required";s:5:"false";s:4:"size";s:4:"null";s:9:"submitted";s:5:"false";s:18:"translation_domain";s:4:"null";s:19:"unique_block_prefix";s:16:"_form_asignacion";s:5:"valid";s:4:"true";s:5:"value";s:0:"";}s:4:"type";s:6:"hidden";s:10:"type_class";s:53:"Symfony\Component\Form\Extension\Core\Type\HiddenType";s:12:"synchronized";s:4:"true";s:14:"passed_options";a:0:{}s:16:"resolved_options";a:40:{s:6:"action";s:0:"";s:18:"allow_extra_fields";s:5:"false";s:4:"attr";s:2:"[]";s:15:"auto_initialize";s:4:"true";s:10:"block_name";s:4:"null";s:12:"by_reference";s:4:"true";s:18:"cascade_validation";s:5:"false";s:8:"compound";s:5:"false";s:11:"constraints";s:2:"[]";s:15:"csrf_field_name";s:6:"_token";s:12:"csrf_message";s:59:"The CSRF token is invalid. Please try to resubmit the form.";s:15:"csrf_protection";s:4:"true";s:13:"csrf_provider";s:56:"Object(Symfony\Component\Security\Csrf\CsrfTokenManager)";s:13:"csrf_token_id";s:4:"null";s:18:"csrf_token_manager";s:56:"Object(Symfony\Component\Security\Csrf\CsrfTokenManager)";s:10:"data_class";s:4:"null";s:8:"disabled";s:5:"false";s:10:"empty_data";s:15:"Object(Closure)";s:14:"error_bubbling";s:4:"true";s:13:"error_mapping";s:2:"[]";s:20:"extra_fields_message";s:42:"This form should not contain extra fields.";s:12:"inherit_data";s:5:"false";s:9:"intention";s:4:"null";s:15:"invalid_message";s:24:"This value is not valid.";s:26:"invalid_message_parameters";s:2:"[]";s:5:"label";s:4:"null";s:10:"label_attr";s:2:"[]";s:12:"label_format";s:4:"null";s:6:"mapped";s:4:"true";s:10:"max_length";s:4:"null";s:6:"method";s:4:"POST";s:7:"pattern";s:4:"null";s:21:"post_max_size_message";s:69:"The uploaded file was too large. Please try to upload a smaller file.";s:13:"property_path";s:4:"null";s:9:"read_only";s:5:"false";s:8:"required";s:5:"false";s:18:"translation_domain";s:4:"null";s:4:"trim";s:4:"true";s:17:"validation_groups";s:4:"null";s:7:"virtual";s:4:"null";}s:12:"default_data";a:2:{s:4:"norm";s:4:"null";s:4:"view";s:0:"";}s:14:"submitted_data";a:0:{}s:8:"children";a:0:{}}s:4:"send";a:11:{s:2:"id";s:9:"form_send";s:4:"name";s:4:"send";s:9:"view_vars";a:15:{s:4:"attr";s:2:"[]";s:14:"block_prefixes";s:43:"[0 => button, 1 => submit, 2 => _form_send]";s:9:"cache_key";s:17:"_form_send_submit";s:7:"clicked";s:5:"false";s:8:"disabled";s:5:"false";s:4:"form";s:39:"Object(Symfony\Component\Form\FormView)";s:9:"full_name";s:10:"form[send]";s:2:"id";s:9:"form_send";s:5:"label";s:4:"null";s:12:"label_format";s:4:"null";s:9:"multipart";s:5:"false";s:4:"name";s:4:"send";s:18:"translation_domain";s:4:"null";s:19:"unique_block_prefix";s:10:"_form_send";s:5:"value";s:4:"null";}s:4:"type";s:6:"submit";s:10:"type_class";s:53:"Symfony\Component\Form\Extension\Core\Type\SubmitType";s:12:"synchronized";s:4:"true";s:14:"passed_options";a:0:{}s:16:"resolved_options";a:8:{s:4:"attr";s:2:"[]";s:15:"auto_initialize";s:5:"false";s:10:"block_name";s:4:"null";s:8:"disabled";s:5:"false";s:5:"label";s:4:"null";s:12:"label_format";s:4:"null";s:18:"translation_domain";s:4:"null";s:17:"validation_groups";s:4:"null";}s:12:"default_data";a:1:{s:4:"norm";s:4:"null";}s:14:"submitted_data";a:0:{}s:8:"children";a:0:{}}s:6:"_token";a:11:{s:2:"id";s:6:"_token";s:4:"name";s:6:"_token";s:9:"view_vars";a:27:{s:6:"action";s:0:"";s:4:"attr";s:2:"[]";s:14:"block_prefixes";s:43:"[0 => form, 1 => hidden, 2 => _form__token]";s:9:"cache_key";s:19:"_form__token_hidden";s:8:"compound";s:5:"false";s:4:"data";s:43:"mfP4ke2fYtvMOfBgFUVyxWwo5ET0KJAQ24GQ4rxEup8";s:8:"disabled";s:5:"false";s:6:"errors";s:48:"Object(Symfony\Component\Form\FormErrorIterator)";s:4:"form";s:39:"Object(Symfony\Component\Form\FormView)";s:9:"full_name";s:12:"form[_token]";s:2:"id";s:11:"form__token";s:5:"label";s:4:"null";s:10:"label_attr";s:2:"[]";s:12:"label_format";s:4:"null";s:10:"max_length";s:4:"null";s:6:"method";s:4:"POST";s:9:"multipart";s:5:"false";s:4:"name";s:6:"_token";s:7:"pattern";s:4:"null";s:9:"read_only";s:5:"false";s:8:"required";s:5:"false";s:4:"size";s:4:"null";s:9:"submitted";s:5:"false";s:18:"translation_domain";s:4:"null";s:19:"unique_block_prefix";s:12:"_form__token";s:5:"valid";s:4:"true";s:5:"value";s:43:"mfP4ke2fYtvMOfBgFUVyxWwo5ET0KJAQ24GQ4rxEup8";}s:4:"type";s:6:"hidden";s:10:"type_class";s:53:"Symfony\Component\Form\Extension\Core\Type\HiddenType";s:12:"synchronized";s:4:"true";s:14:"passed_options";a:2:{s:4:"data";s:43:"mfP4ke2fYtvMOfBgFUVyxWwo5ET0KJAQ24GQ4rxEup8";s:6:"mapped";s:5:"false";}s:16:"resolved_options";a:41:{s:6:"action";s:0:"";s:18:"allow_extra_fields";s:5:"false";s:4:"attr";s:2:"[]";s:15:"auto_initialize";s:4:"true";s:10:"block_name";s:4:"null";s:12:"by_reference";s:4:"true";s:18:"cascade_validation";s:5:"false";s:8:"compound";s:5:"false";s:11:"constraints";s:2:"[]";s:15:"csrf_field_name";s:6:"_token";s:12:"csrf_message";s:59:"The CSRF token is invalid. Please try to resubmit the form.";s:15:"csrf_protection";s:4:"true";s:13:"csrf_provider";s:56:"Object(Symfony\Component\Security\Csrf\CsrfTokenManager)";s:13:"csrf_token_id";s:4:"null";s:18:"csrf_token_manager";s:56:"Object(Symfony\Component\Security\Csrf\CsrfTokenManager)";s:4:"data";s:43:"mfP4ke2fYtvMOfBgFUVyxWwo5ET0KJAQ24GQ4rxEup8";s:10:"data_class";s:4:"null";s:8:"disabled";s:5:"false";s:10:"empty_data";s:15:"Object(Closure)";s:14:"error_bubbling";s:4:"true";s:13:"error_mapping";s:2:"[]";s:20:"extra_fields_message";s:42:"This form should not contain extra fields.";s:12:"inherit_data";s:5:"false";s:9:"intention";s:4:"null";s:15:"invalid_message";s:24:"This value is not valid.";s:26:"invalid_message_parameters";s:2:"[]";s:5:"label";s:4:"null";s:10:"label_attr";s:2:"[]";s:12:"label_format";s:4:"null";s:6:"mapped";s:5:"false";s:10:"max_length";s:4:"null";s:6:"method";s:4:"POST";s:7:"pattern";s:4:"null";s:21:"post_max_size_message";s:69:"The uploaded file was too large. Please try to upload a smaller file.";s:13:"property_path";s:4:"null";s:9:"read_only";s:5:"false";s:8:"required";s:5:"false";s:18:"translation_domain";s:4:"null";s:4:"trim";s:4:"true";s:17:"validation_groups";s:4:"null";s:7:"virtual";s:4:"null";}s:12:"default_data";a:1:{s:4:"norm";s:43:"mfP4ke2fYtvMOfBgFUVyxWwo5ET0KJAQ24GQ4rxEup8";}s:14:"submitted_data";a:0:{}s:8:"children";a:0:{}}}}}s:13:"forms_by_hash";a:4:{s:32:"000000001ccbcc6e00000000573a8eca";R:1870;s:32:"000000001ccbcc6200000000573a8eca";R:1952;s:32:"000000001ccbcc6600000000573a8eca";R:2033;s:32:"000000001ccbcdc800000000573a8eca";R:2069;}s:9:"nb_errors";i:0;}}s:11:"translation";C:68:"Symfony\Component\Translation\DataCollector\TranslationDataCollector":51:{a:4:{i:0;i:0;i:1;i:0;i:2;i:0;s:8:"messages";a:0:{}}}s:4:"twig";C:51:"Symfony\Bridge\Twig\DataCollector\TwigDataCollector":18296:{a:1:{s:7:"profile";s:18265:"C:21:"Twig_Profiler_Profile":18228:{a:6:{i:0;s:4:"main";i:1;s:4:"main";i:2;s:4:"ROOT";i:3;a:3:{s:2:"wt";d:1499980879.8487069606781005859375;s:2:"mu";i:5397336;s:3:"pmu";i:5415096;}i:4;a:3:{s:2:"wt";d:1499980882.3745210170745849609375;s:2:"mu";i:17582784;s:3:"pmu";i:22903496;}i:5;a:2:{i:0;C:21:"Twig_Profiler_Profile":17196:{a:6:{i:0;s:45:"TwigBundle:Exception:exception_full.html.twig";i:1;s:45:"TwigBundle:Exception:exception_full.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980881.6419909000396728515625;s:2:"mu";i:16495256;s:3:"pmu";i:16530264;}i:4;a:3:{s:2:"wt";d:1499980882.310389041900634765625;s:2:"mu";i:17007744;s:3:"pmu";i:22903496;}i:5;a:1:{i:0;C:21:"Twig_Profiler_Profile":16815:{a:6:{i:0;s:28:"TwigBundle::layout.html.twig";i:1;s:28:"TwigBundle::layout.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980881.6420650482177734375;s:2:"mu";i:16497960;s:3:"pmu";i:16530264;}i:4;a:3:{s:2:"wt";d:1499980882.3103659152984619140625;s:2:"mu";i:17010376;s:3:"pmu";i:22903496;}i:5;a:3:{i:0;C:21:"Twig_Profiler_Profile":295:{a:6:{i:0;s:45:"TwigBundle:Exception:exception_full.html.twig";i:1;s:5:"title";i:2;s:5:"block";i:3;a:3:{s:2:"wt";d:1499980881.6421229839324951171875;s:2:"mu";i:16503064;s:3:"pmu";i:16530264;}i:4;a:3:{s:2:"wt";d:1499980881.64223003387451171875;s:2:"mu";i:16508008;s:3:"pmu";i:16530264;}i:5;a:0:{}}}i:1;C:21:"Twig_Profiler_Profile":296:{a:6:{i:0;s:45:"TwigBundle:Exception:exception_full.html.twig";i:1;s:4:"head";i:2;s:5:"block";i:3;a:3:{s:2:"wt";d:1499980881.6424291133880615234375;s:2:"mu";i:16509416;s:3:"pmu";i:16530264;}i:4;a:3:{s:2:"wt";d:1499980881.6424911022186279296875;s:2:"mu";i:16509792;s:3:"pmu";i:16530264;}i:5;a:0:{}}}i:2;C:21:"Twig_Profiler_Profile":15801:{a:6:{i:0;s:45:"TwigBundle:Exception:exception_full.html.twig";i:1;s:4:"body";i:2;s:5:"block";i:3;a:3:{s:2:"wt";d:1499980881.6425120830535888671875;s:2:"mu";i:16510608;s:3:"pmu";i:16530264;}i:4;a:3:{s:2:"wt";d:1499980882.3103539943695068359375;s:2:"mu";i:17011872;s:3:"pmu";i:22903496;}i:5;a:1:{i:0;C:21:"Twig_Profiler_Profile":15464:{a:6:{i:0;s:40:"TwigBundle:Exception:exception.html.twig";i:1;s:40:"TwigBundle:Exception:exception.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980881.677546977996826171875;s:2:"mu";i:16574528;s:3:"pmu";i:16621832;}i:4;a:3:{s:2:"wt";d:1499980882.310328006744384765625;s:2:"mu";i:17014984;s:3:"pmu";i:22903496;}i:5;a:3:{i:0;C:21:"Twig_Profiler_Profile":7186:{a:6:{i:0;s:37:"TwigBundle:Exception:traces.html.twig";i:1;s:37:"TwigBundle:Exception:traces.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980881.728252887725830078125;s:2:"mu";i:16619320;s:3:"pmu";i:16677112;}i:4;a:3:{s:2:"wt";d:1499980882.148559093475341796875;s:2:"mu";i:16823216;s:3:"pmu";i:22903496;}i:5;a:19:{i:0;C:21:"Twig_Profiler_Profile":322:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980881.795425891876220703125;s:2:"mu";i:16671392;s:3:"pmu";i:16725464;}i:4;a:3:{s:2:"wt";d:1499980881.7999479770660400390625;s:2:"mu";i:16689384;s:3:"pmu";i:17018056;}i:5;a:0:{}}}i:1;C:21:"Twig_Profiler_Profile":320:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980881.80008411407470703125;s:2:"mu";i:16690272;s:3:"pmu";i:17018056;}i:4;a:3:{s:2:"wt";d:1499980881.802257061004638671875;s:2:"mu";i:16690912;s:3:"pmu";i:17018056;}i:5;a:0:{}}}i:2;C:21:"Twig_Profiler_Profile":322:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980881.8023350238800048828125;s:2:"mu";i:16691760;s:3:"pmu";i:17018056;}i:4;a:3:{s:2:"wt";d:1499980881.806684970855712890625;s:2:"mu";i:16692288;s:3:"pmu";i:17062832;}i:5;a:0:{}}}i:3;C:21:"Twig_Profiler_Profile":322:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980881.806869029998779296875;s:2:"mu";i:16693136;s:3:"pmu";i:17062832;}i:4;a:3:{s:2:"wt";d:1499980881.8105719089508056640625;s:2:"mu";i:16693664;s:3:"pmu";i:17065904;}i:5;a:0:{}}}i:4;C:21:"Twig_Profiler_Profile":320:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980881.8106479644775390625;s:2:"mu";i:16694512;s:3:"pmu";i:17065904;}i:4;a:3:{s:2:"wt";d:1499980881.8755218982696533203125;s:2:"mu";i:16695040;s:3:"pmu";i:22781800;}i:5;a:0:{}}}i:5;C:21:"Twig_Profiler_Profile":321:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980881.875669002532958984375;s:2:"mu";i:16695888;s:3:"pmu";i:22781800;}i:4;a:3:{s:2:"wt";d:1499980881.936893939971923828125;s:2:"mu";i:16712800;s:3:"pmu";i:22840816;}i:5;a:0:{}}}i:6;C:21:"Twig_Profiler_Profile":323:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980881.9370419979095458984375;s:2:"mu";i:16713648;s:3:"pmu";i:22840816;}i:4;a:3:{s:2:"wt";d:1499980882.0000560283660888671875;s:2:"mu";i:16775616;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:7;C:21:"Twig_Profiler_Profile":323:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.0002529621124267578125;s:2:"mu";i:16776464;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.0032041072845458984375;s:2:"mu";i:16776992;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:8;C:21:"Twig_Profiler_Profile":322:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.0033419132232666015625;s:2:"mu";i:16777840;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.005630970001220703125;s:2:"mu";i:16778400;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:9;C:21:"Twig_Profiler_Profile":323:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.0057489871978759765625;s:2:"mu";i:16779280;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.0077950954437255859375;s:2:"mu";i:16779808;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:10;C:21:"Twig_Profiler_Profile":323:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.0078690052032470703125;s:2:"mu";i:16780656;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.0099279880523681640625;s:2:"mu";i:16781184;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:11;C:21:"Twig_Profiler_Profile":319:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.010015010833740234375;s:2:"mu";i:16782032;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.0135860443115234375;s:2:"mu";i:16798944;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:12;C:21:"Twig_Profiler_Profile":321:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.013741016387939453125;s:2:"mu";i:16799792;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.024014949798583984375;s:2:"mu";i:16800320;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:13;C:21:"Twig_Profiler_Profile":323:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.0241529941558837890625;s:2:"mu";i:16801168;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.0242750644683837890625;s:2:"mu";i:16801696;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:14;C:21:"Twig_Profiler_Profile":321:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.02433300018310546875;s:2:"mu";i:16802544;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.0540421009063720703125;s:2:"mu";i:16803072;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:15;C:21:"Twig_Profiler_Profile":323:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.0541989803314208984375;s:2:"mu";i:16803920;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.0805370807647705078125;s:2:"mu";i:16804448;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:16;C:21:"Twig_Profiler_Profile":322:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.080686092376708984375;s:2:"mu";i:16805296;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.1117470264434814453125;s:2:"mu";i:16805888;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:17;C:21:"Twig_Profiler_Profile":319:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.1119349002838134765625;s:2:"mu";i:16806800;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.146389007568359375;s:2:"mu";i:16823712;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:18;C:21:"Twig_Profiler_Profile":323:{a:6:{i:0;s:36:"TwigBundle:Exception:trace.html.twig";i:1;s:36:"TwigBundle:Exception:trace.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.1465361118316650390625;s:2:"mu";i:16824560;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.1484620571136474609375;s:2:"mu";i:16825088;s:3:"pmu";i:22903496;}i:5;a:0:{}}}}}}i:1;C:21:"Twig_Profiler_Profile":321:{a:6:{i:0;s:35:"TwigBundle:Exception:logs.html.twig";i:1;s:35:"TwigBundle:Exception:logs.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.1842210292816162109375;s:2:"mu";i:16864032;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.1851561069488525390625;s:2:"mu";i:16866208;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:2;C:21:"Twig_Profiler_Profile":7509:{a:6:{i:0;s:42:"TwigBundle:Exception:traces_text.html.twig";i:1;s:42:"TwigBundle:Exception:traces_text.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.22943210601806640625;s:2:"mu";i:16866696;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.31029796600341796875;s:2:"mu";i:17016848;s:3:"pmu";i:22903496;}i:5;a:1:{i:0;C:21:"Twig_Profiler_Profile":7138:{a:6:{i:0;s:36:"TwigBundle:Exception:traces.txt.twig";i:1;s:36:"TwigBundle:Exception:traces.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.2625200748443603515625;s:2:"mu";i:16905248;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.310267925262451171875;s:2:"mu";i:17019352;s:3:"pmu";i:22903496;}i:5;a:19:{i:0;C:21:"Twig_Profiler_Profile":319:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.3064229488372802734375;s:2:"mu";i:16933024;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.30650997161865234375;s:2:"mu";i:16934528;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:1;C:21:"Twig_Profiler_Profile":320:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.306602954864501953125;s:2:"mu";i:16935416;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.3067018985748291015625;s:2:"mu";i:16935968;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:2;C:21:"Twig_Profiler_Profile":319:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.3067610263824462890625;s:2:"mu";i:16936816;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.30681896209716796875;s:2:"mu";i:16937344;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:3;C:21:"Twig_Profiler_Profile":321:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.3068749904632568359375;s:2:"mu";i:16938192;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.3069341182708740234375;s:2:"mu";i:16938720;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:4;C:21:"Twig_Profiler_Profile":321:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.3069899082183837890625;s:2:"mu";i:16939568;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.3070480823516845703125;s:2:"mu";i:16940096;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:5;C:21:"Twig_Profiler_Profile":321:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.3071029186248779296875;s:2:"mu";i:16940944;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.3071610927581787109375;s:2:"mu";i:16941472;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:6;C:21:"Twig_Profiler_Profile":320:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.3072140216827392578125;s:2:"mu";i:16942320;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.308556079864501953125;s:2:"mu";i:16987904;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:7;C:21:"Twig_Profiler_Profile":320:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.308619022369384765625;s:2:"mu";i:16988752;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.3086879253387451171875;s:2:"mu";i:16989280;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:8;C:21:"Twig_Profiler_Profile":321:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.3087489604949951171875;s:2:"mu";i:16990128;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.3088090419769287109375;s:2:"mu";i:16990688;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:9;C:21:"Twig_Profiler_Profile":318:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.308865070343017578125;s:2:"mu";i:16991568;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.30897998809814453125;s:2:"mu";i:16992096;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:10;C:21:"Twig_Profiler_Profile":317:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.3090360164642333984375;s:2:"mu";i:16992944;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.309146881103515625;s:2:"mu";i:16993472;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:11;C:21:"Twig_Profiler_Profile":321:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.3092019557952880859375;s:2:"mu";i:16994320;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.3093159198760986328125;s:2:"mu";i:17011232;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:12;C:21:"Twig_Profiler_Profile":314:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.3093719482421875;s:2:"mu";i:17012080;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.309482097625732421875;s:2:"mu";i:17012608;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:13;C:21:"Twig_Profiler_Profile":318:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.30953693389892578125;s:2:"mu";i:17013456;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.309608936309814453125;s:2:"mu";i:17013984;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:14;C:21:"Twig_Profiler_Profile":315:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.309668064117431640625;s:2:"mu";i:17014832;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.30976104736328125;s:2:"mu";i:17015360;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:15;C:21:"Twig_Profiler_Profile":320:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.309815883636474609375;s:2:"mu";i:17016208;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.3098790645599365234375;s:2:"mu";i:17016736;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:16;C:21:"Twig_Profiler_Profile":320:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.309936046600341796875;s:2:"mu";i:17017584;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.3100039958953857421875;s:2:"mu";i:17018176;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:17;C:21:"Twig_Profiler_Profile":320:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.310060977935791015625;s:2:"mu";i:17019088;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.3101279735565185546875;s:2:"mu";i:17019616;s:3:"pmu";i:22903496;}i:5;a:0:{}}}i:18;C:21:"Twig_Profiler_Profile":320:{a:6:{i:0;s:35:"TwigBundle:Exception:trace.txt.twig";i:1;s:35:"TwigBundle:Exception:trace.txt.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.310184001922607421875;s:2:"mu";i:17020464;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.3102419376373291015625;s:2:"mu";i:17020992;s:3:"pmu";i:22903496;}i:5;a:0:{}}}}}}}}}}}}}}}}}}}}}i:1;C:21:"Twig_Profiler_Profile":701:{a:6:{i:0;s:42:"@WebProfiler/Profiler/toolbar_js.html.twig";i:1;s:42:"@WebProfiler/Profiler/toolbar_js.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.3697659969329833984375;s:2:"mu";i:17536824;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.374515056610107421875;s:2:"mu";i:17582552;s:3:"pmu";i:22903496;}i:5;a:1:{i:0;C:21:"Twig_Profiler_Profile":328:{a:6:{i:0;s:39:"@WebProfiler/Profiler/base_js.html.twig";i:1;s:39:"@WebProfiler/Profiler/base_js.html.twig";i:2;s:8:"template";i:3;a:3:{s:2:"wt";d:1499980882.373629093170166015625;s:2:"mu";i:17572264;s:3:"pmu";i:22903496;}i:4;a:3:{s:2:"wt";d:1499980882.3742969036102294921875;s:2:"mu";i:17582328;s:3:"pmu";i:22903496;}i:5;a:0:{}}}}}}}}}";}}s:2:"db";C:66:"Doctrine\Bundle\DoctrineBundle\DataCollector\DoctrineDataCollector":3385:{a:6:{s:7:"queries";a:1:{s:7:"default";a:3:{i:1;a:5:{s:3:"sql";s:769:"SELECT t0.username AS username_1, t0.username_canonical AS username_canonical_2, t0.email AS email_3, t0.email_canonical AS email_canonical_4, t0.enabled AS enabled_5, t0.salt AS salt_6, t0.password AS password_7, t0.last_login AS last_login_8, t0.locked AS locked_9, t0.expired AS expired_10, t0.expires_at AS expires_at_11, t0.confirmation_token AS confirmation_token_12, t0.password_requested_at AS password_requested_at_13, t0.roles AS roles_14, t0.credentials_expired AS credentials_expired_15, t0.credentials_expire_at AS credentials_expire_at_16, t0.id AS id_17, t0.nombre AS nombre_18, t0.apellidos AS apellidos_19, t0.telefono AS telefono_20, t0.fechaNacimiento AS fechaNacimiento_21, t0.fotoPerfilRuta AS fotoPerfilRuta_22 FROM user t0 WHERE t0.id = ? LIMIT 1";s:6:"params";a:1:{i:0;i:1;}s:5:"types";a:1:{i:0;i:1;}s:11:"executionMS";d:0.0039479732513427734375;s:11:"explainable";b:1;}i:2;a:5:{s:3:"sql";s:441:"SELECT t0.id AS id_1, t0.club AS club_2, t0.cancha AS cancha_3, t0.horarioLunes AS horarioLunes_4, t0.horarioMartes AS horarioMartes_5, t0.horarioMiercoles AS horarioMiercoles_6, t0.horarioJueves AS horarioJueves_7, t0.horarioViernes AS horarioViernes_8, t0.horarioSabado AS horarioSabado_9, t0.horarioDomingo AS horarioDomingo_10, t0.direccion AS direccion_11, t0.idCompeticion AS idCompeticion_12 FROM Recurso t0 WHERE t0.idCompeticion = ?";s:6:"params";a:1:{i:0;s:2:"10";}s:5:"types";a:1:{i:0;i:1;}s:11:"executionMS";d:0.0009429454803466796875;s:11:"explainable";b:1;}i:3;a:5:{s:3:"sql";s:487:"SELECT t0.id AS id_1, t0.jornada AS jornada_2, t0.fechaHora AS fechaHora_3, t0.recursoAsignado AS recursoAsignado_4, t0.resultadoPropuesto1 AS resultadoPropuesto1_5, t0.resultadoPropuesto2 AS resultadoPropuesto2_6, t0.resultadoFinal AS resultadoFinal_7, t0.resultadoConfirmado AS resultadoConfirmado_8, t0.inscripcion1_id AS inscripcion1_id_9, t0.inscripcion2_id AS inscripcion2_id_10, t0.competicion_id AS competicion_id_11 FROM Partido t0 WHERE t0.jornada = ? AND t0.competicion_id = ?";s:6:"params";a:2:{i:0;s:1:"1";i:1;s:2:"10";}s:5:"types";a:2:{i:0;i:1;i:1;i:1;}s:11:"executionMS";d:0.001221179962158203125;s:11:"explainable";b:1;}}}s:11:"connections";a:1:{s:7:"default";s:32:"doctrine.dbal.default_connection";}s:8:"managers";a:1:{s:7:"default";s:35:"doctrine.orm.default_entity_manager";}s:8:"entities";a:1:{s:7:"default";a:8:{s:25:"FOS\UserBundle\Model\User";s:25:"FOS\UserBundle\Model\User";s:36:"PadelSchedule\UserBundle\Entity\User";s:36:"PadelSchedule\UserBundle\Entity\User";s:43:"PadelSchedule\MainBundle\Entity\Competicion";s:43:"PadelSchedule\MainBundle\Entity\Competicion";s:43:"PadelSchedule\MainBundle\Entity\Inscripcion";s:43:"PadelSchedule\MainBundle\Entity\Inscripcion";s:39:"PadelSchedule\MainBundle\Entity\Mensaje";s:39:"PadelSchedule\MainBundle\Entity\Mensaje";s:44:"PadelSchedule\MainBundle\Entity\Notificacion";s:44:"PadelSchedule\MainBundle\Entity\Notificacion";s:39:"PadelSchedule\MainBundle\Entity\Recurso";s:39:"PadelSchedule\MainBundle\Entity\Recurso";s:39:"PadelSchedule\MainBundle\Entity\Partido";s:39:"PadelSchedule\MainBundle\Entity\Partido";}}s:6:"errors";a:0:{}s:6:"caches";a:4:{s:7:"enabled";b:0;s:11:"log_enabled";b:0;s:6:"counts";a:3:{s:4:"puts";i:0;s:4:"hits";i:0;s:6:"misses";i:0;}s:7:"regions";a:3:{s:4:"puts";a:0:{}s:4:"hits";a:0:{}s:6:"misses";a:0:{}}}}}s:11:"swiftmailer";C:67:"Symfony\Bundle\SwiftmailerBundle\DataCollector\MessageDataCollector":77:{a:3:{s:6:"mailer";a:0:{}s:12:"messageCount";i:0;s:13:"defaultMailer";s:0:"";}}s:8:"security";C:65:"Symfony\Bundle\SecurityBundle\DataCollector\SecurityDataCollector":274:{a:7:{s:7:"enabled";b:1;s:13:"authenticated";b:1;s:11:"token_class";s:74:"Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken";s:4:"user";s:4:"aday";s:5:"roles";a:1:{i:0;s:9:"ROLE_USER";}s:15:"inherited_roles";a:0:{}s:23:"supports_role_hierarchy";b:1;}}}s:2:"ip";s:3:"::1";s:6:"method";s:3:"GET";s:3:"url";s:95:"http://localhost:1337/PadelProject/web/app_dev.php/generacionHorario/10/1/14-07-2017/21-07-2017";s:4:"time";i:1499980882;}

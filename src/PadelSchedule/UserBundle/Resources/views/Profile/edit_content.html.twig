@@ -1,0 +1,109 @@
+{% trans_default_domain 'FOSUserBundle' %}
+
+<form action="{{ path('fos_user_profile_edit') }}" {{ form_enctype(form) }} method="POST" class="fos_user_profile_edit">
+    {#    {{ form_start(form) }}#}
+    <section id="content">       
+        <div class="container clearfix">
+            <div class="col_half nobottommargin">
+                <div class="col_full">
+                    <div class="fancy-title title-bottom-border title-center"><h4><i class="icon-user"></i>    Información personal</h4></div>
+                    {{ form_label(form.username) }}
+                    {{ form_widget(form.username, {'attr': {'class': 'form-control'}}) }}
+                    {{ form_errors(form.username) }}  
+                    
+                    {{ form_label(form.nombre) }}
+                    {{ form_widget(form.nombre, {'attr': {'class': 'form-control'}}) }}
+                    {{ form_errors(form.nombre) }}  
+                    
+                    {{ form_label(form.apellidos) }}
+                    {{ form_widget(form.apellidos, {'attr': {'class': 'form-control'}}) }}
+                    {{ form_errors(form.apellidos) }}  
+                    
+                    
+                    {{ form_label(form.fechaNacimiento) }}
+                    {{ form_widget(form.fechaNacimiento, {'placeholder': 'DD-MM-YYYY', 'attr': {'class': 'form-control tleft fecha'}}) }}
+                    {{ form_errors(form.fechaNacimiento) }}  
+                    
+                    {{ form_label(form.fotoPerfilFichero) }}
+                    {{ form_widget(form.fotoPerfilFichero, {'attr': {'class': 'form-control fotoPerfil'}}) }}
+                    {{ form_errors(form.fotoPerfilFichero) }}  
+                    
+                </div>
+            </div>
+                
+            <div class="col_half col_last">
+                <div class="fancy-title title-bottom-border title-center"><h4><i class="icon-phone"></i>   Contacto</h4></div>
+                
+                    
+                    {{ form_label(form.telefono) }}
+                    {{ form_widget(form.telefono, {'attr': {'class': 'form-control'}}) }}
+                    {{ form_errors(form.telefono) }}  
+
+                    {{ form_label(form.email) }}
+                    {{ form_widget(form.email, {'attr': {'class': 'form-control'}}) }}
+                    {{ form_errors(form.email) }}   
+                    
+
+
+                    {{ form_label(form.current_password) }}
+                    {{ form_widget(form.current_password, {'attr': {'class': 'form-control'}}) }}
+                    {{ form_errors(form.current_password) }}  
+                    
+                    
+                    
+                
+            </div>
+                    
+      {#      <div class="clearfix col_full">
+                {{ form_widget(form.submit,  {'attr': {'class': 'btn btn-success btn-block'}}) }}   
+            </div>
+            #}
+        </div>
+    </section>      
+    {{ form_widget(form) }}
+    <div class="center">        
+        <input class="button button-rounded button-large button-lime" type="submit" value="{{ 'profile.edit.submit'|trans }}" />
+        <a href="{{ path('fos_user_profile_show') }}" class="button button-rounded button-large button-red">Volver</a>           
+        
+    </div>
+    
+    <script>
+    $(function() {
+        $.fn.datepicker.dates['en'] = {
+            days: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
+            daysShort: ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"],
+            daysMin: ["D", "L", "M", "X", "J", "V", "S"],
+            months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+            monthsShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+            today: "Hoy",
+            clear: "Vaciar",
+            format: "yyyy-mm-dd",
+            titleFormat: "MM yyyy", /* Leverages same syntax as 'format' */
+            weekStart: 1
+        };
+        $('.fecha').datepicker({
+            endDate: "today",
+            format: "yyyy-mm-dd",
+            language: "es",
+            startView: 2,
+            autoclose: true
+        });
+        
+        $('.fotoPerfil').fileinput({
+            maxFileCount: 1,
+            showUpload: false, 
+            allowedFileTypes: ["image"],
+            previewFileType: "image",
+            elErrorContainer: "#errorBlock",
+            browseClass: "btn btn-success",
+            browseLabel: "Seleccionar imagen",
+            browseIcon: "<i class=\"icon-picture\"></i> ",
+            removeClass: "btn btn-danger",
+            removeLabel: "Eliminar",
+            removeIcon: "<i class=\"icon-trash\"></i> ",
+        });
+        
+    });
+</script>        
+    
+</form>

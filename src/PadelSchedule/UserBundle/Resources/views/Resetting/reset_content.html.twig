@@ -1,0 +1,43 @@
+{% trans_default_domain 'FOSUserBundle' %}
+
+    <section id="content">
+       
+        <div class="content-wrap">            
+            <div class="container clearfix divcenter col_full" style="max-width: 550px;">                
+                <div class="fancy-title title-bottom-border title-center">
+                    <h2><i class="icon-pencil2"></i>  Cambio de contraseña</h2>
+		</div>
+                {{ form_start(form, { 'action': path('fos_user_resetting_reset', {'token': token}), 'attr': { 'class': 'fos_user_resetting_reset' } }) }}
+                <div class="form-group{% if form.plainPassword.first.vars.errors[0].message is defined %} has-error{% endif %}">
+        {{ form_label(form.plainPassword.first, null, {'label_attr': {'class': 'control-label'}}) }}
+        
+            {{ form_widget(form.plainPassword.first, {'attr': {'class': 'form-control'}}) }}
+            {% if form.plainPassword.first.vars.errors[0].message is defined %}
+            <span class="help-block">
+                {{ form.plainPassword.first.vars.errors[0].message }}
+            </span>
+            {% endif %}
+        
+    </div>
+    <div class="form-group{% if form.plainPassword.second.vars.errors[0].message is defined %} has-error{% endif %}">
+        {{ form_label(form.plainPassword.second, null, {'label_attr': {'class': 'control-label'}}) }}
+        
+            {{ form_widget(form.plainPassword.second, {'attr': {'class': 'form-control'}}) }}
+            {% if form.plainPassword.second.vars.errors[0].message is defined %}
+            <span class="help-block">
+                {{ form.plainPassword.second.vars.errors[0].message }}
+            </span>
+            {% endif %}
+        
+    </div>
+            
+    <div>
+        <input class="btn btn-success btn-block" type="submit" value="{{ 'resetting.reset.submit'|trans }}" />
+    </div>
+                
+                
+   
+            {{ form_end(form) }}
+            </div>
+        </div>
+    </section>

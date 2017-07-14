@@ -1,0 +1,224 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}Index{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/swiper.css')}}"/>    
+{% endblock %}
+        
+{% block content %}
+       
+    
+    <section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
+
+			<div class="slider-parallax-inner">
+
+				<div class="swiper-container swiper-parent">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" style="background-image: url(  {{ asset('bundles/padelschedulemain/images/parallaxPadel1.jpg') }});">
+							<div class="container clearfix">
+								<div class="slider-caption">
+									<h2 data-caption-animate="fadeInUp">Bienvenido a PadelSchedule</h2>
+									{#<p data-caption-animate="fadeInUp" data-caption-delay="200">Su organizador de torneos de padel</p>#}
+								</div>
+							</div>
+						</div>
+						
+						<div class="swiper-slide" style="background-image: url({{ asset('bundles/padelschedulemain/images/parallaxPadel2.jpg') }});">
+							<div class="container clearfix">
+								<div class="slider-caption">									
+									<h3 data-caption-animate="fadeInUp" data-caption-delay="200">Organice de forma efectiva sus competiciones de padel</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
+					<div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
+					<div id="slide-number"><div id="slide-number-current"></div><span>/</span><div id="slide-number-total"></div></div>
+				</div>
+			</div>
+
+		</section>
+
+
+
+		
+
+    <!-- Content
+    ============================================= -->
+    <section id="content">
+
+        <div class="content-wrap">
+
+            <div class="container clearfix" data-class-xxs="center" data-class-xs="">
+
+					<div class="clear"></div>
+
+					<div class="fancy-title title-center title-dotted-border topmargin">
+						<h3>Próximas competiciones</h3>
+					</div>
+
+					<div id="competiciones" class="owl-carousel events-carousel carousel-widget" data-margin="20" data-nav="true" data-pagi="false" data-items-sm="1" data-items-md="2" data-items-lg="2">
+                                            
+                                            {% for competicion in competiciones %}
+                                                {% if competicion.estado == "Abierta" %}
+                                                <div class="oc-item">
+                                                    <div class="ievent clearfix">
+                                                        <div class="entry-image">
+                                                            <a href="{{ path('competicion', {'idCompeticion': competicion.id }) }}">
+                                                                <img src="{{   asset(competicion.getWebFotoCompeticionRuta()) }}" alt="Padel court">
+                                                                <div class="entry-date">{{competicion.fechaInicio|date("d")}}<span>{{competicion.fechaInicio|date("M")}}</span></div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="entry-c">
+                                                            <div class="entry-title">
+                                                                <h2><a href="{{ path('competicion', {'idCompeticion': competicion.id }) }}">{{competicion.nombre}}</a></h2>
+                                                            </div>
+                                                            <ul class="entry-meta clearfix">
+                                                                <li><i class="icon-map-marker2"></i> {{competicion.localizacion}} </li>
+                                                            </ul>
+                                                            <div class="entry-content">
+                                                                <a href="{{ path('competicion', {'idCompeticion': competicion.id }) }}" class="btn btn-success">Acceder</a> 
+                                                            </div>
+                                                        </div>
+                                                    </div>     
+                                                </div>        
+                                                {% endif %}
+                                            {% endfor %}
+                                            
+						
+
+					</div>
+					<div class="clear"></div>
+                                        {% if competicionesCreadas is not null %}
+					<div class="fancy-title title-center title-dotted-border topmargin">
+						<h3>Competiciones creadas</h3>
+					</div>
+                               
+					<div id="competicionesCreadas" class="owl-carousel events-carousel carousel-widget" data-margin="20" data-nav="true" data-pagi="true" data-items-sm="1" data-items-md="2" data-items-lg="2">
+                                            
+                                            {% for competicion in competicionesCreadas %}
+                                            <div class="oc-item">
+                                                <div class="ievent clearfix">
+                                                    <div class="entry-image">
+                                                        <a href="{{ path('competicion', {'idCompeticion': competicion.id }) }}">
+                                                            <img src="{{   asset(competicion.getWebFotoCompeticionRuta()) }}" alt="Padel court">
+                                                            <div class="entry-date">{{competicion.fechaInicio|date("d")}}<span>{{competicion.fechaInicio|date("M")}}</span></div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="entry-c">
+                                                        <div class="entry-title">
+                                                            <h2><a href="{{ path('competicion', {'idCompeticion': competicion.id }) }}">{{competicion.nombre}}</a></h2>
+                                                        </div>
+                                                        <ul class="entry-meta clearfix">
+                                                            <li><i class="icon-map-marker2"></i> {{competicion.localizacion}}</li>
+                                                        </ul>
+                                                        <div class="entry-content">
+                                                            <a href="{{ path('competicion', {'idCompeticion': competicion.id }) }}" class="btn btn-success">Acceder</a> 
+                                                        </div>
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                            {% endfor %}
+                                            
+						
+
+					</div>
+                                        <div class="clear"></div>
+                                        {% endif %}
+                                        {% if competicionesInscrito is not null %}
+					<div class="fancy-title title-center title-dotted-border topmargin">
+						<h3>Competiciones en las que se encuentra inscrito</h3>
+					</div>
+
+					<div id="competicionesCreadas" class="owl-carousel events-carousel carousel-widget" data-margin="20" data-nav="true" data-pagi="true" data-items-sm="1" data-items-md="2" data-items-lg="2">
+                                            
+                                            {% for competicion in competicionesInscrito %}
+                                            <div class="oc-item">    
+                                                <div class="ievent clearfix">
+                                                    <div class="entry-image">
+                                                        <a href="{{ path('competicion', {'idCompeticion': competicion.id }) }}">
+                                                            <img src="{{   asset(competicion.getWebFotoCompeticionRuta()) }}" alt="Padel court">
+                                                            <div class="entry-date">{{competicion.fechaInicio|date("d")}}<span>{{competicion.fechaInicio|date("M")}}</span></div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="entry-c">
+                                                        <div class="entry-title">
+                                                            <h2><a href="{{ path('competicion', {'idCompeticion': competicion.id }) }}">{{competicion.nombre}}</a></h2>
+                                                        </div>
+                                                        <ul class="entry-meta clearfix">
+                                                            <li><i class="icon-map-marker2"></i> {{competicion.localizacion}}</li>
+                                                        </ul>
+                                                        <div class="entry-content">
+                                                            <a href="{{ path('competicion', {'idCompeticion': competicion.id }) }}" class="btn btn-success">Acceder</a> 
+                                                        </div>
+                                                    </div>
+                                                </div>                                                
+                                            </div>            
+                                            {% endfor %}
+                                            
+						
+
+					</div>
+					{% endif %}
+
+					{#<script type="text/javascript">
+
+						jQuery(document).ready(function($) {
+
+							var competiciones = $("#competiciones");
+
+							competiciones.owlCarousel({
+								margin: 20,
+								nav: true,
+								navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+								autoplay: false,
+								autoplayHoverPause: true,
+								dots: false,
+								responsive:{
+									0:{ items:1 },
+									1000:{ items:2 }
+								}
+							});
+							var competicionesCreadas = $("#competicionesCreadas");
+
+							competicionesCreadas.owlCarousel({
+								margin: 20,
+								nav: true,
+								navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+								autoplay: false,
+								autoplayHoverPause: true,
+								dots: false,
+								responsive:{
+									0:{ items:1 },
+									1000:{ items:2 }
+								}
+							});
+							var competicionesInscrito = $("#competicionesInscrito");
+
+							competicionesInscrito.owlCarousel({
+								margin: 20,
+								nav: true,
+								navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+								autoplay: false,
+								autoplayHoverPause: true,
+								dots: false,
+								responsive:{
+									0:{ items:1 },
+									1000:{ items:2 }
+								}
+							});
+
+						});
+
+					</script>#}
+
+					<div class="clear"></div>
+
+            </div>
+
+        </div>
+
+    </section><!-- #content end -->
+
+{% endblock %}

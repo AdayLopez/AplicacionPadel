@@ -1,0 +1,16 @@
+#padel_schedule_security:
+#    resource: "@PadelScheduleUserBundle/Controller/"
+#    type:     annotation
+#    prefix:   /
+
+padel_schedule_main:
+    resource: "@PadelScheduleMainBundle/Controller/"
+    type:     annotation
+    prefix:   /
+    
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+    
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
+    

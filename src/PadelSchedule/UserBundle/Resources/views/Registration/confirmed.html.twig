@@ -1,0 +1,17 @@
+{% extends "FOSUserBundle::layout.html.twig" %}
+
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% block fos_user_content %}
+    <section id="content">
+        <div class="feature-box fbox-center fbox-effect" style="margin-top: 100px">
+            <div class="fbox-icon">
+                <i class="icon-thumbs-up i-alt"></i>
+            </div>    
+            <p>{{ 'registration.confirmed'|trans({'%username%': user.username}) }}</p>
+            {% if targetUrl %}
+            <p><a href="{{ targetUrl }}">{{ 'registration.back'|trans }}</a></p>
+            {% endif %}
+        </div>    
+    </section>
+{% endblock fos_user_content %}

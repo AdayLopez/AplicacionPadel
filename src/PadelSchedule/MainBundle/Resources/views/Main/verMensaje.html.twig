@@ -1,0 +1,30 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}Buzon{% endblock %}
+
+{% block content %}
+    <section id="content">
+        <a href="{{ path('buzon')}}" class="button button-3d button-small button-rounded button-lime button-light"> <i class="icon-line-inbox"></i>Volver al buzón de entrada</a>
+        <div class="content-wrap">
+            <div class="container clearfix">                
+                <div class="feature-box fbox-large fbox-plain fbox-dark">
+                    
+                        <div class="fbox-icon">
+                                <i class="icon-email"></i>
+                        </div> {#Poner link a perfil de usuario#}
+                        <h3>Mensaje de {{mensaje.creadorMensaje.username}}</h3>
+                        
+                        <h4>{{mensaje.cabecera}}</h4>
+                        <p>{{mensaje.cuerpo}}</p>
+                        <p>{{mensaje.fecha|date('d/m/Y - H:i:s')}}</p>
+                        <div class="text-center">     
+                            
+                            <a href="{{ path('nuevoMensaje', {'usuario': mensaje.creadorMensaje.username}) }}" class="button button-3d button-small button-rounded button-lime button-light"> <i class="icon-line-reply"></i>Responder</a>
+
+                            <a href="{{ path('eliminarMensaje', { 'idMensaje': mensaje.id }) }}" class="button button-3d button-small button-rounded button-red"> <i class="icon-line-circle-cross"></i>Eliminar mensaje</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock content %}

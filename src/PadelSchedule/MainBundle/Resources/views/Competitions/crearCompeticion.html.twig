@@ -1,0 +1,139 @@
+{% extends "::base.html.twig" %}
+
+
+{% block css %}
+    <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/components/datepicker.css')}}"/>    
+    <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/components/bs-filestyle.css')}}"/>        
+    <style>
+
+        input::-webkit-inner-spin-button,
+        input::-webkit-calendar-picker-indicator {
+            display: none;
+            -webkit-appearance: none;
+        }
+    </style>
+{% endblock css %}
+
+{% block title %}Creación de competición{% endblock %}
+
+{% block scripts %} 
+     
+     <!-- Include Date Range Picker -->
+     <script src="{{asset('bundles/padelschedulemain/js/components/moment.js')}}"></script>
+     <script src="{{asset('bundles/padelschedulemain/js/components/datepicker.js')}}"></script>
+     
+     <!-- Upload js -->
+     <script src="{{asset('bundles/padelschedulemain/js/components/bs-filestyle.js')}}"></script>
+{% endblock %}
+
+{% block content %}
+    <section id="page-title" class="page-title-center page-title-pattern">
+            <div class="container clearfix">
+                    <h1>Crear nueva competición</h1>
+                    <ol class="breadcrumb">
+                            <li><a href="{{ path('home') }}">Inicio</a></li>
+                            <li class="active">Creación de nueva competición</li>
+                    </ol>
+            </div>                                               
+    </section>
+    {{ form_start(form) }}
+    <section id="content">       
+        <div class="container clearfix">
+            <div class="col_half nobottommargin">
+                <div class="col_full">
+                    <div class="fancy-title title-bottom-border title-center"><h4><i class="icon-file-text"></i>   Información general</h4></div>
+                    {{ form_label(form.nombre) }}
+                    {{ form_widget(form.nombre, {'attr': {'class': 'form-control'}}) }}
+                    {{ form_errors(form.nombre) }}  
+                    
+                    {{ form_label(form.descripcion) }}
+                    {{ form_widget(form.descripcion, {'attr': {'class': 'form-control'}}) }}
+                    {{ form_errors(form.descripcion) }}  
+                    
+                    
+                    {{ form_label(form.fechaInicio) }}
+                    {{ form_widget(form.fechaInicio, {'placeholder': 'DD-MM-YYYY', 'attr': {'class': 'form-control tleft fecha'}}) }}
+                    {{ form_errors(form.fechaInicio) }}  
+                    
+                    {{ form_label(form.localizacion) }}
+                    {{ form_widget(form.localizacion, {'attr': {'class': 'form-control'}}) }}
+                    {{ form_errors(form.localizacion) }}  
+                    
+                        
+                    {{ form_label(form.fotoCompeticionFichero) }}
+                    {{ form_widget(form.fotoCompeticionFichero, {'attr': {'class': 'form-control fotoCompeticion'}}) }}
+                    {{ form_errors(form.fotoCompeticionFichero) }}
+    
+                </div>
+            </div>
+            <div class="col_half col_last">
+                <div class="fancy-title title-bottom-border title-center"><h4><i class="icon-settings"></i>   Características</h4></div>
+                
+                    <div class="col_half">
+                        {{ form_label(form.puntosPorGanar) }}
+                        {{ form_widget(form.puntosPorGanar, {'attr': {'class': 'form-control'}}) }}
+                        {{ form_errors(form.puntosPorGanar) }}  
+                    </div>
+                    
+                    <div class="col_half col_last">
+                        {{ form_label(form.puntosPorPerder) }}
+                        {{ form_widget(form.puntosPorPerder, {'attr': {'class': 'form-control'}}) }}
+                        {{ form_errors(form.puntosPorPerder) }}  
+                    </div>                                       
+                    
+                    {{ form_label(form.maxInscripciones) }}
+                    {{ form_widget(form.maxInscripciones, {'attr': {'class': 'form-control'}}) }}
+                    {{ form_errors(form.maxInscripciones) }}  
+                    
+                    {{ form_label(form.normas) }}
+                    {{ form_widget(form.normas, {'attr': {'class': 'form-control'}}) }}
+                    {{ form_errors(form.normas) }}  
+                
+            </div>
+                    
+            <div class="clearfix col_full center">
+                {{ form_widget(form.submit,  {'attr': {'class': 'button button-lime button-3d button-rounded'}}) }}   
+            </div>
+            
+        </div>
+    </section>   
+{{ form_end(form) }}    
+
+<script>
+    $(function() {
+        $.fn.datepicker.dates['en'] = {
+            days: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
+            daysShort: ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"],
+            daysMin: ["D", "L", "M", "X", "J", "V", "S"],
+            months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+            monthsShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+            today: "Hoy",
+            clear: "Vaciar",
+            format: "yyyy-mm-dd",
+            titleFormat: "MM yyyy", /* Leverages same syntax as 'format' */
+            weekStart: 1
+        };
+        $('.fecha').datepicker({
+            startDate: "today",
+            format: "yyyy-mm-dd",
+            language: "es",
+            startView: 2,
+            autoclose: true
+        });
+         $('.fotoCompeticion').fileinput({
+            maxFileCount: 1,
+            showUpload: false, 
+            allowedFileTypes: ["image"],
+            previewFileType: "image",
+            elErrorContainer: "#errorBlock",
+            browseClass: "btn btn-success",
+            browseLabel: "Seleccionar imagen",
+            browseIcon: "<i class=\"icon-picture\"></i> ",
+            removeClass: "btn btn-danger",
+            removeLabel: "Eliminar",
+            removeIcon: "<i class=\"icon-trash\"></i> ",
+        });
+    });
+</script>        
+
+{% endblock content %}

@@ -1,0 +1,13 @@
+{% trans_default_domain 'FOSUserBundle' %}
+
+<div class="fos_user_user_show">
+    <p><b>{{ 'profile.show.username'|trans }}:</b> {{ user.username }}</p>
+    <p><b>{{ 'profile.show.email'|trans }}:</b> {{ user.email }}</p>
+    <p><b>Nombre:</b> {{ user.nombre }}</p>
+    <p><b>Apellidos:</b> {{ user.apellidos }}</p>
+    <p><b>Fecha de nacimiento:</b> {{ user.fechaNacimiento|date('d/m/Y') }}</p>
+    <p><b>Teléfono:</b> {{ user.telefono }}</p>
+    
+    
+    
+</div>

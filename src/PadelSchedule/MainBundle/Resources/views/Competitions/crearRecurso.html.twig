@@ -1,0 +1,70 @@
+
+<div class="block divcenter" style="background-color: #FFF; max-width: 1000px;">
+    {{ form_start(form, {'action': path('crearRecurso', {'idCompeticion':competicion.id }), 'attr': {'id': 'horarioFormRecurso'}}) }}
+    
+    
+    <div class="modal-header center nobottommargin fancy-title title-bottom-border darkgrey">      
+        <h3><span>Por favor, rellene la siguiente información</span></h3>             
+    </div>
+    <div class="modal-body center">
+        {{ form_errors(form) }}
+        <div class="form-group">
+            {{ form_label(form.club) }}
+            {{ form_widget(form.club, {'attr': {'class': 'form-control'}}) }}
+            {{ form_errors(form.club) }}
+            {{ form_label(form.cancha) }}
+            {{ form_widget(form.cancha, {'attr': {'class': 'form-control'}}) }}
+            {{ form_errors(form.cancha) }}
+            {{ form_label(form.direccion) }}
+            {{ form_widget(form.direccion, {'attr': {'class': 'form-control'}}) }}
+            {{ form_errors(form.direccion) }}
+        </div>
+        <span style="font-size:20px;"><br></span><br>
+        Click the grid to select time slots, then click 'View Selected Timeslots' to display the selected schedule.<br>
+    
+        <div class="block-tools">
+            <div class="shade-btn block-shade active">Seleccionar</div>
+            <div class="shade-btn block-unshade">Deseleccionar</div>
+        </div> 
+        <table class="tablaRangePicker sel-table table-responsive">
+            <tbody>
+                <tr>
+                    <th>Hora</th>
+                    <th>L</th>
+                    <th>M</th>
+                    <th>X</th>
+                    <th>J</th>
+                    <th>V</th>
+                    <th>S</th>
+                    <th>D</th>
+                </tr>
+                {% set time = '8:30' %}
+                {% for i in 1..31 %}
+                    
+                <tr>
+                    <td align = "center">{{ time|date('H:i') }} </td>
+                    {% set time = time|date_modify('+30 minutes')  %}
+                    <td class="seleccionable" id="tdRL{{i}}" name="tdRL{{i}}" align="center"></td>
+                    <td class="seleccionable" id="tdRM{{i}}" name="tdRM{{i}}" align="center"></td>
+                    <td class="seleccionable" id="tdRX{{i}}" name="tdRX{{i}}" align="center"></td>
+                    <td class="seleccionable" id="tdRJ{{i}}" name="tdRJ{{i}}" align="center"></td>
+                    <td class="seleccionable" id="tdRV{{i}}" name="tdRV{{i}}" align="center"></td>
+                    <td class="seleccionable" id="tdRS{{i}}" name="tdRS{{i}}" align="center"></td>
+                    <td class="seleccionable" id="tdRD{{i}}" name="tdRD{{i}}" align="center"></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+            
+    <div class="modal-footer section center nomargin" style="padding: 30px;">        
+        <div class="pull-left">
+            {{ form_widget(form.submit,  {'attr': {'class': 'btn btn-success'}}) }}       
+        </div>
+        <div class="pull-right">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+        </div>
+    </div>         
+            
+    {{ form_end(form) }}
+</div>

@@ -1,0 +1,104 @@
+{% trans_default_domain 'FOSUserBundle' %}
+
+<div class="clearfix">
+    {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'id': 'register-form', 'class': 'fos_user_registration_register nobottommargin'}}) }}
+    
+    {{ form_errors(form) }}
+    
+    <div class="col_full">
+        {{ form_label(form.username) }}
+        {{ form_widget(form.username, {'attr': {'class': 'form-control'}}) }}
+        {{ form_errors(form.username) }}
+    </div>
+    <div class="col_full">
+        {{ form_label(form.nombre) }}
+        {{ form_widget(form.nombre, {'attr': {'class': 'form-control'}}) }}
+        {{ form_errors(form.nombre) }}
+    </div>
+    <div class="col_full">
+        {{ form_label(form.apellidos) }}
+        {{ form_widget(form.apellidos, {'attr': {'class': 'form-control'}}) }}
+        {{ form_errors(form.apellidos) }}
+    </div>
+    <div class="col_full">
+        {{ form_label(form.telefono) }}
+        {{ form_widget(form.telefono, {'attr': {'class': 'form-control'}}) }}
+        {{ form_errors(form.telefono) }}        
+        </div>
+    <div class="col_full">
+        {{ form_label(form.fechaNacimiento) }}
+        {{ form_widget(form.fechaNacimiento, {'placeholder': 'DD-MM-YYYY', 'attr': {'class': 'form-control tleft nacimiento'}}) }}
+        {{ form_errors(form.fechaNacimiento) }}
+    </div>   
+
+    
+    <div class="col_full">
+        {{ form_label(form.fotoPerfilFichero) }}
+        {{ form_widget(form.fotoPerfilFichero, {'attr': {'class': 'form-control fotoPerfil'}}) }}
+        {{ form_errors(form.fotoPerfilFichero) }}
+    </div>
+    
+    <div class="col_full">
+        {{ form_label(form.email) }}
+        {{ form_widget(form.email, {'attr': {'class': 'form-control'}}) }}
+        {{ form_errors(form.email) }}
+    </div>
+    
+    <div class="col_full">
+        {{ form_label(form.plainPassword.first) }}
+        {{ form_widget(form.plainPassword.first, {'attr': {'class': 'form-control'}}) }}
+        {{ form_errors(form.plainPassword.first) }}
+    </div>
+    
+    <div class="col_full">
+        {{ form_label(form.plainPassword.second) }}
+        {{ form_widget(form.plainPassword.second, {'attr': {'class': 'form-control'}}) }}
+    </div>
+    
+    {{ form_rest(form) }}
+    
+    
+    <div class="col_full nobottommargin">
+        <input class="button button-rounded button-large button-lime nomargin" type="submit" value="{{ 'registration.submit'|trans }}" />
+    </div>
+{{ form_end(form) }}
+</div>
+
+<script>
+    $(function() {
+        $.fn.datepicker.dates['en'] = {
+            days: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
+            daysShort: ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"],
+            daysMin: ["D", "L", "M", "X", "J", "V", "S"],
+            months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+            monthsShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+            today: "Hoy",
+            clear: "Vaciar",
+            format: "yyyy-mm-dd",
+            titleFormat: "MM yyyy", /* Leverages same syntax as 'format' */
+            weekStart: 1
+        };
+        $('.nacimiento').datepicker({
+            endDate: "today",
+            format: "yyyy-mm-dd",
+            language: "es",
+            startView: 2,
+            autoclose: true
+        });
+        
+        $('.fotoPerfil').fileinput({
+            maxFileCount: 1,
+            showUpload: false, 
+            allowedFileTypes: ["image"],
+            previewFileType: "image",
+            elErrorContainer: "#errorBlock",
+            browseClass: "btn btn-success",
+            browseLabel: "Seleccionar imagen",
+            browseIcon: "<i class=\"icon-picture\"></i> ",
+            removeClass: "btn btn-danger",
+            removeLabel: "Eliminar",
+            removeIcon: "<i class=\"icon-trash\"></i> ",
+        });
+    });
+</script>
+    

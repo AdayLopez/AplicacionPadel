@@ -1,0 +1,66 @@
+<div class="block divcenter" style="background-color: #FFF; max-width: 500px;">
+    {{ form_start(form, {'action': path('seleccionarPreferencias', {'idCompeticion':competicion.id }), 'attr': {'id': 'horarioFormPreferencia'}}) }}
+    
+    <div class="modal-header center nobottommargin fancy-title title-bottom-border darkgrey">      
+        <h3><span>Por favor, rellene la siguiente información</span></h3>             
+    </div>
+    <div class="modal-body center">
+        {{ form_errors(form) }}
+        <div class="form-group">
+            {{ form_label(form.nombrePareja) }}
+            {{ form_widget(form.nombrePareja, {'attr': {'class': 'form-control'}}) }}
+            {{ form_errors(form.nombrePareja) }}
+        </div>  
+      
+        <span style="font-size:20px;"><br></span><br>
+        Click the grid to select time slots, then click 'View Selected Timeslots' to display the selected schedule.<br>
+    
+        <div class="block-tools">
+            <div class="shade-btn block-shade active">Seleccionar</div>
+            <div class="shade-btn block-unshade">Deseleccionar</div>
+        </div> 
+        <table class="tablaRangePicker sel-table table-responsive">
+            <tbody>
+                <tr>
+                    <th>Hora</th>
+                    <th>L</th>
+                    <th>M</th>
+                    <th>X</th>
+                    <th>J</th>
+                    <th>V</th>
+                    <th>S</th>
+                    <th>D</th>
+                </tr>
+                {% set time = '8:30' %}
+                {% for i in 1..31 %}
+                    
+                <tr>
+                    <td align = "center">{{ time|date('H:i') }} </td>
+                    {% set time = time|date_modify('+30 minutes')  %}
+                    <td class="seleccionable" id="tdPL{{i}}" name="tdPL{{i}}" align="center"></td>
+                    <td class="seleccionable" id="tdPM{{i}}" name="tdPM{{i}}" align="center"></td>
+                    <td class="seleccionable" id="tdPX{{i}}" name="tdPX{{i}}" align="center"></td>
+                    <td class="seleccionable" id="tdPJ{{i}}" name="tdPJ{{i}}" align="center"></td>
+                    <td class="seleccionable" id="tdPV{{i}}" name="tdPV{{i}}" align="center"></td>
+                    <td class="seleccionable" id="tdPS{{i}}" name="tdPS{{i}}" align="center"></td>
+                    <td class="seleccionable" id="tdPD{{i}}" name="tdPD{{i}}" align="center"></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>      
+    
+        <div class="modal-footer section center nomargin" style="padding: 30px;">        
+            <div class="pull-left">
+                {{ form_widget(form.submit,  {'attr': {'class': 'btn btn-success'}}) }}       
+            </div>
+            <div class="pull-right">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+            </div>
+        </div>  
+           
+    {{ form_end(form) }}
+</div>
+
+
+

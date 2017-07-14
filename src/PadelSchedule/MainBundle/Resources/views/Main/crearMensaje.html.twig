@@ -1,0 +1,74 @@
+{% extends "::base.html.twig" %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/components/select-boxes.css')}}"  type="text/css" /> 
+    <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/responsive.css')}}"  type="text/css" />    
+{% endblock %}
+
+{% block scripts %} 
+    <script src="{{asset('bundles/padelschedulemain/js/components/select-boxes.js')}}"></script>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    
+    <script>
+
+	$(document).ready(function() {
+            // select Tags
+            $(".select-tags").select2({
+                    tags: true,
+                    allowClear: true
+            });
+                
+    });
+
+    </script>
+{% endblock scripts %}
+
+{% block title %}Index{% endblock %}
+
+{% block content %}
+
+{#    {{destinatarios}}#}
+    <section id="content">
+	<div class="content-wrap">
+            <div class="container clearfix">
+                <div class="feature-box fbox-large fbox-plain fbox-dark">
+                    <div class="fbox-icon">
+                        <i class="icon-email2"></i>
+                    </div> 
+                    <div class="form-group">
+                        {{ form_start(form) }}
+
+                        <label for="mensaje_destinatarioMensaje" class="required">Destinatario:</label>
+                        {{ form_widget(form.destinatarioMensaje, {'attr': {'class': 'select-tags form-control', 'style': 'width: 100%'} }) }}
+                        {{ form_errors(form.destinatarioMensaje) }}
+{#                            Configurar el error para que diga que debe elegir uno de los usuarios que se muestra#}
+                        {{ form_label(form.cabecera) }}
+                        {{ form_widget(form.cabecera, {'attr': {'class': 'form-control'} }) }}
+                        {{ form_errors(form.cabecera) }}
+                        {{ form_label(form.cuerpo) }}
+                        {{ form_widget(form.cuerpo, {'attr': {'class': 'form-control'} }) }}
+                        {{ form_errors(form.cuerpo) }}
+
+                        <div class="text-center">    
+                            {{ form_widget(form.submit,  {'attr': {'class': 'button button-3d button-small button-rounded button-lime'}}) }}    
+                            <a href="{{path('buzon')}}" class="button button-3d button-small button-rounded button-red"> <i class="icon-line-circle-cross"></i>Volver al buzón</a>
+                        </div>
+
+                    {{ form_end(form) }}
+
+                    </div>
+                </div>
+    </section>
+                
+                <script>
+                    $( document ).ready(function() {  
+                        $("span .select2").addClass("form-control");
+                        $(".prueba").click(function() {
+                            alert("hola");
+                            alert( $( "select#mensaje_destinatarioMensaje").val() );
+                        })
+                    });
+                </script>
+                
+{% endblock content %}

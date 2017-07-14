@@ -1,0 +1,68 @@
+{# empty Twig template #}
+{% block css %}
+            <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/tables.css')}}"/>
+{% endblock css %}
+
+   <div class="table-responsive">
+        <table id="tablaJornada" class="table table-striped table-bordered" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>Pareja 1</th>
+                    <th>Pareja 2</th>								
+                    <th>Puntuación</th>								
+                    <th>Fecha</th>								
+                    <th>Hora</th>	
+                    <th>Lugar</th>
+                    {#<th></th>#}
+                </tr>
+            </thead>
+          {#  <tfoot>
+                <tr>
+                    <th>Pareja 1</th>
+                    <th>Pareja 2</th>								
+                </tr>
+            </tfoot>#}
+            <tbody>
+            {% for partido in partidos %}
+                <tr>
+                    <td>{{partido.inscripcion1.jugador.username}} y {{partido.inscripcion1.nombrePareja}}</td>
+                    <td>{{partido.inscripcion2.jugador.username}} y {{partido.inscripcion2.nombrePareja}}</td> 
+                    <td class="center">
+                        {% if partido.resultadoFinal is not empty %}
+                            {{"%u - %u, %u - %u"|format(partido.resultadoFinal[0],partido.resultadoFinal[1],partido.resultadoFinal[2],partido.resultadoFinal[3]) }}
+                            {{partido.resultadoFinal[4] is empty ? "" : ", %u - %u"|format(partido.resultadoFinal[4], partido.resultadoFinal[5])}}
+                        {% elseif partido.resultadoPropuesto1 is not empty or partido.resultadoPropuesto2 is not empty %}
+                                {% if app.user == partido.competicion.creador %}
+                                    <a href="{{ path('elegirResultado', { 'idPartido': partido.id }) }}" class="btn btn-xs btn-warning"> <i class="icon-warning-sign"></i> Confirmar resultado </a>
+                                {% else %}
+                                    <span class="label label-warning icon-warning-sign" data-toggle="tooltip" title="Este resultado está a la espera de ser confirmado.">
+                                {% endif %}
+                        {% endif %}
+                    </td>
+                    <td>{{partido.fechaHora is empty ? "" : partido.fechaHora|date("j/n/Y")}}</td>
+                    <td>{{partido.fechaHora is empty ? "" : partido.fechaHora|date("G:i")}}</td>
+                    <td>
+                        {%if partido.recursoAsignado is not empty %}                            
+                            {% for recurso in competicion.recursos %}                                
+                                {%if partido.recursoAsignado == recurso.id %}                                    
+                                    {{recurso.club}} - {{recurso.cancha}}
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
+                    </td>
+                    {% set resultadoFijado = (partido.resultadoFinal is empty and partido.resultadoPropuesto1 is empty and partido.resultadoPropuesto2 is empty) %}
+                    {% if resultadoFijado and partido.fechaHora is not empty 
+                        and (app.user == partido.competicion.creador or app.user == partido.inscripcion1.jugador or app.user == partido.inscripcion2.jugador) %}
+                        <td class="text-center col-asignarResultado"> <a href="{{ path('fijarResultado', { 'idPartido': partido.id }) }}"> <span class="icon-edit"> </a> </td>
+                    {% endif %}
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+   </div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>

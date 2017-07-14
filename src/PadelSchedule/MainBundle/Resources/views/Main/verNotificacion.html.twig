@@ -1,0 +1,30 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}Notificación{% endblock %}
+
+{% block content %}
+    <section id="content">
+        <a href="{{ path('listadoNotificaciones')}}" class="button button-3d button-small button-rounded button-lime button-light"> <i class="icon-backward"></i>Volver al listado de notificaciones</a>
+        <div class="content-wrap">
+            <div class="container clearfix">                
+                <div class="feature-box fbox-large fbox-plain fbox-dark">
+                    
+                        <div class="fbox-icon">
+                                <i class="icon-exclamation-sign"></i>
+                        </div> {#Poner link a perfil de usuario#}
+                        <h3>{{notificacion.cabecera}}</h3>
+                        
+                       {# <h4>{{notificacion.mensaje}}</h4>#}
+                        <p>{{notificacion.mensaje}}</p>
+                        <p>{{notificacion.fecha|date('d/m/Y - H:i:s')}}</p>
+                        <div class="text-center">     
+                            
+                            <a href="{{ path('confirmarResultado', { 'idNotificacion': notificacion.id }) }}" class="button button-3d button-small button-rounded button-lime button-light"> <i class="icon-ok-sign"></i>Confirmar</a>
+
+                            <a href="{{ path('fijarResultadoAlternativo', { 'idNotificacion': notificacion.id }) }}" class="button button-3d button-small button-rounded button-red"> <i class="icon-line-circle-cross"></i>Proponer resultado alternativo</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock content %}

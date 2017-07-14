@@ -1,0 +1,69 @@
+{# empty Twig template #}
+<div class="tab-content clearfix" id="tab-creadas">
+    <div id="posts" class="events small-thumbs">
+
+        {% for competicion in competicionesCreadas %}
+            <div class="entry clearfix">
+                <div class="entry-image">
+                    <img src="{{   asset(competicion.getWebFotoCompeticionRuta()) }}" alt="Imagen de competición">
+                    <div class="entry-date">{{competicion.fechaInicio|date("d")}}<span>{{competicion.fechaInicio|date("M")}}</span></div>                            
+                </div>
+                <div class="entry-c">
+                    <div class="entry-title">
+                        <h2>{{ competicion.nombre }}</h2>
+                    </div>
+                    <ul class="entry-meta clearfix">
+                        {%if competicion.estado == "Cerrada" %}
+                            <li><span class="label label-danger">{{ competicion.estado }}</span></li>
+                            {% else %}
+                            <li><span class="label label-success">{{ competicion.estado }}</span></li>
+                            {% endif %}
+                        
+                        <li><i class="icon-map-marker2"></i> {{ competicion.localizacion }} </li>
+                    </ul>
+                    <div class="entry-content">
+                        <p>{{ competicion.descripcion }}</p>
+                        {% if app.user.id == competicion.creador.id or competicion.estado == "Abierta" %}
+                            <a href= "{{ path('competicion', {'idCompeticion': competicion.id }) }}" class="btn btn-success">Acceder</a>
+                        {% else %}
+                            <a href= "{{ path('competicion', {'idCompeticion': competicion.id }) }}" class="btn btn-danger disabled">Acceder</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+<div class="tab-content clearfix" id="tab-inscrito">
+    <div id="posts" class="events small-thumbs">
+        {% for competicion in competicionesInscrito %}
+            <div class="entry clearfix">
+                <div class="entry-image">
+                    <a href="{{ path('competicion', {'idCompeticion': competicion.id }) }}">
+                        <img src="{{   asset(competicion.getWebFotoCompeticionRuta()) }}" alt="Inventore voluptates velit totam ipsa tenetur">
+                        <div class="entry-date">{{competicion.fechaInicio|date("d")}}<span>{{competicion.fechaInicio|date("M")}}</span></div>                            
+                    </a>
+                </div>
+                <div class="entry-c">
+                    <div class="entry-title">
+                        <h2><a href="{{ path('competicion', {'idCompeticion': competicion.id }) }}">{{ competicion.nombre }}</a></h2>
+                    </div>
+                    <ul class="entry-meta clearfix">
+                        {%if competicion.estado == "Cerrada" %}
+                            <li><span class="label label-danger">{{ competicion.estado }}</span></li>
+                            {% else %}
+                            <li><span class="label label-success">{{ competicion.estado }}</span></li>
+                            {% endif %}                        
+                        <li><i class="icon-map-marker2"></i> {{ competicion.localizacion }} </li>
+                    </ul>
+                    <div class="entry-content">
+                        <p>{{ competicion.descripcion }}</p>
+                        <a href= "{{ path('competicion', {'idCompeticion': competicion.id }) }}" class="btn btn-success">Acceder</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>            
+
+

@@ -1,0 +1,138 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}Usuarios{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/components/bs-datatable.css')}}"  type="text/css" /> 
+    <link rel="stylesheet" href="{{asset('bundles/padelschedulemain/css/responsive.css')}}"  type="text/css" />
+
+
+    <style>
+        table > tbody > .usuario > td{
+            height: 40px;
+            vertical-align: middle;
+        }
+
+        .usuario:hover {
+            cursor: pointer;
+            background-color: #CCFF99;             
+        }
+        .usuario.odd:hover {
+            cursor: pointer;
+            background-color: #CCFF99;
+        }
+        .col-eliminar {
+            width: 10px;
+        }
+
+    </style>
+{% endblock %}
+
+{% block scripts %} 
+    <script src="{{asset('bundles/padelschedulemain/js/components/bs-datatable.js')}}"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <script>
+
+        $(document).ready(function () {
+            $('#datatable1').dataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json",
+                    "info": "Mostrando mensajes del _START_ al _END_ de un total de _TOTAL_"
+                },
+                "order": [[1, "asc"]],
+                "aoColumnDefs": [
+                    {'bSortable': false, 'aTargets': [0]}
+                ]
+            });
+
+            $('.usuario').click(function () {
+                window.location.href = Routing.generate('verPerfil', {idUsuario: $(this).data("idusuario")});
+            });
+
+        });
+
+    </script>
+{% endblock scripts %}
+
+{% block content %}
+
+    <section id="page-title">
+        <div class="container clearfix">
+            <h1>Usuarios</h1>
+            <ol class="breadcrumb">
+                <li><a href="{{ path('home') }}">Principal</a></li>                            
+                <li class="active">Usuarios</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="content">
+
+        <div class="content-wrap notoppadding">
+
+            <div class="container clearfix">
+                <div class="table-responsive">
+
+                    <table id="datatable1" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Usuario</th>
+                                <th>Nombre</th>									
+                                <th>Apellidos</th>	
+                                    {% if is_granted('ROLE_ADMIN') %} 
+                                    <th></th>	
+                                    {% endif %}
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th></th>
+                                <th>Usuario</th>
+                                <th>Nombre</th>									
+                                <th>Apellidos</th>
+                                    {% if is_granted('ROLE_ADMIN') %} 
+                                    <th></th>
+                                    {% endif %}
+                            </tr>
+                        </tfoot>
+                        <tbody>                            
+                            {% for usuario in usuarios %}
+                                {% if (is_granted('IS_AUTHENTICATED_FULLY') or is_granted('IS_AUTHENTICATED_REMEMBERED') ) %}
+                                    {% set userId = app.user.id() %}
+                                {% else %}
+                                    {% set userId = -1 %}
+                                {% endif %}
+                                {% if userId != usuario.id %}
+                                    <tr class="usuario" data-idusuario="{{usuario.id}}">                                    
+                                        <td class="col-imagen text-center">
+                                            <img class="img-circle img-thumbnail img-responsive" height="40px" width="40px" src="{{ asset(usuario.getWebFotoPerfilRuta()) }}" alt="Foto de perfil">
+                                        </td>
+                                        <td> {{usuario.username}} </td>
+                                        <td> {{usuario.nombre}} </td>
+                                        <td> {{usuario.apellidos}} </td>
+                                        {% if is_granted('ROLE_ADMIN') %} 
+                                            <td class="text-center col-eliminar"> <a href="{#{{ path('eliminarUsuario', { 'idUsuario': usuario.id }) }}#}#"> <span class="icon-line-square-cross"></span></a> </td>
+                                                {% endif %}
+                                    </tr>   
+                                {% endif %}
+
+                            {% endfor %}
+
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section><!-- #content end -->
+
+{% endblock content %}
