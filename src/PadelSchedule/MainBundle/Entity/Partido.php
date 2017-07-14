@@ -52,9 +52,7 @@ class Partido
      */    
     private $fechaHora;
     
-    
-//    ¿¿Poner onetoone??    
-    
+
     /**
      * @var integer
      * 

@@ -166,6 +166,7 @@
                                             </div>
 
                                             <script type="text/javascript">
+                                                //Poblamos el calendario con los partidos ya colocados, modificando la variable canvasEvents
                                                 var canvasEvents = {
                                                     {% for partido in competicion.partidos %}
                                                         '{{partido.fechaHora|date('m-d-Y')}}' : '{{partido.fechaHora|date('G:i')}} - {{partido.inscripcion1.jugador.username}} y {{partido.inscripcion1.nombrePareja}} vs {{partido.inscripcion2.jugador.username}} y {{partido.inscripcion2.nombrePareja}}',                                                         
@@ -207,7 +208,7 @@
                             </div>
 
                             <div class="tab-content clearfix" id="tab-3">
-                                {#                                <div class="col_three_fifth">#}
+{#                              Tabla de clasificación  #}
                                 <div class="col_half">
 
                                     <div class="table-responsive">
@@ -269,7 +270,7 @@
                                         });
                                         });                                </script>
 
-                                {#                                <div class="col_two_fifth col_last">#}
+                                
                                 <div class="col_half col_last">
                                     {% if competicion.numJornadas == 0 %}
                                         {% if creador %}
@@ -313,8 +314,7 @@
                                                 });
                                                 });</script>
                                             {% if creador %}
-                                                {#<a href="{{ path('generarHorario', { 'idCompeticion': competicion.id }) }}" type="button" class="btn btn-success btn-block btn-lg" >Generar fechas</a>#}
-                                                {#                                        Comprobamos que no se ha generado ya el horario de la última jornada#}
+                                                
                                                 {% if competicion.jornadaActual < competicion.numJornadas %}
                                                 <label> Próxima jornada: {{ competicion.jornadaActual + 1 }} </label>    
                                                 <button type="button" class="button button-lime button-rounded button-3d btn-block btn-lg" data-toggle="modal" data-target="#modalGenerarHorario">Generar fechas</button>

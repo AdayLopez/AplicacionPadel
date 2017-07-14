@@ -9,7 +9,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  * Inscripcion
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="PadelSchedule\MainBundle\Entity\InscripcionRepository")
+ * @ORM\Entity
  */
 class Inscripcion
 {

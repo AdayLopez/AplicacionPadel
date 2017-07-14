@@ -15,8 +15,8 @@ class __TwigTemplate_1bb30dbbb79fa7101e35ab4bd1d7f7d2a858773c8211d025ecc3a8cf2a0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_92b38a48bed975969870f960b9bb7c3bdd4470bafd6d0a18d5f3eea6a16911a5 = $this->env->getExtension("native_profiler");
-        $__internal_92b38a48bed975969870f960b9bb7c3bdd4470bafd6d0a18d5f3eea6a16911a5->enter($__internal_92b38a48bed975969870f960b9bb7c3bdd4470bafd6d0a18d5f3eea6a16911a5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PadelScheduleMainBundle:Competitions:crearRecurso.html.twig"));
+        $__internal_660dd566b2b81ab8c3adf878a683ba7cd217b343f44449b01a80e820ca33e31d = $this->env->getExtension("native_profiler");
+        $__internal_660dd566b2b81ab8c3adf878a683ba7cd217b343f44449b01a80e820ca33e31d->enter($__internal_660dd566b2b81ab8c3adf878a683ba7cd217b343f44449b01a80e820ca33e31d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PadelScheduleMainBundle:Competitions:crearRecurso.html.twig"));
 
         // line 1
         echo "
@@ -74,7 +74,8 @@ class __TwigTemplate_1bb30dbbb79fa7101e35ab4bd1d7f7d2a858773c8211d025ecc3a8cf2a0
         echo "
         </div>
         <span style=\"font-size:20px;\"><br></span><br>
-        Click the grid to select time slots, then click 'View Selected Timeslots' to display the selected schedule.<br>
+        Pulse en las casillas para seleccionar los horarios
+        
     
         <div class=\"block-tools\">
             <div class=\"shade-btn block-shade active\">Seleccionar</div>
@@ -93,61 +94,61 @@ class __TwigTemplate_1bb30dbbb79fa7101e35ab4bd1d7f7d2a858773c8211d025ecc3a8cf2a0
                     <th>D</th>
                 </tr>
                 ";
-        // line 41
-        $context["time"] = "8:30";
         // line 42
+        $context["time"] = "8:30";
+        // line 43
         echo "                ";
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(range(1, 31));
         foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
-            // line 43
+            // line 44
             echo "                    
                 <tr>
                     <td align = \"center\">";
-            // line 45
+            // line 46
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, (isset($context["time"]) ? $context["time"] : $this->getContext($context, "time")), "H:i"), "html", null, true);
             echo " </td>
                     ";
-            // line 46
-            $context["time"] = twig_date_modify_filter($this->env, (isset($context["time"]) ? $context["time"] : $this->getContext($context, "time")), "+30 minutes");
             // line 47
+            $context["time"] = twig_date_modify_filter($this->env, (isset($context["time"]) ? $context["time"] : $this->getContext($context, "time")), "+30 minutes");
+            // line 48
             echo "                    <td class=\"seleccionable\" id=\"tdRL";
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\" name=\"tdRL";
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\" align=\"center\"></td>
                     <td class=\"seleccionable\" id=\"tdRM";
-            // line 48
+            // line 49
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\" name=\"tdRM";
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\" align=\"center\"></td>
                     <td class=\"seleccionable\" id=\"tdRX";
-            // line 49
+            // line 50
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\" name=\"tdRX";
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\" align=\"center\"></td>
                     <td class=\"seleccionable\" id=\"tdRJ";
-            // line 50
+            // line 51
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\" name=\"tdRJ";
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\" align=\"center\"></td>
                     <td class=\"seleccionable\" id=\"tdRV";
-            // line 51
+            // line 52
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\" name=\"tdRV";
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\" align=\"center\"></td>
                     <td class=\"seleccionable\" id=\"tdRS";
-            // line 52
+            // line 53
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\" name=\"tdRS";
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\" align=\"center\"></td>
                     <td class=\"seleccionable\" id=\"tdRD";
-            // line 53
+            // line 54
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\" name=\"tdRD";
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
@@ -158,7 +159,7 @@ class __TwigTemplate_1bb30dbbb79fa7101e35ab4bd1d7f7d2a858773c8211d025ecc3a8cf2a0
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 56
+        // line 57
         echo "            </tbody>
         </table>
     </div>
@@ -166,7 +167,7 @@ class __TwigTemplate_1bb30dbbb79fa7101e35ab4bd1d7f7d2a858773c8211d025ecc3a8cf2a0
     <div class=\"modal-footer section center nomargin\" style=\"padding: 30px;\">        
         <div class=\"pull-left\">
             ";
-        // line 62
+        // line 63
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "submit", array()), 'widget', array("attr" => array("class" => "btn btn-success")));
         echo "       
         </div>
@@ -176,12 +177,12 @@ class __TwigTemplate_1bb30dbbb79fa7101e35ab4bd1d7f7d2a858773c8211d025ecc3a8cf2a0
     </div>         
             
     ";
-        // line 69
+        // line 70
         echo         $this->env->getExtension('form')->renderer->renderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'form_end');
         echo "
 </div>";
         
-        $__internal_92b38a48bed975969870f960b9bb7c3bdd4470bafd6d0a18d5f3eea6a16911a5->leave($__internal_92b38a48bed975969870f960b9bb7c3bdd4470bafd6d0a18d5f3eea6a16911a5_prof);
+        $__internal_660dd566b2b81ab8c3adf878a683ba7cd217b343f44449b01a80e820ca33e31d->leave($__internal_660dd566b2b81ab8c3adf878a683ba7cd217b343f44449b01a80e820ca33e31d_prof);
 
     }
 
@@ -197,7 +198,7 @@ class __TwigTemplate_1bb30dbbb79fa7101e35ab4bd1d7f7d2a858773c8211d025ecc3a8cf2a0
 
     public function getDebugInfo()
     {
-        return array (  180 => 69,  170 => 62,  162 => 56,  151 => 53,  145 => 52,  139 => 51,  133 => 50,  127 => 49,  121 => 48,  114 => 47,  112 => 46,  108 => 45,  104 => 43,  99 => 42,  97 => 41,  73 => 20,  69 => 19,  65 => 18,  61 => 17,  57 => 16,  53 => 15,  49 => 14,  45 => 13,  41 => 12,  36 => 10,  26 => 3,  22 => 1,);
+        return array (  181 => 70,  171 => 63,  163 => 57,  152 => 54,  146 => 53,  140 => 52,  134 => 51,  128 => 50,  122 => 49,  115 => 48,  113 => 47,  109 => 46,  105 => 44,  100 => 43,  98 => 42,  73 => 20,  69 => 19,  65 => 18,  61 => 17,  57 => 16,  53 => 15,  49 => 14,  45 => 13,  41 => 12,  36 => 10,  26 => 3,  22 => 1,);
     }
 }
 /* */
@@ -222,7 +223,8 @@ class __TwigTemplate_1bb30dbbb79fa7101e35ab4bd1d7f7d2a858773c8211d025ecc3a8cf2a0
 /*             {{ form_errors(form.direccion) }}*/
 /*         </div>*/
 /*         <span style="font-size:20px;"><br></span><br>*/
-/*         Click the grid to select time slots, then click 'View Selected Timeslots' to display the selected schedule.<br>*/
+/*         Pulse en las casillas para seleccionar los horarios*/
+/*         */
 /*     */
 /*         <div class="block-tools">*/
 /*             <div class="shade-btn block-shade active">Seleccionar</div>*/

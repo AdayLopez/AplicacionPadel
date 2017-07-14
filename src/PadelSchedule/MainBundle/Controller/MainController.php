@@ -123,8 +123,7 @@ class MainController extends Controller {
 
         $form->handleRequest($request);
         if ($form->isValid()) {
-            // Guardamos la nueva competicion en la BD
-//            $competicion->setCreador($this->getUser());
+            // Guardamos los cambios en la BD
             $em = $this->getDoctrine()->getManager();
             $em->persist($competicion);
             $em->flush();
@@ -157,8 +156,6 @@ class MainController extends Controller {
                 ->getRepository('PadelScheduleMainBundle:Inscripcion')
                 ->findOneBy(array('jugador' => $this->getUser(), 'competicion' => $competicion)
         );
-
-
 
         return $this->render(
                         'PadelScheduleMainBundle:Competitions:verCompeticion.html.twig', array(
@@ -194,7 +191,7 @@ class MainController extends Controller {
                 ->where('c.creador = :idCreador ')
                 ->setParameter('idCreador', $idUsuario)
                 ->getQuery();
-
+        //Obtenemos las competiciones creadas por el usuario
         $competicionesCreadas = $query->getResult();
 
         $em = $this->getDoctrine()->getManager();
@@ -204,7 +201,7 @@ class MainController extends Controller {
                 ->where('i.jugador = :idUsuario')
                 ->setParameter('idUsuario', $idUsuario)
                 ->getQuery();
-
+        //Obtenemos las competiciones en las que el usuario se encuentra inscrito
         $competicionesInscrito = $query->getResult();
 
 
@@ -254,7 +251,7 @@ class MainController extends Controller {
         if ($form->isValid()) {
             $inscripcion->setJugador($this->getUser());
             $inscripcion->setCompeticion($competicion);
-
+            //Si el formulario es valido, almacenamos la información
             $em = $this->getDoctrine()->getManager();
             $em->persist($inscripcion);
             $em->flush();
@@ -270,12 +267,6 @@ class MainController extends Controller {
      * @Route("/abandonarCompeticion?inscripcion={idInscripcion}", name="abandonarCompeticion") 
      */
     public function abandonarCompeticionAction($idInscripcion) {
-//    if (!$usuario) {
-//        throw $this->createNotFoundException('No guest found');
-//    }
-//    if (!$competicion) {
-//        throw $this->createNotFoundException('No guest found');
-//    }
 
         $em = $this->getDoctrine()->getEntityManager();
         $inscripcion = $em->getRepository('PadelScheduleMainBundle:Inscripcion')->find($idInscripcion);
@@ -293,7 +284,7 @@ class MainController extends Controller {
         $competicion = $this->getDoctrine()
                 ->getRepository('PadelScheduleMainBundle:Competicion')
                 ->find($idCompeticion);
-
+        //Buscamos los partidos de la jornada
         $partidos = $this->getDoctrine()
                 ->getRepository('PadelScheduleMainBundle:Partido')
                 ->findBy(array('jornada' => $numJornada, 'competicion' => $idCompeticion)
@@ -311,11 +302,6 @@ class MainController extends Controller {
         $em = $this->getDoctrine()->getManager();
         $recurso = $em->getRepository('PadelScheduleMainBundle:Recurso')
                 ->find($idRecurso);
-
-//         $nombreRecurso = $recurso.club;
-//         $miArray = array(
-//             'nombre' => $recurso.getClub()
-//         );
         return new Response($recurso . getClub());
     }
 
@@ -330,7 +316,7 @@ class MainController extends Controller {
                 ->find($idCompeticion);
         //Obtenemos todas las inscripciones realizadas
         $inscripciones = $competicion->getInscripciones()->getValues();
-
+        //recorremos las inscripciones y hacemos los cruces
         if (count($inscripciones) % 2 != 0) {
             array_push($inscripciones, null);
         }
@@ -435,9 +421,7 @@ class MainController extends Controller {
                 $partido->setFechaHora(date_create_from_format('d/m/Y G:i', "$elem->fecha $elem->hora"));
             }
             $em->flush();
-//            return $this->render('PadelScheduleMainBundle:Competitions:debug.html.twig', array(
-//                'data' => $time
-//            ));            
+          
             return $this->redirectToRoute('competicion', array('idCompeticion' => $idCompeticion));
         }
 
@@ -729,9 +713,6 @@ class MainController extends Controller {
             $em->remove($notificacion);
             $em->flush();
             return $this->redirectToRoute('competicion', array('idCompeticion' => $partido->getCompeticion()->getId()));
-//            return $this->render('PadelScheduleMainBundle:Competitions:debug.html.twig', array(
-//                        'data' => $resultados,
-//            ));
         }
 
         return $this->render('PadelScheduleMainBundle:Competitions:fijarResultado.html.twig', array(

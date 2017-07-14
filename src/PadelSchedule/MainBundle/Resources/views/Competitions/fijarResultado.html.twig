@@ -35,7 +35,6 @@
                     <tr>
                         <th colspan="2">Set 1 </th>
                         <th colspan="2">Set 2</th>								
-{#                        <th colspan="2">Set 3 <div class="pull-right set3Activator"><input class="set3 bt-switch" type="checkbox" checked data-on-text="<i class='icon-unlock'></i>" data-off-text="<i class='icon-lock3'></i>"  data-size="mini" data-off-color="warning" data-on-color="success"></div></th>	#}
                         <th colspan="2">Set 3</th>
                 </tr>
                 </thead>
@@ -57,20 +56,9 @@
         </div>
     </div>
     <script>
-
-{#        jQuery(".bt-switch").bootstrapSwitch();#}
-
+{#Se comprueba si ha sido necesario jugar el tercer set#}
         $(function () {
           $('.resultado5, .resultado6').prop('disabled', true);
-            
-            {#$('.set3').on('switchChange.bootstrapSwitch', function (event, state) {                
-                if ($('.resultado5, .resultado6').prop('disabled')) {
-                    $('.resultado5, .resultado6').prop('disabled', false);
-                } else {
-                    $('.resultado5, .resultado6').prop('disabled', true);
-                }
-                $('.resultado5, .resultado6').selectpicker('refresh');
-            });#}
             $('.selectpicker').on('change', function(){
                 var resultado1 = $('.resultado1').find("option:selected").val();
                 var resultado2 = $('.resultado2').find("option:selected").val();

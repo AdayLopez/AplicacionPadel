@@ -168,7 +168,7 @@
                     
                 </tr>
                 {% for i in 8..23 %}
-                <tr class="{{i}}:00"> {#//Comprobar si se puede añadir el rowspan solo si es par, se evita  doble fila#}
+                <tr class="{{i}}:00"> 
                     <td rowspan="2">{{i}}:00</td>
                     <td class="celda_horario celda0 Lunes">a</td>
                     <td class="celda_horario celda1 Martes"></td>
@@ -233,7 +233,7 @@
                             <li class="{{recurso.id}}"> {{recurso.club}} - {{recurso.cancha}}</li>
                         {% endfor %}
                         </ol>
-
+{#Información oculta que se utilizará en el script#}
                         {% for recurso in recursos %}
                             <div id="recurso{{recurso.id}}" style="display: none;">
                                 <p class="horarioLunes"> {{recurso.horarioLunes}} </p>
@@ -269,7 +269,7 @@
                             <td class="fechaPartido"></td>
                             <td class="horaPartido"></td>
                             <td class="recursoPartido"></td>
-                            
+                            {#Informacion oculta que se utilizará en el script#}
                             <td class="preferenciaParejas" style="display: none;"> 
                                 <p class="preferenciaJugador1Lunes"> {{partido.inscripcion1.horarioLunes}} </p>
                                 <p class="preferenciaJugador1Martes"> {{partido.inscripcion1.horarioMartes}} </p>
@@ -320,13 +320,10 @@
                     delay: 200,
                     start: function(event, ui) {
                             
-
+                         //Al empezar a arrastrar un partido, coloreamos las preferencias de la pareja para hacerlas visibles
                         var pref1 = $("#listaPartidos").find("."+idPartido).find(".preferenciaJugador1"+diaVistaDetallada.format("dddd")).text();  
                         var pref2 = $("#listaPartidos").find("."+idPartido).find(".preferenciaJugador2"+diaVistaDetallada.format("dddd")).text();  
         
-                        {#var pref1 = $(this).find(".preferenciaJugador1"+diaVistaDetallada.format("dddd")).text();  
-                        var pref2 = $(this).find(".preferenciaJugador2"+diaVistaDetallada.format("dddd")).text();  #}
-
                         interseccion = buscarInterseccion(pref1, pref2);
 
                         var i;
@@ -340,8 +337,7 @@
                             while(rangoInf.isBefore(rangoSup)){
                                 rangoString = rangoInf.format("H:mm");        
                             //Buscamos la fila en la que la pareja ha elegido jugar
-
-                                //       clase tabla    > tbody >          clase TR (hora)                 >  celda de recurso
+                               
                                 filaHora = $(".vistaDetalladaTabla > tbody > ." + rangoString.replace(":", "\\:") + " > .celda_vistaDetallada" ).addClass("preferenciaPareja");
                                 //Seguimos recorriendo las celdas del rango
                                 rangoInf.add(30, 'm');
@@ -349,7 +345,8 @@
                         }
 
                     },
-                    stop: function(event, ui) {                    
+                    stop: function(event, ui) { 
+                        //Al soltar el partido, se eliminan visualmente las preferencias de la pareja
                         $(".vistaDetalladaTabla > tbody > tr > td").removeClass("preferenciaPareja");
                     }
                 }); 
@@ -491,11 +488,10 @@
             $("#calendario-head-fecha").text(inicioSemana.format("ll") + "/" + finSemana.format("ll"));
 
             var dia = moment(inicioSemana);
-{#            actualizarDisponibilidad();#}
             //Actualizamos la cabecera del calendario para que coincida con los días de la semana que estamos viendo
             $(".cabecera-dia-fecha").each(function() {
                 $(this).text(dia.format("l"));
-                if(dia.startOf('day').isSame(moment().startOf('day'))) { {#Es hoy#}
+                if(dia.startOf('day').isSame(moment().startOf('day'))) { 
                     $(this).parent().addClass("hoy");
                 } else {
                     $(this).parent().removeClass("hoy");
@@ -641,8 +637,7 @@
                     while(rangoInf.isBefore(rangoSup)){
                         rangoString = rangoInf.format("H:mm");                        
                         //Buscamos la celda dentro del rango y le añadimos la funcionalidad de poder mover eventos a esta casilla
-                         
-                        //       clase tabla    > tbody >          clase TR (hora)                 >  celda de recurso
+                        
                         $(".vistaDetalladaTabla > tbody > ." + rangoString.replace(":", "\\:") + " > ." + (index+1)).hacerDroppableVD();
                         //Seguimos recorriendo las celdas del rango
                         rangoInf.add(30, 'm');
@@ -661,8 +656,7 @@
                     var celdaPartido = $(".vistaDetalladaTabla > tbody > ." + horaPartido + " > ." + recursoPartido);
                     var indicePartido = $(this).find(".indicePartido").text();
                            
-            //////////////////////////
-            
+
                     var $divPartido = $("<div>");
                     var cellPos = celdaPartido.position();
                     $divPartido.addClass($(this).attr("class").split(' ')[0]+' partido');
@@ -699,9 +693,7 @@
                         filaPartido.find(".recursoPartido").empty();
                     });
             
-            ////////////////////////////
-            
-               
+
                 }
                
             });
@@ -735,6 +727,7 @@
             for(i = 0; i < rangosMoment1.length; i++){
                 
                 for(j = 0; j < rangosMoment2.length; j++){
+                    //Recorremos todos los rangos y buscamos todas las intersecciones posibles
                     nuevoRango = rangosMoment1[i].intersect(rangosMoment2[j]);
                     if(nuevoRango != null){
                         rangosFinales[aux] = nuevoRango;
@@ -747,7 +740,7 @@
         }
         
         function autoGenerarHorario(){
-            //Dia a partir del cual empezamos a autocolocar partidos (¿¿MAÑANA??))
+            //Dia a partir del cual empezamos a autocolocar partidos
             
             var dia = moment("{{fechaInicio}}", "DD-MM-YYYY");
             var diaFin = moment("{{fechaFin}}", "DD-MM-YYYY");
@@ -806,8 +799,6 @@
                         
             //Tomando los partidos por orden de restricción, se van colocando
             
-            
-            {#while((partidoActual < partidosOrdenados.length) && control){#}
             for(partidoActual = 0; partidoActual < partidosOrdenados.length; partidoActual++){
                 //Recorremos día a día intentando colocar el partido
                 var diaActual = 0;
@@ -826,7 +817,7 @@
                         
                         var i = 0;
                         while((i < disponibilidad.length) && control){
-                        {#for(i = 0; i < disponibilidad.length; i++){#}                            
+            
                             if(disponibilidad[i].valueOf() >= 5400000) {                                                                    
                                     //Colocamos partido al inicio del rango
                                     var filaPartido = $("#listaPartidos").find("."+partidosOrdenados[partidoActual][0]);
@@ -868,7 +859,7 @@
             }             
         
         }
-        
+        //Convierte una serie de rangos horarios de string a objeto moment.range
         function stringToRango(string) {
             if(string.charAt(0) === " "){
                 var rangos = string.substring(1);
@@ -883,7 +874,7 @@
             
 
         }
-        
+        //Convierte un serie de rangos horarios de moment.range a string
         function rangoToString(rangos) {
             var rango = " ";
             for(var i = 0; i < rangos.length; i++) {
@@ -894,23 +885,25 @@
         }
         
         $(function() {
-            moment.locale('es');
-            //Preguntar si se pueden empezar a poner partidos hoy o a partir de X día
+            moment.locale('es');            
             diaVistaDetallada = moment().add(1, "days");            
             inicioSemana = moment(diaVistaDetallada).startOf('week'); 
+            //Se colocan los partidos automaticamente
             autoGenerarHorario();
             $(".cal-semanaAnterior").attr("disabled", true);
+            //Se actualiza el calendario con los partidos ya colocados
             actualizarCalendario();
-        
+            //Se pone como día seleccionado el día de inicio de rango
             $( "input[name=diaVistaDetallada]:radio." + diaVistaDetallada.format("dddd") ).prop("checked", true);
             actualizarDisponibilidadDetallada();
           
 
-
+            //Al cambiar de día se actualiza la vista detallada
             $('input[name=diaVistaDetallada]:radio').change(function() {
                 diaVistaDetallada = moment(inicioSemana).weekday($("input[name=diaVistaDetallada]:checked").val());                
                 actualizarDisponibilidadDetallada();
-            });           
+            });     
+            //Eventos para moverse por el calendario, cambiando de semana
             $(".cal-semanaAnterior").click(function() {
                 inicioSemana = inicioSemana.weekday(-7);
                 diaVistaDetallada = moment(inicioSemana).weekday($("input[name=diaVistaDetallada]:checked").val());                
@@ -920,6 +913,7 @@
                 actualizarDisponibilidadDetallada();
                 actualizarCalendario();
             });
+            //Evento para ir al día actual
             $(".cal-hoy").click(function() {
                 inicioSemana = moment(){#.add(1, "days")#}.startOf('week');
                 diaVistaDetallada = moment(){#.add(1, "days")#};
@@ -942,20 +936,9 @@
                 $(this).hacerDraggable( idPartido );
             });                    
             
-            //Hacer el chequeo de que todos los partidos están colocados correctamente
-{#            USAR ESTE CODIGO PARA QUE SE MAND EO NO DEPENDIENDO DE SI ESTÄ CORRECTO#}
-            {#$( "form" ).submit(function( event ) {
-            if ( $( "input:first" ).val() === "correct" ) {
-              $( "span" ).text( "Validated..." ).show();
-              return;
-            }
-
-            $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
-            event.preventDefault();
-          });#}
             
             $(".formCalendario").submit( function(event) {
-{#                event.preventDefault();#}
+//Se obtiene la colocación de los partidos y se almacena en el formulario para su envío
                 var partidos = '{ "partidos" : [';
                  $("#listaPartidos .partido").each(function() {
                     var idPartido = $(this).attr("class").split(' ')[0];
@@ -963,9 +946,7 @@
                     var fechaPartido = $(this).find(".fechaPartido").text();
                     var horaPartido = $(this).find(".horaPartido").text();
                     var numRecurso = parseInt($(this).find(".recursoPartido").text()) - 1;                    
-                    var recursoPartido = $(".recursos").children().eq(numRecurso).attr('class');
-                    alert(recursoPartido);
-                    {#var recursoPartido = $(this).find(".recursoPartido").text();#}
+                    var recursoPartido = $(".recursos").children().eq(numRecurso).attr('class');                    
                     partidos = partidos + '{ "id": "' + idPartido + '" , "recurso":"' + recursoPartido + '" , "fecha":"' + fechaPartido + '" , "hora":"' + horaPartido + '" },';
                      
                 });

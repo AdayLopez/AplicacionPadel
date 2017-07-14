@@ -399,7 +399,7 @@ $(document).ready(function() {
     });
     
       
-    
+    //Cambiamos entre seleccionar o deseleccionar
     $(".block-tools > .shade-btn").click(function() {
 			var $this = $(this);	
 			
@@ -420,7 +420,7 @@ $(document).ready(function() {
         }
         
     });
-    
+    //Envío de los formularios
     $('#horarioFormRecurso').submit(function() {
         var $this = $(this);        
         $this.children('.horarioLunesCampo').val(GetSelectedTimeslots('RL'));

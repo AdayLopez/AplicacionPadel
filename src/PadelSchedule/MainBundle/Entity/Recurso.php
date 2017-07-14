@@ -94,11 +94,7 @@ class Recurso
      */
     private $direccion;    
 
-    /**
-     * Get id
-     *
-     * @return integer
-     */
+
     
     /**
      * @ORM\ManyToOne(targetEntity="Competicion", inversedBy="recursos")
@@ -106,6 +102,11 @@ class Recurso
      */
     private $competicion;
     
+     /**
+     * Get id
+     *
+     * @return integer
+     */
     public function getId()
     {
         return $this->id;

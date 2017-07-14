@@ -24,20 +24,20 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_678cb1a7659b8c598ab5dba20c86c426ededfcd3b11bef2514487e6aa0b12657 = $this->env->getExtension("native_profiler");
-        $__internal_678cb1a7659b8c598ab5dba20c86c426ededfcd3b11bef2514487e6aa0b12657->enter($__internal_678cb1a7659b8c598ab5dba20c86c426ededfcd3b11bef2514487e6aa0b12657_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PadelScheduleMainBundle:Competitions:verCompeticion.html.twig"));
+        $__internal_5315fd5db54bb30918a8989118763fdddccce489e815c8d09e5acde50c728753 = $this->env->getExtension("native_profiler");
+        $__internal_5315fd5db54bb30918a8989118763fdddccce489e815c8d09e5acde50c728753->enter($__internal_5315fd5db54bb30918a8989118763fdddccce489e815c8d09e5acde50c728753_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PadelScheduleMainBundle:Competitions:verCompeticion.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_678cb1a7659b8c598ab5dba20c86c426ededfcd3b11bef2514487e6aa0b12657->leave($__internal_678cb1a7659b8c598ab5dba20c86c426ededfcd3b11bef2514487e6aa0b12657_prof);
+        $__internal_5315fd5db54bb30918a8989118763fdddccce489e815c8d09e5acde50c728753->leave($__internal_5315fd5db54bb30918a8989118763fdddccce489e815c8d09e5acde50c728753_prof);
 
     }
 
     // line 3
     public function block_css($context, array $blocks = array())
     {
-        $__internal_f01fadeced8f915846e6f85f934d19c05e8333bf589011b6d42f588d53c97931 = $this->env->getExtension("native_profiler");
-        $__internal_f01fadeced8f915846e6f85f934d19c05e8333bf589011b6d42f588d53c97931->enter($__internal_f01fadeced8f915846e6f85f934d19c05e8333bf589011b6d42f588d53c97931_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "css"));
+        $__internal_a7bb400f643f986d8eda62a8fe0e5005d3849c64a56a9939e152fc9a619e3821 = $this->env->getExtension("native_profiler");
+        $__internal_a7bb400f643f986d8eda62a8fe0e5005d3849c64a56a9939e152fc9a619e3821->enter($__internal_a7bb400f643f986d8eda62a8fe0e5005d3849c64a56a9939e152fc9a619e3821_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "css"));
 
         // line 4
         echo "    <link rel=\"stylesheet\" href=\"";
@@ -53,15 +53,15 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
         echo "\"  type=\"text/css\" /> 
 ";
         
-        $__internal_f01fadeced8f915846e6f85f934d19c05e8333bf589011b6d42f588d53c97931->leave($__internal_f01fadeced8f915846e6f85f934d19c05e8333bf589011b6d42f588d53c97931_prof);
+        $__internal_a7bb400f643f986d8eda62a8fe0e5005d3849c64a56a9939e152fc9a619e3821->leave($__internal_a7bb400f643f986d8eda62a8fe0e5005d3849c64a56a9939e152fc9a619e3821_prof);
 
     }
 
     // line 9
     public function block_scripts($context, array $blocks = array())
     {
-        $__internal_cbfe1eb3f11533af60327b10f05700debb91e38ba3b72a7104f1d7dc080c5294 = $this->env->getExtension("native_profiler");
-        $__internal_cbfe1eb3f11533af60327b10f05700debb91e38ba3b72a7104f1d7dc080c5294->enter($__internal_cbfe1eb3f11533af60327b10f05700debb91e38ba3b72a7104f1d7dc080c5294_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "scripts"));
+        $__internal_0fb54ccf0fc214fa86c10d0ba246255e4f28fc58709b7a2617a41ea938e1b218 = $this->env->getExtension("native_profiler");
+        $__internal_0fb54ccf0fc214fa86c10d0ba246255e4f28fc58709b7a2617a41ea938e1b218->enter($__internal_0fb54ccf0fc214fa86c10d0ba246255e4f28fc58709b7a2617a41ea938e1b218_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "scripts"));
 
         echo " 
     <script src=\"";
@@ -83,27 +83,27 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
         echo "\"></script>
 ";
         
-        $__internal_cbfe1eb3f11533af60327b10f05700debb91e38ba3b72a7104f1d7dc080c5294->leave($__internal_cbfe1eb3f11533af60327b10f05700debb91e38ba3b72a7104f1d7dc080c5294_prof);
+        $__internal_0fb54ccf0fc214fa86c10d0ba246255e4f28fc58709b7a2617a41ea938e1b218->leave($__internal_0fb54ccf0fc214fa86c10d0ba246255e4f28fc58709b7a2617a41ea938e1b218_prof);
 
     }
 
     // line 18
     public function block_title($context, array $blocks = array())
     {
-        $__internal_a648ba0e0ca7c5ccd9fde71c27c798bb1594f9d82c8f40ac986be13a72de4fd6 = $this->env->getExtension("native_profiler");
-        $__internal_a648ba0e0ca7c5ccd9fde71c27c798bb1594f9d82c8f40ac986be13a72de4fd6->enter($__internal_a648ba0e0ca7c5ccd9fde71c27c798bb1594f9d82c8f40ac986be13a72de4fd6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_e6df0b2405b7e803b2d30a30d8e60b7a603992815a72329e068561486783f7c6 = $this->env->getExtension("native_profiler");
+        $__internal_e6df0b2405b7e803b2d30a30d8e60b7a603992815a72329e068561486783f7c6->enter($__internal_e6df0b2405b7e803b2d30a30d8e60b7a603992815a72329e068561486783f7c6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Competicion";
         
-        $__internal_a648ba0e0ca7c5ccd9fde71c27c798bb1594f9d82c8f40ac986be13a72de4fd6->leave($__internal_a648ba0e0ca7c5ccd9fde71c27c798bb1594f9d82c8f40ac986be13a72de4fd6_prof);
+        $__internal_e6df0b2405b7e803b2d30a30d8e60b7a603992815a72329e068561486783f7c6->leave($__internal_e6df0b2405b7e803b2d30a30d8e60b7a603992815a72329e068561486783f7c6_prof);
 
     }
 
     // line 20
     public function block_content($context, array $blocks = array())
     {
-        $__internal_c975fbc3fd5c6fadf8ad8d12251a37947ed8c9718239feaccf2b8b0263de3667 = $this->env->getExtension("native_profiler");
-        $__internal_c975fbc3fd5c6fadf8ad8d12251a37947ed8c9718239feaccf2b8b0263de3667->enter($__internal_c975fbc3fd5c6fadf8ad8d12251a37947ed8c9718239feaccf2b8b0263de3667_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_830c633b15253f6fcc2ac71eb69d164bdb31a3001f2b06d422ff000bd71c5889 = $this->env->getExtension("native_profiler");
+        $__internal_830c633b15253f6fcc2ac71eb69d164bdb31a3001f2b06d422ff000bd71c5889->enter($__internal_830c633b15253f6fcc2ac71eb69d164bdb31a3001f2b06d422ff000bd71c5889_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         echo "    
     ";
@@ -348,13 +348,14 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
                                             </div>
 
                                             <script type=\"text/javascript\">
+                                                //Poblamos el calendario con los partidos ya colocados, modificando la variable canvasEvents
                                                 var canvasEvents = {
                                                     ";
-        // line 170
+        // line 171
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "partidos", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["partido"]) {
-            // line 171
+            // line 172
             echo "                                                        '";
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["partido"], "fechaHora", array()), "m-d-Y"), "html", null, true);
             echo "' : '";
@@ -373,7 +374,7 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['partido'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 172
+        // line 173
         echo "                                                            
                                                 };
                                                 var cal = \$('#calendar').calendario({
@@ -412,8 +413,8 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
                             </div>
 
                             <div class=\"tab-content clearfix\" id=\"tab-3\">
-                                ";
-        // line 211
+";
+        // line 212
         echo "                                <div class=\"col_half\">
 
                                     <div class=\"table-responsive\">
@@ -440,31 +441,31 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
                                             </tfoot>
                                             <tbody>
                                                 ";
-        // line 236
+        // line 237
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "inscripciones", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["inscripcion"]) {
-            // line 237
+            // line 238
             echo "                                                    <tr>
                                                         <td></td>
                                                         <td>";
-            // line 239
+            // line 240
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["inscripcion"], "jugador", array()), "username", array()), "html", null, true);
             echo "</td>
                                                         <td>";
-            // line 240
+            // line 241
             echo twig_escape_filter($this->env, $this->getAttribute($context["inscripcion"], "nombrePareja", array()), "html", null, true);
             echo "</td>\t\t\t\t\t\t\t\t\t
                                                         <td>";
-            // line 241
+            // line 242
             echo twig_escape_filter($this->env, $this->getAttribute($context["inscripcion"], "partidosGanados", array()), "html", null, true);
             echo "</td>\t\t\t\t\t\t\t\t\t                                                        \t\t\t\t\t
                                                         <td>";
-            // line 242
+            // line 243
             echo twig_escape_filter($this->env, $this->getAttribute($context["inscripcion"], "partidosPerdidos", array()), "html", null, true);
             echo "</td>\t\t\t\t\t\t\t\t\t
                                                         <td>";
-            // line 243
+            // line 244
             echo twig_escape_filter($this->env, (($this->getAttribute($context["inscripcion"], "partidosGanados", array()) * $this->getAttribute((isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "puntosPorGanar", array())) + ($this->getAttribute($context["inscripcion"], "partidosPerdidos", array()) * $this->getAttribute((isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "puntosPorPerder", array()))), "html", null, true);
             echo "</td>
                                                     </tr>                                                    
@@ -473,7 +474,7 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['inscripcion'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 246
+        // line 247
         echo "
                                             </tbody>
                                         </table>
@@ -495,59 +496,58 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
                                             \"info\":     false,
                                             \"order\": [[ 5, \"desc\" ]]
                                     });                                    ";
-        // line 267
+        // line 268
         echo "                                                \$('.tablaClasificacion tbody tr').each(function(index){
                                         \$('td:first-child', this).html(index + 1);
                                         });
                                         });                                </script>
 
-                                ";
-        // line 273
-        echo "                                <div class=\"col_half col_last\">
+                                
+                                <div class=\"col_half col_last\">
                                     ";
-        // line 274
+        // line 275
         if (($this->getAttribute((isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "numJornadas", array()) == 0)) {
-            // line 275
+            // line 276
             echo "                                        ";
             if ((isset($context["creador"]) ? $context["creador"] : $this->getContext($context, "creador"))) {
-                // line 276
-                echo "                                            ";
                 // line 277
                 echo "                                            ";
+                // line 278
+                echo "                                            ";
                 if ((twig_length_filter($this->env, $this->getAttribute((isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "inscripciones", array())) < 2)) {
-                    // line 278
+                    // line 279
                     echo "                                                <button  type=\"button\" class=\"btn disabled btn-block btn-lg\" data-toggle=\"tooltip\" title=\"Para generar los cruces entre parejas se debe haber publicado previamente la competición\">Generar cuadrante</button>
                                             ";
                 } else {
-                    // line 280
+                    // line 281
                     echo "                                                <button  onclick=\"window.location.href = '";
                     echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("generarCuadrante", array("idCompeticion" => $this->getAttribute((isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "id", array()))), "html", null, true);
                     echo "'\" type=\"button\" class=\"button button-lime button-rounded button-3d btn-block btn-lg\">Generar cuadrante</button>
                                             ";
                 }
-                // line 282
+                // line 283
                 echo "                                        ";
             }
-            // line 283
+            // line 284
             echo "                                    ";
         } else {
-            // line 284
-            echo "                                        ";
             // line 285
+            echo "                                        ";
+            // line 286
             echo "                                        <div>
 
                                             <form class=\"inline\">
                                                 <label class=\"inline-block\"> Seleccione la jornada a visualizar </label>
                                                 <select id=\"selectJornada\">
                                                     ";
-            // line 290
+            // line 291
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable(range(1, $this->getAttribute((isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "numJornadas", array())));
             foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
-                // line 291
+                // line 292
                 echo "                                                        ";
                 if (($context["i"] == $this->getAttribute((isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "jornadaActual", array()))) {
-                    // line 292
+                    // line 293
                     echo "                                                            <option selected=\"selected\" value=\"";
                     echo twig_escape_filter($this->env, $context["i"], "html", null, true);
                     echo "\">";
@@ -555,7 +555,7 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
                     echo "</option>
                                                         ";
                 } else {
-                    // line 294
+                    // line 295
                     echo "                                                            <option value=\"";
                     echo twig_escape_filter($this->env, $context["i"], "html", null, true);
                     echo "\">";
@@ -563,47 +563,45 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
                     echo "</option>
                                                         ";
                 }
-                // line 296
+                // line 297
                 echo "                                                    ";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 297
+            // line 298
             echo "                                                </select>
                                             </form>
                                         </div>
                                         <div id=\"jornada\">                                      
                                             ";
-            // line 301
-            echo $this->env->getExtension('http_kernel')->renderFragment($this->env->getExtension('http_kernel')->controller("PadelScheduleMainBundle:Main:buscarJornada", array("idCompeticion" => $this->getAttribute(            // line 302
-(isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "id", array()), "numJornada" => ((($this->getAttribute(            // line 303
+            // line 302
+            echo $this->env->getExtension('http_kernel')->renderFragment($this->env->getExtension('http_kernel')->controller("PadelScheduleMainBundle:Main:buscarJornada", array("idCompeticion" => $this->getAttribute(            // line 303
+(isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "id", array()), "numJornada" => ((($this->getAttribute(            // line 304
 (isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "jornadaActual", array()) == 0)) ? (1) : ($this->getAttribute((isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "jornadaActual", array()))))));
-            // line 304
+            // line 305
             echo "
                                         </div>
 
 
                                         <script>
                                             ";
-            // line 310
+            // line 311
             echo "                                                        \$(document).ready(function () {
                                                 \$(\"#selectJornada\").on('change', function () {
                                                 \$('#jornada').load(Routing.generate('buscarJornada', { idCompeticion:";
-            // line 312
+            // line 313
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "id", array()), "html", null, true);
             echo ", numJornada: this.value }));
                                                 });
                                                 });</script>
                                             ";
-            // line 315
+            // line 316
             if ((isset($context["creador"]) ? $context["creador"] : $this->getContext($context, "creador"))) {
-                // line 316
-                echo "                                                ";
                 // line 317
-                echo "                                                ";
+                echo "                                                
+                                                ";
                 // line 318
-                echo "                                                ";
                 if (($this->getAttribute((isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "jornadaActual", array()) < $this->getAttribute((isset($context["competicion"]) ? $context["competicion"] : $this->getContext($context, "competicion")), "numJornadas", array()))) {
                     // line 319
                     echo "                                                <label> Próxima jornada: ";
@@ -851,7 +849,7 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
 
 ";
         
-        $__internal_c975fbc3fd5c6fadf8ad8d12251a37947ed8c9718239feaccf2b8b0263de3667->leave($__internal_c975fbc3fd5c6fadf8ad8d12251a37947ed8c9718239feaccf2b8b0263de3667_prof);
+        $__internal_830c633b15253f6fcc2ac71eb69d164bdb31a3001f2b06d422ff000bd71c5889->leave($__internal_830c633b15253f6fcc2ac71eb69d164bdb31a3001f2b06d422ff000bd71c5889_prof);
 
     }
 
@@ -867,7 +865,7 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
 
     public function getDebugInfo()
     {
-        return array (  837 => 471,  834 => 470,  827 => 467,  825 => 466,  818 => 461,  816 => 460,  815 => 459,  808 => 454,  806 => 453,  800 => 449,  793 => 447,  787 => 445,  785 => 444,  781 => 443,  777 => 442,  773 => 441,  769 => 440,  766 => 439,  762 => 438,  757 => 435,  753 => 433,  751 => 432,  741 => 424,  737 => 422,  735 => 421,  720 => 409,  713 => 405,  707 => 402,  697 => 394,  694 => 393,  691 => 392,  681 => 387,  609 => 319,  606 => 318,  604 => 317,  602 => 316,  600 => 315,  594 => 312,  590 => 310,  583 => 304,  581 => 303,  580 => 302,  579 => 301,  573 => 297,  567 => 296,  559 => 294,  551 => 292,  548 => 291,  544 => 290,  537 => 285,  535 => 284,  532 => 283,  529 => 282,  523 => 280,  519 => 278,  516 => 277,  514 => 276,  511 => 275,  509 => 274,  506 => 273,  499 => 267,  477 => 246,  468 => 243,  464 => 242,  460 => 241,  456 => 240,  452 => 239,  448 => 237,  444 => 236,  417 => 211,  377 => 172,  358 => 171,  354 => 170,  329 => 148,  316 => 137,  312 => 136,  308 => 135,  301 => 131,  299 => 130,  298 => 129,  289 => 124,  279 => 117,  269 => 109,  266 => 108,  264 => 107,  259 => 106,  255 => 104,  249 => 103,  245 => 101,  243 => 100,  240 => 99,  238 => 98,  233 => 96,  229 => 95,  221 => 89,  212 => 86,  208 => 85,  205 => 84,  201 => 83,  180 => 65,  176 => 64,  164 => 55,  158 => 52,  151 => 48,  128 => 27,  125 => 26,  122 => 25,  119 => 24,  116 => 23,  113 => 22,  111 => 21,  103 => 20,  91 => 18,  82 => 14,  78 => 13,  73 => 11,  69 => 10,  61 => 9,  52 => 6,  48 => 5,  43 => 4,  37 => 3,  11 => 1,);
+        return array (  835 => 471,  832 => 470,  825 => 467,  823 => 466,  816 => 461,  814 => 460,  813 => 459,  806 => 454,  804 => 453,  798 => 449,  791 => 447,  785 => 445,  783 => 444,  779 => 443,  775 => 442,  771 => 441,  767 => 440,  764 => 439,  760 => 438,  755 => 435,  751 => 433,  749 => 432,  739 => 424,  735 => 422,  733 => 421,  718 => 409,  711 => 405,  705 => 402,  695 => 394,  692 => 393,  689 => 392,  679 => 387,  607 => 319,  605 => 318,  602 => 317,  600 => 316,  594 => 313,  590 => 311,  583 => 305,  581 => 304,  580 => 303,  579 => 302,  573 => 298,  567 => 297,  559 => 295,  551 => 293,  548 => 292,  544 => 291,  537 => 286,  535 => 285,  532 => 284,  529 => 283,  523 => 281,  519 => 279,  516 => 278,  514 => 277,  511 => 276,  509 => 275,  500 => 268,  478 => 247,  469 => 244,  465 => 243,  461 => 242,  457 => 241,  453 => 240,  449 => 238,  445 => 237,  418 => 212,  378 => 173,  359 => 172,  355 => 171,  329 => 148,  316 => 137,  312 => 136,  308 => 135,  301 => 131,  299 => 130,  298 => 129,  289 => 124,  279 => 117,  269 => 109,  266 => 108,  264 => 107,  259 => 106,  255 => 104,  249 => 103,  245 => 101,  243 => 100,  240 => 99,  238 => 98,  233 => 96,  229 => 95,  221 => 89,  212 => 86,  208 => 85,  205 => 84,  201 => 83,  180 => 65,  176 => 64,  164 => 55,  158 => 52,  151 => 48,  128 => 27,  125 => 26,  122 => 25,  119 => 24,  116 => 23,  113 => 22,  111 => 21,  103 => 20,  91 => 18,  82 => 14,  78 => 13,  73 => 11,  69 => 10,  61 => 9,  52 => 6,  48 => 5,  43 => 4,  37 => 3,  11 => 1,);
     }
 }
 /* {% extends "::base.html.twig" %}*/
@@ -1038,6 +1036,7 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
 /*                                             </div>*/
 /* */
 /*                                             <script type="text/javascript">*/
+/*                                                 //Poblamos el calendario con los partidos ya colocados, modificando la variable canvasEvents*/
 /*                                                 var canvasEvents = {*/
 /*                                                     {% for partido in competicion.partidos %}*/
 /*                                                         '{{partido.fechaHora|date('m-d-Y')}}' : '{{partido.fechaHora|date('G:i')}} - {{partido.inscripcion1.jugador.username}} y {{partido.inscripcion1.nombrePareja}} vs {{partido.inscripcion2.jugador.username}} y {{partido.inscripcion2.nombrePareja}}',                                                         */
@@ -1079,7 +1078,7 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
 /*                             </div>*/
 /* */
 /*                             <div class="tab-content clearfix" id="tab-3">*/
-/*                                 {#                                <div class="col_three_fifth">#}*/
+/* {#                              Tabla de clasificación  #}*/
 /*                                 <div class="col_half">*/
 /* */
 /*                                     <div class="table-responsive">*/
@@ -1141,7 +1140,7 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
 /*                                         });*/
 /*                                         });                                </script>*/
 /* */
-/*                                 {#                                <div class="col_two_fifth col_last">#}*/
+/*                                 */
 /*                                 <div class="col_half col_last">*/
 /*                                     {% if competicion.numJornadas == 0 %}*/
 /*                                         {% if creador %}*/
@@ -1185,8 +1184,7 @@ class __TwigTemplate_4df81dfed15ea07eb2626aa0bf19045b6ff4f51ffdf06b000b6477369c4
 /*                                                 });*/
 /*                                                 });</script>*/
 /*                                             {% if creador %}*/
-/*                                                 {#<a href="{{ path('generarHorario', { 'idCompeticion': competicion.id }) }}" type="button" class="btn btn-success btn-block btn-lg" >Generar fechas</a>#}*/
-/*                                                 {#                                        Comprobamos que no se ha generado ya el horario de la última jornada#}*/
+/*                                                 */
 /*                                                 {% if competicion.jornadaActual < competicion.numJornadas %}*/
 /*                                                 <label> Próxima jornada: {{ competicion.jornadaActual + 1 }} </label>    */
 /*                                                 <button type="button" class="button button-lime button-rounded button-3d btn-block btn-lg" data-toggle="modal" data-target="#modalGenerarHorario">Generar fechas</button>*/

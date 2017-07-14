@@ -49,7 +49,7 @@
                     {'bSortable': false, 'aTargets': [0]}
                 ]
             });
-            
+            //Al hacer click, redirige a al competición
             $('.competicion').click(function () {                
                 window.location.href = Routing.generate('competicion', {idCompeticion: $(this).data("idcompeticion")});
             });
